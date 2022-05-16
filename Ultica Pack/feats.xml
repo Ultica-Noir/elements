@@ -3,12 +3,12 @@
 	<info>
 		<name>Feats</name>
 		<description></description>
-		<author url="https://www.worldanvil.com/w/ulticia-phoenixnoir">Ultica Pack</author>
+		<author url="https://www.worldanvil.com/w/ulticia-phoenixnoir">Ulticia Pack</author>
         	<update version="0.0.1">
 			<file name="feats.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ultica%20Pack/feats.xml" />
 		</update>
     </info>	
-    <element name="Drakyn Claws" type="Feat" source="Tasha's Cauldron of Lost Files" id="ID_WOTC_ERLW_FEAT_DRAKYN_CLAWS">
+    <element name="Drakyn Claws" type="Feat" source="Ulticia Pack" id="ID_WOTC_ERLW_FEAT_DRAKYN_CLAWS">
         <requirements>ID_RACE_DRAKYN</requirements>
 		<prerequisite>Drakyn</prerequisite>
 		<description>
@@ -28,7 +28,7 @@
             <stat name="ac:misc" value="1" equipped="[armor:none]" />
         </rules>
     </element>
-    <element name="Drakyn Tail" type="Feat" source="Tasha's Cauldron of Lost Files" id="ID_WOTC_ERLW_FEAT_DRAKYN_TAIL">
+    <element name="Drakyn Tail" type="Feat" source="Ulticia Pack" id="ID_WOTC_ERLW_FEAT_DRAKYN_TAIL">
     <requirements>ID_RACE_DRAKYN</requirements>
 		<prerequisite>Drakyn</prerequisite>
 		<description>
@@ -50,7 +50,7 @@
             <stat name="tail swipe:dc" value="strength:modifier" />
         </rules>
     </element>
-    <element name="Drakyn Wings" type="Feat" source="Tasha's Cauldron of Lost Files" id="ID_WOTC_ERLW_FEAT_DRAKYN_WINGS">
+    <element name="Drakyn Wings" type="Feat" source="Ulticia Pack" id="ID_WOTC_ERLW_FEAT_DRAKYN_WINGS">
     <requirements>ID_RACE_DRAKYN</requirements>
 		<prerequisite>Drakyn</prerequisite>
 		<description>
