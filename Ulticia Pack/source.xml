@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="source.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/dms-guild/xanathars-lost-notes-to-everything-else/source.xml" />
+			<file name="source.xml" url="https://raw.githubusercontent.com/Ulticia-Noir/elements/main/Ulticia%20Pack/source.xml" />
 		</update>
 	</info>
 
@@ -11,7 +11,7 @@
 		</description>
 		<setters>
 			<set name="abbreviation">UP</set>
-			<set name="url"></set>
+			<set name="url">https://www.worldanvil.com/w/ulticia-phoenixnoir</set>
 			<set name="image"></set>
 			<set name="author" url="https://www.worldanvil.com/w/ulticia-phoenixnoir">Noir</set>
 			<set name="homebrew">true</set>
