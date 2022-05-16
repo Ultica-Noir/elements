@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="https://www.worldanvil.com/w/ulticia-phoenixnoir">Ulticia Pack</author>
 		<update version="0.0.1">
-			<file name="class-cultivator.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ultica%20Pack/class-cultivator.xml" />
+			<file name="class-cultivator.xml" url="https://raw.githubusercontent.com/Ulticia-Noir/elements/main/Ultica%20Pack/class-cultivator.xml" />
 		</update>
 	</info>
     <element name="Cultivator" type="Class" source="The Cultivator" id="ID_WOTC_CCC_CLASS_CULTIVATOR">
