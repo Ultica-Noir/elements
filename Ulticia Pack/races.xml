@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Drakyn</name>
+		<name>Races</name>
         	<description></description>
 		<author url="https://www.worldanvil.com/w/ulticia-phoenixnoir">Ulticia Pack</author>
 		<update version="0.2.3">
-			<file name="drakyn-race.xml" url="https://raw.githubusercontent.com/Ulticia-Noir/elements/main/Ulticia%20Pack/drakyn-race.xml" />
+			<file name="races.xml" url="https://raw.githubusercontent.com/Ulticia-Noir/elements/main/Ulticia%20Pack/races.xml" />
 		</update>
     </info>
-    <element name="Drakyn" type="Race" source="Ulticia Pack" id="ID_RACE_DRAKYN">
+    
+<!--Drakyn-->
+	
+	<element name="Drakyn" type="Race" source="Ulticia Pack" id="ID_RACE_DRAKYN">
         <description>
 			<p class="flavor">Born of dragons and humans, drakyn walk proudly through a world that greets them with fearful incomprehension. Shaped by draconic gods or the dragons themselves, drakyn born from dragons as a unique race, combining the best attributes of dragons and humanoids. Some Drakyn are faithful servants to true dragons, others form the ranks of soldiers in great wars, and still others find themselves adrift, with no clear calling in life.</p>
 			<h4>Physical Description</h4>
@@ -261,5 +264,217 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Con. save)" />
 		</rules>
 	</element>
+	
+<!--Akuma-->
+	
+	<element name="Akuma" type="Race" source="Ulticia Pack" id="ID_RACE_AKUMA">
+		<description>
+            <p class="flavor">Once, we were brothers. Those times have long since past, now, I am afraid. I still remember when we were but children, and we thought that your 'evil' red skin meant nothing. Omg period that's what we were back then, in the old days. Now, I send this letter to you, my brother, as my final act of kindness towards you; a warning. I will not rest, nor will our fellow kin, until you lay dead in the dirt.</p>
+            
+            <h4>FALLEN HEROS</h4>
+            <p>Long ago, the realms of the dead and the realms of the living were close enough to clash day after day, corpses rising moments after they are killed, ghosts possessing the living, and wraiths ruling the land. From the shadows, the Akuma rose to bring balance to the realms. A force of neutrality ensuring both sides did not opress the other for too long. They have been hunted to near extinction as the humans developed as their horns were highly valued by collectors.</p>
+
+            <h4>ON THE RUN</h4>
+            <p>In many cultures after the fall of the Akuma, Akuma have been depicted as creatures of malice and destruction, laying waste to the land and people who surround them. While some Akuma attempt to go against this stereotype, they are still hated the same as the rest of their kin, forcing many Akuma to live an existence of constant running and travel. Many times, an Akuma may believe their only companions to be similarly hated creatures, such as orcs, half elfs, or other Akuma.</p>
+
+            <h4>PRIDE OF THE HORNED</h4>
+            <p>An Akuma's greatest symbol of pride are their horns, with each Akuma having their own unique pair. No two Akuma have horns that are exactly the same, even the closest of relatives will have tiny differences in their horns. Because of this even though they might be hunted and persecuted, Akuma will almost never willingly hide their horns as it would go against who they are and what defines them.</p>
+
+            <h4>AKUMA NAMES</h4>
+            <p>Akuma  are very close to their families, with many believing that all strangers only bring pain and suffering. They display their family's name before their own, to show their pride that their relatives bring them, as well as to intimidate those who have wronged their family before. The names that they take on all have meaning in their native tongue, Wuxian, usually relating to positive characteristics the parents wish for their child to take on.</p>
+            <ul class="unstyled">
+				<li><strong>Male Akuma Names:</strong> Akihiko, Dai, Eiji, Hiro, Isamu, Jun, Katsuo, Kirito</li>
+				<li><strong>Female Akuma Names:</strong>  Ai, Asuna, Chie, Eiko, Harumi, Kaoru, Momo, Ren</li>
+				<li><strong>Akuma Family Names:</strong> Araki, Hideyoshi, Ishikawa, Ito, Masuda, Sakurai, Sato, Yamamoto</li>
+			</ul>
+
+            <h4>Akuma Traits</h4>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> One of your scores increase by 1</p>
+			<p class="indent"><strong><em>Age.</em></strong> Akuma mature at a similarly to humans and then slow down substantially, reaching maturity at the age of 25, and living to be around 4000.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong>Akuma are born completly neutral and the actions they take in life will shift and change both their appearance as an Akuma and their values.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Okuma stand taller than humans do, with most of them being around six feet tall, and the tallest standing at seven to eight feet tall, while weighing a few hundred pounds. Your size is Medium</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+            <p class="indent"><strong><em>Darkvision.</em></strong>  Able to see in the darkest mists of the night, you have excellent vision in darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+            <p class="indent"><strong><em>Jhasa Oriana.</em></strong> All Akuma, no matter where they are know the word to get them back to their home world of Ori. This word can only be spoken once per day as a round trip without consequence.</p>
+            <p class="indent"><strong><em>Cero Senko.</em></strong> In an act of desperation all Akuma have a final move as a last ditch effort. Akuma can charge a beam from their horns and shoot it out dealing 1d8 force damage for each hit die consumed.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common, and Wuxian. Wuxian is a strange tongue, one that tends to ignore traits of other languages, such as writing words as symbols instead of letters.</p>
+            <p class="indent"><strong><em>Subrace.</em></strong> Each Akuma varies in tendancied and physical traits depending on the clan in Ori that they originate from.</p>
+        </description>
+        <rules>
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Akuma)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <stat name="innate speed" value="30" bonus="base"/>
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_JHASA_ORIANA" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_CERO_SENKO" />
+			<select type="Sub Race" name="Akuma" supports="Akuma" />
+		</rules>
+    </element>
+    <element name="Jhasa Oriana" type="Racial Trait" source="Ulticia Pack" id="ID_RACIAL_TRAIT_JHASA_ORIANA">
+        <description>
+			<p>Once per long rest you can speak the power word Jhasa Oriana to magically port yourself and those you are in physical contact with to Ori. Using this a second time in one day will cost you your life.</p>
+		</description>
+		<sheet>
+			<description>(1/LR)You can speak the power word Jhasa Oriana to magically port yourself and those you are in physical contact with to Ori. Using this a second time in one day will cost you your life.</description>
+		</sheet>
+    </element>
+    <element name="Cero Senko" type="Racial Trait" source="Ulticia Pack" id="ID_RACIAL_TRAIT_CERO_SENKO">
+        <description>
+            <p>You can charge up a beam with the magic in your horns and shoot it out. This deals 1d8 force damage for each hit dice you consume. Once used this cannot be repeated until you complete a long rest.</p>
+        </description>
+        <sheet>
+            <description>(1/LR)You may consume your hit dice dealing 1d8 force damage per dice consumed.</description>
+        </sheet>
+    </element>
+    <element name="Ao Akuma" type="Sub Race" source="Ulticia Pack" id="ID_SUB_RACE_AO_AKUMA">
+	    <supports>Akuma</supports>
+        <description>
+            <p>Ao Akuma are known for being more swift and deceptive compared to others in their kin, being smaller than other Akuma. However, they are not to be underestimated, as their superior stealth makes them deadly assassins.</p>
+            <p>
+                <span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 2.<br />
+                <span class="feature">Ao Akuma Training.</span>You have proficiency in Deception and Stealth.<br />
+                <span class="feature">Reactionary Strike.</span>As a reaction when you are attacked you can roll an attack. If you roll is higher than your opponent then you deflect the attack and take no damage. If it is lower your next attack is done at disadvantage.<br />
+            </p>
+		</description>
+        <rules>
+			<stat name="dexterity" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Ao Akuma)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_AO_AKUMA_TRAINING" />
+			<grant type="Racial Trait" id="ID_RACIAL_REACTIONARY_STRIKE" />
+		</rules>
+    </element>
+    <element name="Ao Akuma Training" type="Racial Trait" source="Ulticia Pack" id="ID_RACIAL_TRAIT_AO_AKUMA_TRAINING">
+        <description> 
+            <p>You have proficiency in Deception and Stealth.</p>
+        </description>
+        <sheet display="false">
+            <description>You have proficiency in Deception and Stealth.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+        </rules>
+    </element>
+    <element name="Reactionary Stike" type="Racial Trait" source="Ulticia Pack" id="ID_RACIAL_REACTIONARY_STRIKE">
+        <description>
+            <p>As a reaction when you are attacked you can roll an attack. If you roll is higher than your opponent then you deflect the attack and take no damage. If it is lower your next attack is done at disadvantage.</p>
+        </description>
+        <sheet>
+            <description>As a reaction when you are attacked you can roll an attack. If you roll is higher than your opponent then you deflect the attack and take no damage. If it is lower your next attack is done at disadvantage.</description>
+        </sheet>
+    </element>
+    <element name="Aka Akuma" type="Sub Race" source="Ulticia Pack" id="ID_SUB_RACE_AKA_AKUMA">
+        <supports>Akuma</supports>
+        <description>
+            <p>The most infamous kind of Akuma, Aka Akuma are typically brutes with tremendous amounts of strength, known for being almost unstoppable in their rampages.</p>
+            <p>
+                <span class="feature">Ability Score Increase.</span>Your Constitution score increases by 2.<br />
+                <span class="feature">Aka Akuma Training.</span>You have proficiency in Athletics and Intimidation.<br />
+                <span class="feature">Rampage.</span>When you reduce a creature to 0 hit points, you can make another weapon attack as a free action, against another enemy in your range. After using this trait, you must take a short or long rest before doing so, again.<br />
+            </p>
+        </description>
+        <rules>
+			<stat name="constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Aka Akuma)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_AKA_AKUMA_TRAINING" />
+			<grant type="Racial Trait" id="ID_RACIAL_RAMPAGE" />
+		</rules>
+    </element>
+    <element name="Aka Akuma Training" type="Racial Trait" source="Ulticia Pack" id="ID_RACIAL_TRAIT_AKA_AKUMA_TRAINING">
+        <description> 
+            <p>You have proficiency in Athletics and Intimidation.</p>
+        </description>
+        <sheet display="false">
+            <description>You have proficiency in Athletics and Intimidation.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+        </rules>
+    </element>
+    <element name="Rampage" type="Racial Trait" source="Ulticia Pack" id="ID_RACIAL_RAMPAGE">
+        <description>
+            <p>When you reduce a creature to 0 hit points, you can make another weapon attack as a free action, against another enemy in your range. After using this trait, you must take a short or long rest before doing so, again.</p>
+        </description>
+        <sheet>
+            <description>(1/SR)When you reduce a creature to 0 hit points, you can make another weapon attack as a free action, against another enemy in your range.</description>
+        </sheet>
+    </element>
+    <element name="Bihaku Akuma" type="Sub Race" source="Ulticia Pack" id="ID_SUB_RACE_BIHAKU_AKUMA">
+        <supports>Akuma</supports>
+        <description>
+            <p>Sometimes called pale akuma due to their skin color occasionally appearing like very pale humans, bihaku see themselves as justicars and protectors of the world. Many of them are enemies with the others of their kin, due to seeing other races as equals as opposed to how most other bihaku see them.</p>
+            <p>
+                <span class="feature">Ability Score Increase.</span>Your Charisma score increases by 2.<br />
+                <span class="feature">Bihaku Akuma Training.</span>You have proficiency in Persuasion and Survival.<br />
+                <span class="feature">Protection.</span>Once per long rest as a reaction, when an ally within your sight is targeted, your can sacrifice up to your half your level rounded up in AC and add it to theirs for 1 round. You must do this before the attack goes off.<br />
+            </p>
+		</description>
+        <rules>
+			<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Bihaku Akuma)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BIHAKU_AKUMA_TRAINING" />
+			<grant type="Racial Trait" id="ID_RACIAL_PROTECTION" />
+		</rules>
+    </element>
+    <element name="Bihaku Akuma Training" type="Racial Trait" source="Ulticia Pack" id="ID_RACIAL_TRAIT_BIHAKU_AKUMA_TRAINING">
+        <description> 
+            <p>You have proficiency in Persuasion and Survival.</p>
+        </description>
+        <sheet display="false">
+            <description>You have proficiency in Persuasion and Survival.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+        </rules>
+    </element>
+    <element name="Protection" type="Racial Trait" source="Ulticia Pack" id="ID_RACIAL_PROTECTION">
+        <description>
+            <p>Once per long rest as a reaction, when an ally within your sight is targeted, your can sacrifice up to your half your level rounded up in AC and add it to theirs for 1 round. You must do this before the attack goes off.</p>
+        </description>
+        <sheet>
+            <description>(1/LR)As a reaction, when an ally within your sight is targeted, you can sacrifice up to your half your level rounded up in AC and add it to theirs for 1 round. You must do this before the attack goes off.</description>
+        </sheet>
+    </element>
+    <element name="Ōritsu" type="Sub Race" source="Ulticia Pack" id="ID_SUB_RACE_ORITSU_AKUMA">
+        <supports>Akuma</supports>
+        <description>
+            <p>The original bloodline of Akuma and one of the most rare type to find. These Akuma are very human like in appearance and are often mistaken for half-orcs if not for their horns.</p>
+            <p>
+                <span class="feature">Ability Score Increase.</span>Your Wisdom score increases by 2.<br />
+                <span class="feature">Ōritsu Training.</span>You have proficiency in History and Religion.<br />
+                <span class="feature">Repositon.</span>Once per long rest as a reaction, when a bloodied ally is targeted by an attack, you can call upon the mists of Ori to teleport them to safety within 30 feet of you..<br />
+            </p>
+        </description>
+        <rules>
+			<stat name="wisdom" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Ōritsu)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ORITSU_TRAINING" />
+			<grant type="Racial Trait" id="ID_RACIAL_REPOSITION" />
+		</rules>
+    </element>
+    <element name="Ōritsu Training" type="Racial Trait" source="Ulticia Pack" id="ID_RACIAL_TRAIT_ORITSU_TRAINING">
+        <description> 
+            <p>You have proficiency in History and Religion.</p>
+        </description>
+        <sheet display="false">
+            <description>You have proficiency in History and Religion.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
+        </rules>
+    </element>
+    <element name="Reposition" type="Racial Trait" source="Ulticia Pack" id="ID_RACIAL_REPOSITION">
+        <description>
+            <p>Once per long rest as a reaction, when a bloodied ally is targeted by an attack, you can call upon the mists of Ori to teleport them to safety within 30 feet of you.</p>
+        </description>
+        <sheet>
+            <description>(1/LR)As a reaction, when a bloodied ally within your sight is targeted, you can teleport them to a different area within 30 feet of you.</description>
+        </sheet>
+    </element>	
 </elements>
 
