@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="http://dnd.wizards.com">Wizards of the Coast</author>
 		<update version="0.1.6">
-			<file name="race-aasimar.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/volos-guide-to-monsters/race-aasimar.xml" />
+			<file name="race-aasimar.xml" url="https://raw.githubusercontent.com/Lykos9/elements/main/aasimar-grace.xml?token=GHSAT0AAAAAABUT742UU4O5DHOWM6LVPVPEYUCQHDA" />
 		</update>
 	</info>
   <element name="Grace Aasimar" type="Sub Race" source="Ultica Pack" id="ID_WOTC_VGTM_SUB_RACE_Grace_AASIMAR">
