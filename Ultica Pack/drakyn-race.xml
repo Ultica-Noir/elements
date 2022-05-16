@@ -3,12 +3,12 @@
 	<info>
 		<name>Drakyn</name>
         	<description></description>
-		<author url="https://www.worldanvil.com/w/ulticia-phoenixnoir">Ultica Pack</author>
+		<author url="https://www.worldanvil.com/w/ulticia-phoenixnoir">Ulticia Pack</author>
 		<update version="0.2.3">
 			<file name="drakyn-race.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ultica%20Pack/drakyn-race.xml" />
 		</update>
     </info>
-    <element name="Drakyn" type="Race" source="Tasha's Cauldron of Everything" id="ID_RACE_DRAKYN">
+    <element name="Drakyn" type="Race" source="Ulticia Pack" id="ID_RACE_DRAKYN">
         <description>
 			<p class="flavor">Born of dragons and humans, drakyn walk proudly through a world that greets them with fearful incomprehension. Shaped by draconic gods or the dragons themselves, drakyn born from dragons as a unique race, combining the best attributes of dragons and humanoids. Some Drakyn are faithful servants to true dragons, others form the ranks of soldiers in great wars, and still others find themselves adrift, with no clear calling in life.</p>
 			<h4>Physical Description</h4>
@@ -61,7 +61,7 @@
 			<select type="Race Variant" name="Drakyn Variant" supports="Drakyn" optional="true" />
 		</rules>
     </element>
-    <element name="Draconic Ancestry" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY">
+    <element name="Draconic Ancestry" type="Racial Trait" source="Ulticia Pack" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY">
 		<description>
 			<p>You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.</p>
 			<h5>DRACONIC ANCESTRY</h5>
@@ -85,7 +85,7 @@
 			<select type="Racial Trait" name="Draconic Ancestry" supports="Draconic Ancestry" />
 		</rules>
     </element>
-	<element name="Breath Weapon" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_BREATH_WEAPON">
+	<element name="Breath Weapon" type="Racial Trait" source="Ulticia Pack" id="ID_RACIAL_TRAIT_BREATH_WEAPON">
 		<description>
 			<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p>
 			<p>When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p>
@@ -105,7 +105,7 @@
 			<stat name="breath-weapon:dice count" value="1" level="16" />
 		</rules>
     </element>
-	<element name="Damage Resistance" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DAMAGE_RESISTANCE">
+	<element name="Damage Resistance" type="Racial Trait" source="Ulticia Pack" id="ID_RACIAL_TRAIT_DAMAGE_RESISTANCE">
 		<description>
 			<p>You have resistance to the damage type associated with your draconic ancestry.</p>
 		</description>
@@ -121,7 +121,7 @@
 		</rules>
 	</element>
 
-    <element name="Draconic Ancestry (Black)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLACK">
+    <element name="Draconic Ancestry (Black)" type="Racial Trait" source="Ulticia Pack" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLACK">
 		<supports>Draconic Ancestry</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
@@ -135,7 +135,7 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Blue)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLUE">
+	<element name="Draconic Ancestry (Blue)" type="Racial Trait" source="Ulticia Pack" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLUE">
 		<supports>Draconic Ancestry</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
@@ -149,7 +149,7 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Brass)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRASS">
+	<element name="Draconic Ancestry (Brass)" type="Racial Trait" source="Ulticia Pack" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRASS">
 		<supports>Draconic Ancestry</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
@@ -163,7 +163,7 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Bronze)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRONZE">
+	<element name="Draconic Ancestry (Bronze)" type="Racial Trait" source="Ulticia Pack" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRONZE">
 		<supports>Draconic Ancestry</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
@@ -177,7 +177,7 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Copper)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_COPPER">
+	<element name="Draconic Ancestry (Copper)" type="Racial Trait" source="Ulticia Pack" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_COPPER">
 		<supports>Draconic Ancestry</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
@@ -191,7 +191,7 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Gold)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GOLD">
+	<element name="Draconic Ancestry (Gold)" type="Racial Trait" source="Ulticia Pack" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GOLD">
 		<supports>Draconic Ancestry</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
@@ -205,7 +205,7 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Dex. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Green)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GREEN">
+	<element name="Draconic Ancestry (Green)" type="Racial Trait" source="Ulticia Pack" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GREEN">
 		<supports>Draconic Ancestry</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
@@ -219,7 +219,7 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Con. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Red)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_RED">
+	<element name="Draconic Ancestry (Red)" type="Racial Trait" source="Ulticia Pack" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_RED">
 		<supports>Draconic Ancestry</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
@@ -233,7 +233,7 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Dex. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (Silver)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_SILVER">
+	<element name="Draconic Ancestry (Silver)" type="Racial Trait" source="Ulticia Pack" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_SILVER">
 		<supports>Draconic Ancestry</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
@@ -247,7 +247,7 @@
 			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Con. save)" />
 		</rules>
 	</element>
-	<element name="Draconic Ancestry (White)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_WHITE">
+	<element name="Draconic Ancestry (White)" type="Racial Trait" source="Ulticia Pack" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_WHITE">
 		<supports>Draconic Ancestry</supports>
 		<description>
 			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
