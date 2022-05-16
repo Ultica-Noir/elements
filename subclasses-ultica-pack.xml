@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Nova Knight Martial Archetype</name>
+        <update version="0.0.1">
+            <file name="subclasses-ultica-pack.xml" url="https://raw.githubusercontent.com/community-elements/elements-reddit/master/reddit/reddit-unearthed-arcana/blazing-dawn-players-companion/fighter-nova-knight.xml" />
+        </update>
+    </info>
+
+<!-- Nova Knight - Fighter -->     
+
+    <element name="Nova Knight" type="Archetype" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FIGHTER_NOVA_KNIGHT">
+        <supports>Martial Archetype</supports>
+        <description>
+            <p>A legendary Knight that uses the power of the everlasting Sun to fuel their abilities. Thought to have been forgotten to the times, more and more Knights seem to have risen up, none of them remembering who seemed to have taught them the path. The path of the Nova Knight</p>
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_BLAZING_SABER" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_FLAMING_PROMINENCE" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_RAGING_BLOOD" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_CRIMSON_NOVA" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_NEVER_SETTING_SUN" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_BLAZING_SABER" level="3" />
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_FLAMING_PROMINENCE" level="7" />
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_RAGING_BLOOD" level="10" />
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_CRIMSON_NOVA" level="15" />
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_NEVER_SETTING_SUN" level="18" />
+        </rules>
+    </element>
+        <element name="Blazing Saber" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_BLAZING_SABER">
+            <description>
+                <p>Starting at 3rd Level, once a turn your attack deals an extra 1d6 fire damage. This can be used again in the same turn if Action Surge has been used. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest.</p>
+            </description>
+            <sheet usage="{{BS:uses}}/Long Rest">
+                <description>Once a turn your attack deals an extra 1d6 fire damage. This can be used again in the same turn if Action Surge has been used.</description>
+            </sheet>
+            <rules>
+                <stat name="BS:uses" value="proficiency" />
+            </rules>
+        </element>
+        <element name="Flaming Prominence" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_FLAMING_PROMINENCE">
+            <description>
+                <p>Starting at 7th Level, you can use your Second Wind Feature as a full action. When used as an action you gain additional temp HP equal to half your maximum HP. When this Temp HP is reduced to 0 the attacker must make a Dexterity Save (DC 13 + proficiency bonus) or take 4d10 fire damage.</p>
+            </description>
+            <sheet>
+                <description>You can use your Second Wind Feature as a full action. When used as an action you gain additional temp HP equal to half your maximum HP. When this Temp HP is reduced to 0 the attacker must make a Dexterity Save DC {{FP:save}} or take 4d10 fire damage.</description>
+            </sheet>
+            <rules>
+                <stat name="FP:save" value="13" />
+                <stat name="FP:save" value="proficiency" />
+            </rules>
+        </element>
+        <element name="Raging Blood" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_RAGING_BLOOD">
+            <description>
+                <p>Starting at 10th Level, you gain resistance to fire damage. Whenever you are hit by fire damage you return the damage taken back to the attacker ignoring any resistances or immunities.</p>
+            </description>
+            <sheet>
+                <description>Whenever you are hit by fire damage you return the damage taken back to the attacker ignoring any resistances or immunities.</description>
+            </sheet>
+            <rules>
+                <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+            </rules>
+        </element>
+        <element name="Crimson Nova" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_CRIMSON_NOVA">
+            <description>
+                <p>Starting at 15th Level, once per Long Rest you can bring the force of a dwarf star that has reached the end of its life into your swing. You make a melee attack on an enemy that deals an extra 10d10+10 fire damage to all enemies in a 30 foot radius. Allies in the radius heal for half the damage. Should this miss you regain the use of all features except for Crimson Nova.</p>
+            </description>
+            <sheet usage="1/Long Rest" action="Action">
+                <description>Make a melee attack on an enemy that deals an extra 10d10+10 fire damage to all enemies in a 30 foot radius. Allies in the radius heal for half the damage. Should this miss you regain the use of all features except for Crimson Nova.</description>
+            </sheet>
+        </element>
+        <element name="Never-Setting Sun" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_NEVER_SETTING_SUN">
+            <description>
+                <p>Starting at 18th Level, your life can only set with the Sun itself. During daytime if you have more than 10 HP, if an attack would reduce you to 0 HP it instead reduces you  to 1 HP. This continues to activate as long as both conditions are active.</p>
+            </description>
+            <sheet>
+                <description>During daytime if you have more than 10 HP, if an attack would reduce you to 0 HP it instead reduces you  to 1 HP. This continues to activate as long as both conditions are active.</description>
+            </sheet>
+        </element>
+    
+<!-- Song of Chaos - Bard -->    
+    
+    <element name="Song of Chaos" type="Archetype" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_BARD_SONG_OF_CHAOS">
+        <supports>Bard College</supports>
+        <description>
+            <p>Channeling unknown energies from the tower, these Bards sing the haunting melody that fills their mind. They know not the outcome of their song, but that's what makes it all exciting. For one day, one of these Bards will end up singing the Song of Creation</p>
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_CHAOTIC_INSPIRATION" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_CHAOS_REFLECTION" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_MAN_IN_THE_MIRROR" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_SOOTHING_CHAOS" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_PERISH_SONG" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_CHAOTIC_INSPIRATION" level="3" />
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_CHAOS_REFLECTION" level="3" />
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_MAN_IN_THE_MIRROR" level="6" />
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_SOOTHING_CHAOS" level="6" />
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_PERISH_SONG" level="14" />
+        </rules>
+    </element>
+        <element name="Chaotic Inspiration" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_CHAOTIC_INSPIRATION">
+            <description>
+                <p>Starting at 3rd Level, you gain proficiency in two skills of your choosing and your bardic inspiration is empowered. When an ally with an unused bardic inspiration die rolls a 1, they can deal 20 damage to themselves to make it a 20 and then roll on the Wild Magic table. The reverse can be done, making a 20 a 1 and instead healing for 20 HP.</p>
+            </description>
+            <sheet>
+                <description>When an ally with an unused bardic inspiration die rolls a 1, they can deal 20 damage to themselves to make it a 20 and then roll on the Wild Magic table. The reverse can be done, making a 20 a 1 and instead healing for 20 HP.</description>
+            </sheet>
+            <rules>
+                <select type="Proficiency" name="Chaotic Inspiration" supports="Skill" number="2" />
+            </rules>
+        </element>
+        <element name="Chaos Reflection" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_CHAOS_REFLECTION">
+            <description>
+                <p>Starting at 3rd Level, once per long rest as a bonus action you can summon a shadowy reflection of yourself to play an instrument for 1 minute. Upon summoning the reflection roll a d2. On a 1 the reflection plays a shrill tune dealing psychic damage equal to 1d6 + your Charisma mod to all enemies at the end of your turn. On a 2 the reflection plays a lovely melody that heals all allies for 1d6 + your Charisma modifier at the end of your turn. Your reflection has ¼ of your max HP and an AC of 10 + your Charisma Modifier. You gain a second use of this at 6th level.</p>
+            </description>
+            <sheet usage="1/Long Rest" action="Bonus Action">
+                <description>You summon a shadowy reflection of yourself to play an instrument for 1 minute. Upon summoning the reflection roll a d2. On a 1 the reflection plays a shrill tune dealing psychic damage equal to 1d6 + your Charisma mod to all enemies at the end of your turn. On a 2 the reflection plays a lovely melody that heals all allies for 1d6 + your Charisma modifier at the end of your turn. Your reflection has ¼ of your max HP and an AC of 10 + your Charisma Modifier.</description>
+           </sheet>
+           <sheet usage="2/Long Rest" action="Bonus Action" level="6">
+                <description>You summon a shadowy reflection of yourself to play an instrument for 1 minute. Upon summoning the reflection roll a d2. On a 1 the reflection plays a shrill tune dealing psychic damage equal to 1d6 + your Charisma mod to all enemies at the end of your turn. On a 2 the reflection plays a lovely melody that heals all allies for 1d6 + your Charisma modifier at the end of your turn. Your reflection has ¼ of your max HP and an AC of 10 + your Charisma Modifier.</description>
+            </sheet>
+        </element>
+        <element name="Man in the Mirror" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_MAN_IN_THE_MIRROR">
+            <description>
+                <p>Starting at 6th Level, as a reaction when you are attacked you can swap places with your Chaos Reflection. Doing so will split the damage between  you. Upon hit the Reflection's song activates. If the Reflection is killed by this attack the songs potency is increased to 6d6 + your Charisma Modifier. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest.</p>
+            </description>
+            <sheet usage="{{MitM:uses}}/Long Rest" action="Reaction">
+                <description>when you are attacked you can swap places with your Chaos Reflection. Doing so will split the damage between  you. Upon hit the Reflection's song activates. If the Reflection is killed by this attack the songs potency is increased to 6d6 + your Charisma Modifier. You regain all expended uses of it when you finish a long rest.</description>
+            </sheet>
+            <rules>
+                <stat name="MitM:uses" value="proficiency" />
+            </rules>
+        </element>
+        <element name="Soothing Chaos" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_SOOTHING_CHAOS">
+            <description>
+                <p>Starting at 6th Level your Song of Rest gains an additional die.</p>
+            </description>
+            <sheet>
+                <description>Your Song of Rest gains an additional die.</description>
+            </sheet>
+        </element>
+        <element name="Perish Song" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_PERISH_SONG">
+            <description>
+                <p>Starting at 14th Level, once per Long Rest, when you are reduced to 0 HP you can use your last breath to let out a haunting melody. All creatures that can hear you must make a Constitution Save DC 13 + your proficiency bonus. If they fail they begin making death saving throws while still alive. Upon passing 3 saving throws their HP is reduced to 1. Upon failing 3 saving throws their HP is reduced to 0 and death saving throws after that are made at disadvantage.</p>
+            </description>
+            <sheet usage="1/Long Rest">
+                <description>when you are reduced to 0 HP you can use your last breath to let out a haunting melody. All creatures that can hear you must make a Constitution Save DC {{PS:save}}. If they fail they begin making death saving throws while still alive. Upon passing 3 saving throws their HP is reduced to 1. Upon failing 3 saving throws their HP is reduced to 0 and death saving throws after that are made at disadvantage.</description>
+            </sheet>
+                <rules>
+                <stat name="PS:save" value="15" />
+                <stat name="PS:save" value="proficiency" />
+            </rules>
+        </element>
+        
+<!-- The Timeless One - Warlock --> 
+
+    <element name="The Timeless One" type="Archetype" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_THE_TIMELESS_ONE">
+        <supports>Otherworldly Patron</supports>
+        <description>
+            <p>Once thought to be emotionless husks, Eternia's servents, the Time Wraiths have been observed to have a wide range of emotions and some even display a personality of sorts. It is said when a Wraith was saved by a wandering adventurer it bestowed upon them a slight degree of power to manipulate time undetected.</p>
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_TIMELESS_PRESENCE" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_EPITAPH" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_TIME_MANIPULATION" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_REQUIUM" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_HURL_THROUGH_TIME" />
+         </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_TIMELESS_PRESENCE" level="1" />
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_EPITAPH" level="6" />
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_TIME_MANIPULATION" level="6" />
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_REQUIUM" level="10" />
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_HURL_THROUGH_TIME" level="14" />
+        </rules>
+        </element>
+        <element name="Timeless Presence" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_TIMELESS_PRESENCE">
+            <description>
+                <p>Starting at 1st Level, once per long rest you may channel the Timeless One's energy to cast a spell without costing an action</p>
+            </description>
+            <sheet usage="1/Long Rest">
+                <description>You may cast a spell without costing an action.</description>
+            </sheet>
+        </element>
+        <element name="Epitaph" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_EPITAPH">
+            <description>
+                <p>Starting at 6th Level you can see glimpses into the future. Twice per Long Rest you may use a bonus action to activate Epitaph for 10 minutes. Your AC increases by 2, You can quickly see into rooms without opening the door or walking into them, you have advantage on all saving throws and all attacks made against you are rolled at disadvantage while Epitaph is active. </p>
+            </description>
+            <sheet usage="2/Long Rest" action="Bonus Action">
+                <description>For 10 minutes your AC increases by 2, you can quickly see into rooms without opening the door or walking into them, you have advantage on all saving throws and all attacks made against you are rolled at disadvantage while Epitaph is active.</description>
+            </sheet>
+        </element>
+        <element name="Time Manipulation" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_TIME_MANIPULATION">
+            <description>
+                <p>Starting at 6th Level you can begin to bend time to your will. Once per Long Rest you can stretch time out turning a short rest into a long rest. All creatures that benefit from this also gain Temp HP equal to half your HP.</p>
+            </description>
+            <sheet usage="1/Long Rest">
+                <description>You turn a short rest into a long rest. All creatures that benefit from this also gain Temp HP equal to half your HP.</description>
+            </sheet>
+        </element>
+        <element name="Requium" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_REQUIUM">
+            <description>
+                <p>Starting at 10th Level, You become immune to the Stunned condition. Additionally you have learned to harness time to benefit you and your allies. Once per Long Rest you can grant the Haste effect to all allies and the Slow effect on all enemies for 1 turn. All allies are protected from the Stun after-effect from Haste in this way.</p>
+            </description>
+            <sheet usage="1/Long Rest">
+                <description>You become immune to the Stunned condition. You can grant the Haste effect to all allies and the Slow effect on all enemies for 1 turn. All allies are protected from the Stun after-effect from Haste in this way.</description>
+            </sheet>
+        </element>
+        <element name="Hurl through Time" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_HURL_THROUGH_TIME">
+            <description>
+                <p>Starting at 14th Level, as an action, once per short rest, you can select an enemy to make a ranged spell attack and hurl them through time. They disappear for one round, taking 12d10 damage on return as they are mauled by Time Wraiths.</p>
+            </description>
+            <sheet usage="1/Short Rest" action="Action">
+                <description>Make a ranged spell attack againt an enemy. They disappear for one round on hit, taking 12d10 damage on return.</description>
+            </sheet>
+    </element>
+
+<!-- The God of Maddness - Warlock -->        
+        
+    <element name="The God of Maddness" type="Archetype" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_THE_GOD_OF_MADDNESS">
+        <supports>Otherworldly Patron</supports>
+         <description>
+            <p>A voice speaks out in your mind. A voice of power. A voice of knowledge. You have accepted this voice as your constant companion. Feeding you information and truths. What are its true intentions, none can say but it. The agreement seemd symbiotic....for now at least.</p>
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_MADDENING_SIPHON" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_BERSERK" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_FORBIDDEN_KNOWLEDGE" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_GNOSTIC_MAGIC" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_ALSO_SPRACH_ZARATHUSTRA" />
+         </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_MADDENING_SIPHON" level="1" />
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_BERSERK" level="6" />
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_FORBIDDEN_KNOWLEDGE" level="6" />
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_GNOSTIC_MAGIC" level="10" />
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_ALSO_SPRACH_ZARATHUSTRA" level="14" />
+        </rules>
+        </element>
+         <element name="Maddening Siphon" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_MADDENING_SIPHON">
+            <description>   
+                <p>Starting at 1st level as a bonus action you may channel the energy of the God of Madness to restore a spell slot. Your Max HP lowers equal to double the level of the spell restored rounded up. You recover any lost points after a long rest. You cannot use this feature if it would bring you below your current HP. You may use this feature a number of times equal to your proficiency bonus.</p>
+            </description>
+            <sheet usage="{{MS:uses}}/Long Rest" action="Bonus Action">
+                <description>Restore a spell slot by sacrificing your Max HP equal to double the spell slot restored. Your Max HP cannot go below your current HP.</description>
+            </sheet>
+            <rules>
+                <stat name="MS:uses" value="proficiency" />
+            </rules>
+        </element>
+         <element name="Berserk" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_BERSERK">
+            <description>
+                <p>Starting at 6th level, twice per long rest as a bonus action you may target a creature you can see to amplify their negative emotions. The creature must make a Wisdom saving throw or fall into a state of Berserk for up to 3 turns. The creature remakes their save at the end of their turns. Under Berserk they have advantage on all attacks but cannot distinguish friend from foe, and become vulnerable to psychic damage. If they also happen to be Hexed the curse grows affecting all their saving throws.</p>
+            </description>
+            <sheet usage="2/Short Rest" action="Bonus Action">
+                <description>A creature you can see must make a Wisdom saving throw vs. your spell save. On a fail they fall under the Berserk condition for up to 3 turns. Berseking creatures have advantage on all attacks but cannot distingush friend from foe. If they are hexed the hex affects all saving throws. The creature remakes their wisdom save at the end of their turns.</description>
+            </sheet>
+         </element>
+         <element name="Forbidden Knowledge" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_FORBIDDEN_KNOWLEDGE">
+            <description>
+                <p>Once per day when you would fail an ability check, you can ask the God of Madness for help. You immediately change the fail into a crit. The gained information exhausts your mind dropping you Wisdom Score to 1 until the next day. While exhausted you automatically fail any checks requiring any complex thought. Concentration checks are unaffected.</p>
+            </description>
+            <sheet usage="1/Day">
+                <description>When you fail an ability check you can immediately change the fail into a crit. You Wisdom score then drops to 1 until the next day. Any skill checks requiring complex though while exhausted are automatically failed. This does not affect Concentration checks.</description>
+            </sheet>
+         </element>
+         <element name="Gnostic Magic" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_GNOSTIC_MAGIC">
+            <description>
+                <p>You magic begins to flow with the energy of primordial beings. All of your spells deal an additional 1d6 psychic damage, that ignores resistances and treats immunities as resistances. Your spells crit on an 18 if the enemy is vulnerable to psychic damage.</p>
+            </description>
+            <sheet>
+                <description>Your spells deal an additional 1d6 psychic damage that ignores resistances and treats immunities as resistances. Your spells crit on an 18 if the enemy is vulnerable to psychic damage.</description>
+            </sheet>
+         </element>
+         <element name="Also Sprach Zarathustra" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_ALSO_SPRACH_ZARATHUSTRA">
+            <description>  
+                <p>Once per long rest as an action you whisper into the ear of a creature imbuing the words of your patron into their mind. They begin to live every tragedy that did, could, and will happen in their lives, taking 10d10 + 10 psychic damage. The word echoes through the minds of the insane dealing half the damage to creatures under the Berserk effect. </p>
+            </description>
+            <sheet usage="1/Long Rest" action="Action">
+                <description>You whisper into the ear of a creature and force them to make a Wisdom save against your Spell DC. On a fail the creature takes 10d10+10 psychic damage or half as much on a save. All creatures you can see under the Berserk effect hear your words as well and take half of the original roll in psychic damage.</description>
+            </sheet>
+         </element>
+    
+<!-- Path of the Pendragon - Barbarian -->  
+
+    <element name="Path of the Pendragon" type="Archetype" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_PATH_OF_THE_PENDRAGON">
+        <supports>Primal Path</supports>
+        <description>
+            <p>The legend of the Pendragon flows through your viens. Harnessing their power, and the power of ancient dragons, you walk the path to decimate battlefields.</p>
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_DRAGON_FURY" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_CAMELOTS_COUNTER" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_AVALONS_ROAR" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_ASPECT_OF_THE_DRAGON_KING" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_DRAGON_OF_THE_PLATINUM_TABLE" />
+        </description>
+        <sheet display="false">
+        <description></description>
+        </sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_DRAGON_FURY" level="3" />
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_CAMELOTS_COUNTER" level="3" />
+			<grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_AVALONS_ROAR" level="6" />
+			<grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_ASPECT_OF_THE_DRAGON_KING" level="10" />
+			<grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_DRAGON_OF_THE_PLATINUM_TABLE" level="14" />
+		</rules>
+    </element>
+        
+        <element name="Dragon Fury" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_DRAGON_FURY">
+            <description>
+                <p>Your claws elongate, each dealing 1d6 + your half Strength Modifier + proficiency slashing damage. While raging you can choose to deal lightning damage instead of your normal damage for your attacks.</p>
+            </description>
+            <sheet>
+                <description>Your claws each deal 1d6 + {{CLAWMOD}} slashing damage. While raging you can choose to deal lightning damage instead of your normal damage for your attacks.</description>
+                <description level="10">Your claws each deal 1d8 + {{CLAWMOD}} slashing damage. While raging you can choose to deal lightning damage instead of your normal damage for your attacks.</description>
+            </sheet>
+            <rules>
+			    <stat name="CLAWMOD" value="strength:modifier" />
+                <stat name="CLAWMOD" value="proficiency" />
+		    </rules>
+        </element>
+        
+        <element name="Camelot's Counter" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_CAMELOTS_COUNTER">
+            <description>
+                <p>As a reaction to being hit you may counter with a tail attack that deals 1d4 + your Strength modifier bludgeoning damage. If this crits the enemy is staggered and their turn immediately ends. You can do this as many times equal to your proficiency bonus.</p>
+            </description>
+            <sheet usage="{{CC:uses}}" action="Reaction">
+                <description>You counter with your tail dealing 1d4 + {{CLAWMOD}} bludgeoning damage. If this crits the enemy is staggered and their turn immediately ends.</description>
+                <description level="10">You counter with your tail dealing 1d6 + {{CLAWMOD}} bludgeoning damage. If this crits the enemy is staggered and their turn immediately ends.</description>
+            </sheet>
+            <rules>
+                <stat name="CC:uses" value="proficiency" />
+            </rules>
+        </element>
+        
+        <element name="Avalon's Roar" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_AVALONS_ROAR">
+            <description>
+                <p>You gain resistance to Radiant damage and immunity to the Charmed and Frightened condition. </p>
+                <p>Once per rage as a bonus action you can roar out to rally your allies within 15 feet, giving them temp HP equal to 2 x your Barbarian Level. If any allies in range are affected by the Charmed or Frightened condition when you roar the effects immediately end.</p>
+            </description>
+            <sheet usage="1/Rage" action="Bonus Action">
+                <description>
+                    <p>You are immune to being frightened or charmed.</p>
+                    <p>You roar out to rally your allies within 15 feet, giving them {{AR:HP}} temp HP. If any allies in range are affected by the Charmed or Frightened condition when you roar the effects immediately end. </p>
+                </description>
+            </sheet>
+            <rules>
+                <stat name="AR:HP" value="level:barbarian" />
+                <stat name="AR:HP" value="level:barbarian" />
+                <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
+            </rules>
+        </element>
+        
+        <element name="Aspect of the Dragon King" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_ASPECT_OF_THE_DRAGON_KING">
+            <description>
+                <p>Your claw damage die increases to 1d8, and your tail to 1d6. While raging, as an action you can imbue a claw attack with the power of your bloodline, creating an aspect of your draconic form. The claw attack range increases to hit a 10x10 square, and all enemies must make a Strength save (DC = 10 + STR Modifier + Proficiency Bonus) or be knocked prone. You can do this as many times equal to your Strength modifier per Long Rest.</p>
+            </description>
+            <sheet usage="{{STRMOD}}/Long Rest" action="Action">
+                <description>You imbue a claw attack with the power of your bloodline, creating an aspect of your draconic form. The claw attack range increases to hit a 10x10 square, and all enemies must make a Strength save DC {{AoTDK:dc}} or be knocked prone.</description>
+            </sheet>
+            <rules>
+                <stat name="AoTDK:dc" value="8" />
+			    <stat name="AoTDK:dc" value="proficiency" />
+			    <stat name="AoTDK:dc" value="strength:modifier" />
+                <stat name="STRMOD" value="strength:modifier" />
+		    </rules>
+        </element>
+        
+        <element name="Dragons of the Platinum Table" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_DRAGON_OF_THE_PLATINUM_TABLE">
+            <description>
+                <p>As an action you can consume remaining rage uses to summon a portion of power from one of the twelve Ancient Dragons. Each use allows you to immediately exhale a devastating breath from your choice from one of the dragons, dealing 6d12 + 12 of their respective damage in a 30 foot cone. After using a breath you gain resistance to the damage type for 1 minute and must wait 1 hour before using another.</p>
+                <h5>Ancient Dragons</h5>
+			    <table>
+				    <thead>
+					    <tr><td>Dragon</td><td>Damage Type</td><td>Rage Uses</td><td>Range</td></tr>
+				    </thead>
+				    <tr><td>Red</td><td><em>Fire</em></td></tr>
+				    <tr><td>Blue</td><td><em>Lightning</em></td><td><em>1</em></td><td><em>30 ft. Cone</em></td></tr>
+				    <tr><td>Green</td><td><em>Poison</em></td><td><em>1</em></td><td><em>30 ft. Cone</em></td></tr>
+				    <tr><td>Black</td><td><em>Acid</em></td><td><em>1</em></td><td><em>30 ft. Cone</em></td></tr>
+				    <tr><td>White</td><td><em>Cold</em></td><td><em>1</em></td><td><em>30 ft. Cone</em></td></tr>
+                    <tr><td>Topaz</td><td><em>Necrotic</em></td><td><em>1</em></td><td><em>30 ft. Cone</em></td></tr>
+				    <tr><td>Emerald</td><td><em>Psychic</em></td><td><em>1</em></td><td><em>30 ft. Cone</em></td></tr>
+				    <tr><td>Bronze</td><td><em>Thunder</em></td><td><em>1</em></td><td><em>30 ft. Cone</em></td></tr>
+				    <tr><td>Brass</td><td><em>Piercing</em></td><td><em>1</em></td><td><em>30 ft. Cone</em></td></tr>
+				    <tr><td>Silver</td><td><em>Slashing</em></td><td><em>1</em></td><td><em>30 ft. Cone</em></td></tr>
+                    <tr><td>Prismatic</td><td><em>Radiant</em></td><td><em>2</em></td><td><em>45 ft. Cone</em></td></tr>
+				    <tr><td>Platinum</td><td><em>Force</em></td><td><em>3</em></td><td><em>60 ft. Cone</em></td></tr>
+			    </table>      
+		    </description>
+            <sheet usage="1-3 Rage Uses" action="Action">
+                <description>Consume 1-3 rage uses to immediately exhale a devastating breath from your choice from one of the dragons from the Ancient Dragon table. All creatures in the breath cone must make a DC {{breath:dc}} Dexterity save, dealing 6d12 + 12 of their respective damage on a fail or half as much on a save. After using a breath you gain resistance to the damage type for 1 minute and must wait 1 hour before using another.</description>
+            </sheet>
+            <rules>
+                <stat name="breath:dc" value="8" />
+			    <stat name="breath:dc" value="proficiency" />
+			    <stat name="breath:dc" value="strength:modifier" />
+		    </rules>
+        </element>
+    
+<!-- Gildenfire Domain - Cleric -->
+    
+    <element name="Gildenfire Domain" type="Archetype" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_CLERIC_GILDENFIRE_DOMAIN">
+		<supports>Divine Domain</supports>
+		<description>
+            <p>Gods of the Gilden fire traverse the line between destuction, and creation. Their flames have the power to completely destory, or create something anew.</p>
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_GILDENFIRE_DOMAIN_DOMAIN_SPELLS" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_GILDENFIRE_DOMAIN_BONUS_PROF" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_GILDENFIRE_DOMAIN_DRACONIC_BLESSING" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_GILDENFIRE_DOMAIN_CD_GOLDEN_IMMOLATION" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_GILDENFIRE_DOMAIN_CD_GOLDEN_SAVIOR" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_GILDENFIRE_DOMAIN_DRACONIC_JUDGMENT" />            
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_GILDENFIRE_DOMAIN_GOLDEN_SHROUD" />
+            <div element="ID_NOIR_UP_ARCHETYPE_FEATURE_GILDENFIRE_DOMAIN_PROPHET_OF_GILDENFIRE" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_GILDENFIRE_DOMAIN_DOMAIN_SPELLS" level="1" />
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_GILDENFIRE_DOMAIN_BONUS_PROF" level="1" />
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_GILDENFIRE_DOMAIN_DRACONIC_BLESSING" level="1" />
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_GILDENFIRE_DOMAIN_CD_GOLDEN_IMMOLATION" level="2" />
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_GILDENFIRE_DOMAIN_CD_GOLDEN_SAVIOR" level="6" />
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_GILDENFIRE_DOMAIN_DRACONIC_JUDGMENT" level="6" />           
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_GILDENFIRE_DOMAIN_GOLDEN_SHROUD" level="8" />
+            <grant type="Archetype Feature" id="ID_NOIR_UP_ARCHETYPE_FEATURE_GILDENFIRE_DOMAIN_PROPHET_OF_GILDENFIRE" level="17" />
+        </rules>
+    </element>
+
+    <element name="Domain Spells" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_GILDENFIRE_DOMAIN_DOMAIN_SPELLS">
+        <description>
+            <p>You gain domain spells at the cleric levels listed in the Grave Domain Spells table. See the Divine Domain class feature for how domain spells work.</p>
+            <h5>Gildenfire Domain Spells</h5>
+            <table>
+                <thead>
+                    <tr><td>Cleric Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>1st</td><td><em>absorb elements, shield</em></td></tr>
+                <tr><td>3rd</td><td><em>dragon's breath, see invisibility</em></td></tr>
+                <tr><td>5th</td><td><em>fireball, fly</em></td></tr>
+                <tr><td>7th</td><td><em>fire shield, stoneskin</em></td></tr>
+                <tr><td>9th</td><td><em>dominate person, cone of cold</em></td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_XGTE_SPELL_ABSORB_ELEMENTS" level="1" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_SHIELD" level="1" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_XGTE_SPELL_DRAGONS_BREATH" level="3" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_SEE_INVISIBILITY" level="3" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_FIREBALL" level="5" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_FLY" level="5" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_FIRE_SHIELD" level="7" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_STONESKIN" level="7" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_DOMINATE_PERSON" level="9" spellcasting="Cleric" prepared="true" />
+            <grant type="Spell" id="ID_PHB_SPELL_CONE_OF_COLD" level="9" spellcasting="Cleric" prepared="true" />
+        </rules>
+    </element>
+
+    <element name="Bonus Proficency" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_GILDENFIRE_DOMAIN_BONUS_PROF">
+        <description>
+            <p>When you choose this domain at 1st level, you gain proficiency with martial weapons and heavy armor. In addition, you can speak Draconic.</p>
+        </description>
+        <sheet display="false"/>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+            <grant type="Language" id="ID_LANGUAGE_DRACONIC" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+        </rules>
+    </element>
+
+    <element name="Draconic Blessing" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_GILDENFIRE_DOMAIN_DRACONIC_BLESSING">
+        <description>
+            <p>At 1st level once per day you may cast the Bless spell as a bonus action without consuming a spell slot. When cast in this way, you are affected by the spell even if you did not target yourself.</p>
+        </description>
+        <sheet usage="1/Day" action="Bonus Action">
+            <description>You cast the Bless spell without consuming a spell slot.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_BLESS" level="1" spellcasting="Cleric" prepared="true" />
+        </rules>
+    </element>
+
+    <element name="Channel Divinity: Golden Immolation" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_GILDENFIRE_DOMAIN_CD_GOLDEN_IMMOLATION">
+        <description>
+            <p>Starting at 2nd level, as an action, you can use your Channel Divinity to unleash a devastating exhalation of flames in 20 foot cone. When you use this breath weapon, each creature in the area of the exhalation must make a dexterity saving throw against your spell DC. A creature takes 3d8 + your cleric level damage on a failed save, and half as much damage on a successful one.</p>
+            <p>Starting at 14th level once per day when you kill two or more creatures with this feature, your turn refreshes.</p>
+        </description>
+        <sheet action="Action">
+            <description>You exhale flames in a 20 ft. cone. All creatures in the area make a DC {{CD:DC}} dexterity save, taking 3d8+{{GI:Damage}} damage on a failed save or half as much on a succesful save.</description>
+            <description level="14">As an action you exhale flames in a 20 ft. cone. All creatures in the area make a DC {{CD:DC}} dexterity save, taking 3d8+{{GI:Damage}} damage on a failed save or half as much on a succesful save. Once per day, killing two or more creatures with your breath refreshes your turn.</description>
+        </sheet>
+        <rules>
+            <stat name="CD:DC" value="8" />
+            <stat name="CD:DC" value="wisdom:modifier" />
+            <stat name="CD:DC" value="proficiency" />
+            <stat name="GI:Damage" value="level:cleric" />
+        </rules>
+    </element>
+
+    <element name="Channel Divinity: Golden Savior" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_GILDENFIRE_DOMAIN_CD_GOLDEN_SAVIOR">
+        <description>
+            <p>Starting at 6th level as a bonus action you can use your Channel Divinity to grow a set of ethereal golden wings for 1 minute. While the wings are active you gain a fly speed of 30 feet. When moving in the direction of an ally below half their Max HP the speed increases to 90 feet. Once per activation when an ally you can see within range is attacked you may move your movement speed toward them. If you end within 5 feet of them the damage is split between the both of you. If your ally would be reduced to 0 by this attack, they are instead reduced to 1.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>You grow ethereal wings for 1 minute. While active your fly speed is 30 feet. When moving in the direction of an ally below half their Max HP the speed increases to 90 feet. Once per activation when an ally you can see within range is attacked you may move your movement speed toward them. If you end within 5 feet of them the damage is split between the both of you. If your ally would be reduced to 0 by this attack, they are instead reduced to 1.</description>
+        </sheet>
+    </element>
+
+    <element name="Draconic Judgement" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_GILDENFIRE_DOMAIN_DRACONIC_JUDGMENT">
+        <description>
+            <p>At 6th level, you gain the ability to infuse your weapon strikes with the divine might of a golden dragon. Twice per Short Rest when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d6 fire or radiant damage.</p>
+            <p>When you reach 12th level, the extra damage increases to 2d6.</p>
+        </description>
+        <sheet usage="2/Short Rest">
+            <description>When you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d6 fire or radiant damage.</description>
+            <description level="12">When you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d6 fire or radiant damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Golden Shroud" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_GILDENFIRE_DOMAIN_GOLDEN_SHROUD">
+        <description>
+            <p>Starting at 8th level, when you heal a creature with a spell they gain extra temp HP equal to ¼th the amount as they are enveloped in a golden light. While this shroud is active the creature is resistant to fire and radiant damage. The shroud dissipates after 30 seconds or breaks when the temp HP is reduced to 0.</p>
+            <p>If the shroud dissipates, you and the shrouded creature are healed for the remaining amount.</p>
+        </description>
+        <sheet>
+            <description>When you heal a creature with a spell they gain extra temp HP equal to ¼th the amount. While this shroud is active the creature is resistant to fire and radiant damage. The shroud dissipates after 30 seconds or breaks when the temp HP is reduced to 0. If the shroud dissipates, you and the shrouded creature are healed for the remaining amount.</description>
+        </sheet>
+    </element>
+
+    <element name="Prophet of the Gildenfire" type="Archetype Feature" source="Ultica Pack" id="ID_NOIR_UP_ARCHETYPE_FEATURE_GILDENFIRE_DOMAIN_PROPHET_OF_GILDENFIRE">
+        <description>
+            <p>At 17th level your prayers reach out to the dragons. Once per Dawn you can summon the presence of the Ancient Golden Dragon Hyperion within you as an action. All allies within 30 feet of you gain immunity to fire and radiant damage and you gain the use of Draconic Actions. Each action may only be used once and you can only use one per turn. After 1 minute or after all Draconic Actions have been used up the effect ends.</p>
+            <h5>Draconic Actions</h5>
+            <li><strong>Roar</strong> - As an action, choose any creatures that you can see within 30 feet of you. If the creature can see and hear you, it must succeed on a Wisdom saving throw against your spell save DC. On a failed save, the creature becomes frightened of you for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li>
+            <li><strong>Draconic Presence</strong> - As a bonus action all friendly creatures within 30 feet of you can make their next attack with advantage or make a saving throw against one effect on themselves, provided they can see you.</li>
+            <li><strong>Meteor Dive</strong> - As an action you manifest ethereal golden wings and soar up into the sky, and immediately dive to an area within 60 feet. All enemies within 20 feet of the impact point must make a constitution save against your spell DC taking 10d6 fire damage and 10d6 radiant damage or half as much on a save. All allies within 20 feet of the impact point heal for 10d6.</li>
+        </description>
+        <sheet usage="1/Day" action="Action">
+            <description>
+                <p>All allies within 30 feet gain immunity to fire and radiant damage and you gain the following actions. Each action may only be used once and you can only use one per turn. After 1 minute or after all Draconic Actions have been used up the effect ends.</p>
+            <li><strong>Roar</strong> - As an action, choose any creatures that you can see within 30 feet of you. If the creature can see and hear you, it must succeed on a Wisdom saving throw against your spell save DC. On a failed save, the creature becomes frightened of you for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li>
+            <li><strong>Draconic Presence</strong> - As a bonus action all friendly creatures within 30 feet of you can make their next attack with advantage or make a saving throw against one effect on themselves, provided they can see you.</li>
+            <li><strong>Meteor Dive</strong> - As an action you manifest ethereal golden wings and soar up into the sky, and immediately dive to an area within 60 feet. All enemies within 20 feet of the impact point must make a constitution save against your spell DC taking 10d6 fire damage and 10d6 radiant damage or half as much on a save. All allies within 20 feet of the impact point heal for 10d6.</li>                
+            </description>
+        </sheet>
+    </element>
+
+<!-- Point of no Return - Fighter -->
+
+    <element name="Point of no Return" type="Archetype" source="Ultica Pack" id="ID_WOTC_UP_ARCHETYPE_FIGHTER_PONR">
+		<supports>Martial Archetype</supports>
+		<description>
+            <p>You left the void after a small mishap...but the void did not leave you.</p>
+            <div element="ID_WOTC_UP_ARCHETYPE_FEATURE_PIERCING_VOID" />
+            <div element="ID_WOTC_UP_ARCHETYPE_FEATURE_VOID_STEP" />
+            <div element="ID_WOTC_UP_ARCHETYPE_FEATURE_ALL_CONSUMING_DARKNESS" />
+            <div element="ID_WOTC_UP_ARCHETYPE_FEATURE_NULL_VOID" />
+            <div element="ID_WOTC_UP_ARCHETYPE_FEATURE_BLACK_HOLE" />
+            <div element="ID_WOTC_UP_ARCHETYPE_FEATURE_EVENT_HORIZON" />
+        </description>
+    <sheet display="false">
+			<description>The Point of no Return excels with spears.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_UP_ARCHETYPE_FEATURE_PONR_BONUS_PROFICIENCY" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_UP_ARCHETYPE_FEATURE_PIERCING_VOID" level="3" />
+            <grant type="Archetype Feature" id="ID_WOTC_UP_ARCHETYPE_FEATURE_VOID_STEP" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_UP_ARCHETYPE_FEATURE_ALL_CONSUMING_DARKNESS" level="7" />
+			<grant type="Archetype Feature" id="ID_WOTC_UP_ARCHETYPE_FEATURE_NULL_VOID" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_UP_ARCHETYPE_FEATURE_BLACK_HOLE" level="15" />
+			<grant type="Archetype Feature" id="ID_WOTC_UP_ARCHETYPE_FEATURE_EVENT_HORIZON" level="18" />
+		</rules>
+	</element>
+    
+    <element name="Bonus Proficiency" type="Archetype Feature" source="Ultica Pack" id="ID_WOTC_UP_ARCHETYPE_FEATURE_PONR_BONUS_PROFICIENCY">
+		<description>
+			<p>When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice: Acrobatics, Arcana, History, Performance, or Persuasion.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype Feature" name="Bonus Proficiency (Point of no Return)" supports="ID_WOTC_UP_ARCHETYPE_FEATURE_PONR_BONUS_PROFICIENCY" />
+		</rules>
+	</element>
+    <element name="Bonus Proficiency (Proficiency)" type="Archetype Feature" source="Ultica Pack" id="ID_WOTC_UP_ARCHETYPE_FEATURE_PONR_BONUS_PROFICIENCY">
+		<compendium display="false" />
+		<description>
+			<p>You gain proficiency in one of the following skills of your choice: Acrobatics, Arcana, History, Performance, or Persuasion.</p>
+			<div class="reference">
+				<div element="ID_WOTC_UP_ARCHETYPE_FEATURE_PONR_BONUS_PROFICIENCY" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Proficiency" name="Bonus Proficiency (Point of no Return)" supports="ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_PERFORMANCE|ID_PROFICIENCY_SKILL_PERSUASION" />
+		</rules>
+	</element>
+
+    <element name="Piercing Void"  type="Archetype Feature" source="Ultica Pack" id="ID_WOTC_UP_ARCHETYPE_FEATURE_PIERCING_VOID">
+        <description>
+            <p>Once per turn when you deal piercing damage you may deal an additional 1d6 + your level in force damage. You may use this a second time in a turn after an action surge. You may use this feature as many times up to your proficiency bonus.</p>
+        </description>
+        <sheet usage="{{PV:times}}/Short Rest">
+            <description>Once per turn when you deal piercing damage you may deal an additional 1d6 + your level in force damage. You may use this a second time in a turn after an action surge.</description>
+        </sheet>
+        <rules>
+			<stat name="PV:times" value="proficiency" />
+		</rules>
+    </element>
+
+    <element name="Void Step" type="Archetype Feature" source="Ultica Pack" id="ID_WOTC_UP_ARCHETYPE_FEATURE_VOID_STEP">
+        <description>
+            <p>As a bonus action on your turn you may step through the void teleporting up to 15 feet. If you land next to an enemy, as a part of this bonus action you may attack them with your weapon. At the end of your turn you may return back to your original position if you wish, avoiding any opportunity attacks. You may use this feature as many times up to your Strength Modifier per Long Rest.</p>
+        </description>
+        <sheet action="Bonus Action" usage="{{strength:modifier}}/Long Rest">
+            <description>On your turn you may step through the void teleporting up to 15 feet. If you land next to an enemy, as a part of this bonus action you may attack them with your weapon. At the end of your turn you may return back to your original position if you wish, avoiding any opportunity attacks.</description>
+        </sheet>
+    </element>
+
+    <element name="All-Consuming Darkness" type="Archetype Feature" source="Ultica Pack" id="ID_WOTC_UP_ARCHETYPE_FEATURE_ALL_CONSUMING_DARKNESS">
+        <description>
+            <p>You gain an additional Second Wind use. Additionally you can also choose to use Second Wind as an action. When doing so you heal for double the amount and a 10 foot wave bursts out in all directions from you. All creatures hit by this wave become vulnerable to force damage for 3 rounds.</p>
+        </description>
+        <sheet>
+            <description>You may use your Second Wind as a full action to heal for double the amount. When doing so a 10 foot wave bursts out in all directions from you. All creatures hit by this wave become vulnerable to force damage for 3 rounds.</description>
+        </sheet>
+    </element>
+
+     <element name="Null and Void" type="Archetype Feature" source="Ultica Pack" id="ID_WOTC_UP_ARCHETYPE_FEATURE_NULL_VOID">
+        <description>
+            <p>You gain resistance to necrotic and force damage. Once per long rest whenever you are hit by either damage types, you may nullify the attack. Any damage that would have been done to you is then added to your next attack ignoring all resistances and immunities.</p>
+        </description>
+        <sheet action="Reaction" usage="1/Long Rest">
+            <description>Whenever you are hit by force or necrotic damage, you may nullify the attack. Any damage that would have been done to you is then added to your next attack ignoring all resistances and immunities.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FORCE" />
+        </rules>
+    </element>
+
+    <element name="Black Hole" type="Archetype Feature" source="Ultica Pack" id="ID_WOTC_UP_ARCHETYPE_FEATURE_BLACK_HOLE">
+        <description>
+            <p>Once per long rest as a bonus action you can create three void lances that circle behind your back. Each void lance can be thrown or impaled into an object or creature creating a miniature black hole within the object or creature, each dealing 2d6 + 4 force damage. Once all void lances are used the black holes reach critical mass and each burst for an additional 2d6 + 4 force damage. Void lances have the stats of a +4 spear and if a creature other than you attempts to pull out a lance they take 2d6 + 8 force damage.</p>
+        </description>
+        <sheet action="Bonus Action" usage="1/Long Rest">
+            <description> You create three void lances that circle behind your back. Each void lance can be thrown or impaled into an object or creature creating a miniature black hole within the object or creature, each dealing 2d6 + 4 force damage. Once all void lances are used the black holes reach critical mass and each burst for an additional 2d6 + 4 force damage. Void lances have the stats of a +4 spear and if a creature other than you attempts to pull out a lance they take 2d6 + 8 force damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Event Horizon" type="Archetype Feature" source="Ultica Pack" id="ID_WOTC_UP_ARCHETYPE_FEATURE_EVENT_HORIZON">
+        <description>
+            <p>You’re continuous manipulation of the void has caused a black hole to form within your soul, but yet again you persevere and manage to control it. Once per day as a reaction when you are above 1HP and an attack would reduce you to 0, you instead drop to one. Upon doing so your soul approaches the event horizon, and your time begins to approach infinity. You are then invulnerable to all damage for up to 3 rounds. After the duration you drop back to 0 with two death saves.</p>
+        </description>
+        <sheet action="Reaction" usage="1/Day">
+            <description>When you are above 1 HP and an attack would reduce you to 0, you instead drop to one. You are then invulnerable to all damage for up to 3 rounds. After the duration you drop back to 0 with two death saves.</description>
+        </sheet>
+    </element>
+
+<!-- Storm Lord - Sorcerer -->
+
+	<element name="Storm Lord" type="Archetype" source="Ultica Pack" id="ID_WOTC_SCAG_ARCHETYPE_STORM_SORCERY">
+		<supports>Sorcerous Origin</supports>
+		<description>
+			<p>Your innate magic comes from the power of the Storm Lords. Many with this power can trace their magic back to their rebirth, but perhaps you were born during a storm so powerful that folk still tell stories of it, or your lineage might include the influence of potent air creatures such as vaati or djinn. Whatever the case, the magic of the storm permeates your being.</p>
+			<p class="indent">Storm sorcerers are avatars of destruction. Their magic allows them to exert control over lightning and weather in their immediate area. Their abilities also prove useful in repelling attacks by sahuagin, pirates, and other waterborne threats.</p>
+			<div element="ID_WOTC_SCAG_ARCHETYPE_FEATURE_STORM_SORCERY_STORM_SPEAKER" />
+			<div element="ID_WOTC_SCAG_ARCHETYPE_FEATURE_STORM_SORCERY_RIDE_THE_LIGHTNING" />
+			<div element="ID_WOTC_SCAG_ARCHETYPE_FEATURE_STORM_SORCERY_HEART_OF_THE_STORM" />
+			<div element="ID_WOTC_SCAG_ARCHETYPE_FEATURE_STORM_SORCERY_STORMS_FURY" />
+			<div element="ID_WOTC_SCAG_ARCHETYPE_FEATURE_STORM_SORCERY_HURRICANE" />
+			<div element="ID_WOTC_SCAG_ARCHETYPE_FEATURE_STORM_SORCERY_LORD_OF_THE_STORM" />
+		</description>
+		<sheet display="false">
+			<description>Your innate magic comes from the power of the storm.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_SCAG_ARCHETYPE_FEATURE_STORM_SORCERY_STORM_SPEAKER" level="1"/>
+			<grant type="Archetype Feature" id="ID_WOTC_SCAG_ARCHETYPE_FEATURE_STORM_SORCERY_RIDE_THE_LIGHTNING" level="1"/>
+			<grant type="Archetype Feature" id="ID_WOTC_SCAG_ARCHETYPE_FEATURE_STORM_SORCERY_HEART_OF_THE_STORM" level="6"/>
+			<grant type="Archetype Feature" id="ID_WOTC_SCAG_ARCHETYPE_FEATURE_STORM_SORCERY_STORMS_FURY" level="6"/>
+			<grant type="Archetype Feature" id="ID_WOTC_SCAG_ARCHETYPE_FEATURE_STORM_SORCERY_HURRICANE" level="14"/>
+			<grant type="Archetype Feature" id="ID_WOTC_SCAG_ARCHETYPE_FEATURE_STORM_SORCERY_LORD_OF_THE_STORM" level="18"/>
+		</rules>
+	</element>
+	<element name="Storm Speaker" type="Archetype Feature" source="Ultica Pack" id="ID_WOTC_SCAG_ARCHETYPE_FEATURE_STORM_SORCERY_STORM_SPEAKER">
+		<description>
+			<p>The arcane magic you command is infused with the power of the storm. You can speak, read, and write Primordial. (Knowing this language allows you to understand and be understood by those who speak its dialects: Aquan, Auran, Ignan, and Terran.)</p>
+			<p class="indent"></p>
+		</description>
+		<sheet display="false">
+			<description>You can understand and be understood by those who speak Aquan, Auran, Ignan, and Terran.</description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_PRIMORDIAL" />
+		</rules>
+	</element>
+	<element name="Ride the Lightning" type="Archetype Feature" source="Ultica Pack" id="ID_WOTC_SCAG_ARCHETYPE_FEATURE_STORM_SORCERY_RIDE_THE_LIGHTNING">
+		<description>
+			<p>Starting at 1st level, you can use a bonus action on your turn to cause lightning to strike your location. In a flash you ride the lightning until its next strike. Move up to 120ft in a straight line and crash into an enemy of your choice. The enemy and all creatures within 10ft take 2d6 lightning damage and your AC increases by 2 until your next turn as you are temperarily sheilded by the storm.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>On your turn, you may move up to 120ft and crash into an enemy. All creatures within 10ft take 2d6 lightning damage and your AC increases by 2 until the start of your next turn. (1/LR)</description>
+			<description level="5">On your turn, you may move up to 120ft and crash into an enemy. All creatures within 10ft take 3d6 lightning damage and your AC increases by 3 until the start of your next turn. (2/LR)</description>
+			<description level="10">On your turn, you may move up to 120ft and crash into an enemy. All creatures within 10ft take 4d6 lightning damage and your AC increases by 4 until the start of your next turn. (3/LR)</description>
+		</sheet>
+	</element>
+	<element name="Heart of the Storm" type="Archetype Feature" source="Ultica Pack" id="ID_WOTC_SCAG_ARCHETYPE_FEATURE_STORM_SORCERY_HEART_OF_THE_STORM">
+		<description>
+			<p>At 6th level, you gain immunity to lightning and thunder damage. In addition, whenever you start casting a spell of 1st level or higher that deals lightning or thunder damage, stormy magic erupts from you. This eruption causes creatures of your choice that you can see within 10 feet of you to take lightning or thunder damage (choose each time this ability activates) equal to half your sorcerer level.</p>
+		</description>
+		<sheet>
+			<description>Whenever you start casting a spell of 1st level or higher that deals lightning or thunder damage. Creatures of your choice that you can see within 10 feet of you to take {{level:sorcerer:half}} lightning or thunder damage.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_LIGHTNING" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_THUNDER" />
+		</rules>
+	</element>
+	<element name="Storm’s Fury" type="Archetype Feature" source="Ultica Pack" id="ID_WOTC_SCAG_ARCHETYPE_FEATURE_STORM_SORCERY_STORMS_FURY">
+		<description>
+			<p>Starting at 6th level, when you are hit by a melee attack, you can use your reaction to deal lightning damage to the attacker. The damage equals your sorcerer level. The attacker must also make a Strength saving throw against your sorcerer spell save DC. On a failed save, the attacker is pushed in a straight line up to 20 feet away from you.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>When you are hit by a melee attack, you can use your reaction to deal {{level:sorcerer}} lightning damage to the attacker. The attacker must also make a DC{{spellcasting:dc:cha}} Strength saving throw. On a failed save, the attacker is pushed in a straight line up to 20 feet away from you.</description>
+		</sheet>
+	</element>
+    <element name="Hurricane" type="Archetype Feature" source="Ultica Pack" id="ID_WOTC_SCAG_ARCHETYPE_FEATURE_STORM_SORCERY_HURRICANE">
+		<description>
+			<p>At 14th level, you gain the ability to actively control the weather around you.</p>
+			<p class="indent">You summon the power of a hurricane at your location for 1 minute. All ranged weapon attacks have disadvantage as the wind roars and all enemies that move more than 10ft in a turn must make a dexterity saving throw vs your spell DC or take 4d10 lightning damage as lightning strikes You can do this once per long rest.</p>
+		</description>
+		<sheet>
+			<description>As an action you may summon the power of a hurricane, causing all ranged attackes to have disadvantage. All enemies that move more than 10ft in a turn must make a dexterity saving throw DC{{spellcasting:dc:cha}} or take 4d10 lightning damage. (1/LR)</description>
+		</sheet>
+	</element>
+	<element name="Lord of the Storm" type="Archetype Feature" source="Ultica Pack" id="ID_WOTC_SCAG_ARCHETYPE_FEATURE_STORM_SORCERY_LORD_OF_THE_STORM">
+		<description>
+			<p>At 18th level, You gain a magical flying speed of 60 feet.</p>
+			<p class="indent">You may also, once per long rest, become the embodiemnt of the Storm Lord. Your spells deal an additional 4d6 lightning damge and your AC cannot be lower than 25 for 1 minute.</p>
+		</description>
+		<sheet>
+			<description>You gain a magical flying speed of 60 feet. As an action, you can summon the power of the Storm Lord, causing your spells to deal an additional 4d6 lightning damage and your AC cannot be lower than 25 for 1 minute. (1/LR)</description>
+		</sheet>
+		<rules>
+			<stat name="speed:fly" value="60" bonus="base" />
+		</rules>
+	</element>    
+</elements>

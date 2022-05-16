@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Drakyn</name>
+        <description></description>
+		<update version="0.2.3">
+			<file name="race-dragonborn.xml" url="https://github.com/Lykos9/Drkayn/blob/main/DrakynRace.xml" />
+		</update>
+    </info>
+    <element name="Drakyn" type="Race" source="Tasha's Cauldron of Everything" id="ID_RACE_DRAKYN">
+        <description>
+			<p class="flavor">Born of dragons and humans, drakyn walk proudly through a world that greets them with fearful incomprehension. Shaped by draconic gods or the dragons themselves, drakyn born from dragons as a unique race, combining the best attributes of dragons and humanoids. Some Drakyn are faithful servants to true dragons, others form the ranks of soldiers in great wars, and still others find themselves adrift, with no clear calling in life.</p>
+			<h4>Physical Description</h4>
+			<p>Drakyn is the direct result of a full Dragon and Humanoid offspring. This usually happens when a Dragon mates with a human when shape-shifted, sometimes done for love, lust or other reasons. However, regardless of the reason, these offspring are often easily identified by their physical characteristics being such a blatant mix of Human and Dragon features. They boast strong and muscular physiques, towering over most humans with their impressive height and looking down at them with their dragon-shaped eyes. The face and body itself are usually that of a humanoid accented with various draconic features and scales. Though they are not as common as Dragonborn, some exhibit other draconic features such as having a tail, wings, and even horns due to the varied and unique circumstances of each of their heritage birth they generally can be categorized into their different subraces depending on their full draconic parents color.</p>
+			<h4>History</h4>
+			<p>Dragons have been around a long time and with the rise of man dragons had to get around without being noticed and so they roamed the world in a human form. Often during their adventures or exploits they've taken out of curiosity, they would meet someone who would catch their eye and then their heart. The alignment and circumstances of the dragon parent would shape how that relationship was and whether they would take the child themselves, have the human keep it or if it was simply abandoned by both.</p>
+			<h4>Society</h4>
+			<p>Drakyn being so few in number don't have their own society but are something like half-elves in both of their parent's societies. Quite often the type of dragon will determine what happens to the child. Most male dragons rarely wait around for the child to be born and often never see them, however, some of the more noble dragons, notably Gold and Silver, will often stay and teach the child the ways of their people.</p>
+			<p>Female dragons may or may not stay with the father. However, when it is time to lay eggs, she leaves to a secluded spot that fits her nature for a time. A female dragon lays egg different from the rest of the clutch, however, sometimes twin eggs are born. The Drakyn then grows in the egg until the age of 2 and then hatches. During this growing time, the mother speaks to and teaches the child telepathically. They are born knowing how to walk and speak and usually have much larger wings, scales, horns, and tail than those born from human mothers. Some then return with the child to where they lived, while others will stay where were born, or move on. The child usually stays with the mother until young adulthood. All Drakyn born from a humanoid mother retain genetic memories from the father (Life lessons, certain memories, etc).</p>
+			<h4>Drakyn Names</h4>
+			<p>Drakyn names take from human, dragonborn and dragons.</p>
+			<p>
+			<b>Male Names: </b> Ancalagon, Chrysophylax, Dagurashibanipal, Drogon, Eldrax, Faranth, Glaedr, Glaurung, Icefyre, Igjarjuk, Kaelifaxion, Rhaegal, Smaug.
+			<br/>
+			<b>Female Names: </b> Errol, Fírnen, Katla, Montague, Moonlynia, Norberta, Ramoth, Saerahphaleyn, Saphira, Tintaglia.
+			<br/>
+			</p>
+			<h4>Drakyn Traits</h4>
+			<p>Half-Humanoid, Half-Full-Dragon.</p>
+			<p>
+			<span class="feature">Ability Score Increase.</span>Your Strength score increases by 2, and your Constitution score increases by 1.
+			<br />
+			<span class="feature">Age.</span>Drakyn reach maturity at 250 years and can easily live past a millennium without ill effects.
+			<br />
+			<span class="feature">Alignment.</span>Drakyn share or are within a alignment of their full-dragon parent.
+			<br />
+			<span class="feature">Size.</span>A Drakyn's height is anything 6 to 9 feet, and weigh anything from 150 to 300 pounds. Your creature size is Medium.
+			<br />
+			<span class="feature">Speed.</span>Your base walking speed is 35 feet.
+			<br />
+			<span class="feature">Darkvision.</span> The senses of dragons are far stronger then that of humans and you share part of their hightened senses. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+			<br />
+			<span class="feature">Dragon Blood</span>Choose one type of dragon subrace. Your general alignment and appearance, as well as your damage resistance, breath weapon, and inheriting trait, will be determined by the dragon type.
+			<br />
+			<span class="feature">Languages.</span>You can speak, read, and write Common and Draconic.
+			<br />
+			</p>
+		</description>
+        <sheet display="false" />
+    <rules>
+        <stat name="strength" value="2" requirements="!ID_WOTC_EGTW_GRANTS_DRAKYN_VARIANT" />
+		<stat name="constitution" value="1" requirements="!ID_WOTC_EGTW_GRANTS_DRAKYN_VARIANT" />
+			<stat name="innate speed" value="35" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_BREATH_WEAPON" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DAMAGE_RESISTANCE" requirements="!ID_WOTC_EGTW_GRANTS_DRAKYN_VARIANT" />
+			<select type="Race Variant" name="Drakyn Variant" supports="Drakyn" optional="true" />
+		</rules>
+    </element>
+    <element name="Draconic Ancestry" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY">
+		<description>
+			<p>You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.</p>
+			<h5>DRACONIC ANCESTRY</h5>
+			<table>
+				<thead>
+					<tr><td>Dragon</td><td>Damage Type</td><td>Breath Weapon</td></tr>
+				</thead>
+				<tr><td>Black</td><td>Acid</td><td>5 by 30 ft. line (Dex. save)</td></tr>
+				<tr><td>Blue</td><td>Lightning</td><td>5 by 30 ft. line (Dex. save)</td></tr>
+				<tr><td>Brass</td><td>Fire</td><td>5 by 30 ft. line (Dex. save)</td></tr>
+				<tr><td>Bronze</td><td>Lightning</td><td>5 by 30 ft. line (Dex. save)</td></tr>
+				<tr><td>Copper</td><td>Acid</td><td>5 by 30 ft. line (Dex. save)</td></tr>
+				<tr><td>Gold</td><td>Fire</td><td>15 ft. cone (Dex. save)</td></tr>
+				<tr><td>Green</td><td>Poison</td><td>15 ft. cone (Con. save)</td></tr>
+				<tr><td>Red</td><td>Fire</td><td>15 ft. cone (Dex. save)</td></tr>
+				<tr><td>Silver</td><td>Cold</td><td>15 ft. cone (Con. save)</td></tr>
+				<tr><td>White</td><td>Cold</td><td>15 ft. cone (Con. save)</td></tr>
+			</table>
+            </description>
+            <rules>
+			<select type="Racial Trait" name="Draconic Ancestry" supports="Draconic Ancestry" />
+		</rules>
+    </element>
+	<element name="Breath Weapon" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_BREATH_WEAPON">
+		<description>
+			<p>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</p>
+			<p>When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p>
+			<p>After you use your breath weapon, you can’t use it again until you complete a short or long rest.</p>
+		</description>
+		<sheet action="Action" usage="1/Short Rest">
+			<description>Exhale destructive energy. Your breath weapon does {{breath-weapon:dice count}}d{{breath-weapon:dice size}} {{draconic-ancestry:damage type}} damage in a {{draconic-ancestry:breath}} DC {{breath-weapon:dc}}</description>
+		</sheet>
+		<rules>
+			<stat name="breath-weapon:dc" value="8" />
+			<stat name="breath-weapon:dc" value="constitution:modifier" />
+			<stat name="breath-weapon:dc" value="proficiency" />
+			<stat name="breath-weapon:dice size" value="6" bonus="dice" />
+			<stat name="breath-weapon:dice count" value="2" level="1" />
+			<stat name="breath-weapon:dice count" value="1" level="6" />
+			<stat name="breath-weapon:dice count" value="1" level="11" />
+			<stat name="breath-weapon:dice count" value="1" level="16" />
+		</rules>
+    </element>
+	<element name="Damage Resistance" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DAMAGE_RESISTANCE">
+		<description>
+			<p>You have resistance to the damage type associated with your draconic ancestry.</p>
+		</description>
+		<sheet>
+			<description>You have resistance to {{draconic-ancestry:damage type}}.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLACK||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_COPPER" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLUE||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRONZE" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRASS||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GOLD||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_RED" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GREEN" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" requirements="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_SILVER||ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_WHITE" />
+		</rules>
+	</element>
+
+    <element name="Draconic Ancestry (Black)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLACK">
+		<supports>Draconic Ancestry</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Black">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Black"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Acid" />
+			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Blue)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BLUE">
+		<supports>Draconic Ancestry</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Blue">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Blue"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Lightning" />
+			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Brass)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRASS">
+		<supports>Draconic Ancestry</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Brass">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Brass"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Fire" />
+			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Bronze)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_BRONZE">
+		<supports>Draconic Ancestry</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Bronze">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Bronze"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Lightning" />
+			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Copper)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_COPPER">
+		<supports>Draconic Ancestry</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Copper">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Copper"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Acid" />
+			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Gold)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GOLD">
+		<supports>Draconic Ancestry</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Gold">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Gold"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Fire" />
+			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Dex. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Green)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_GREEN">
+		<supports>Draconic Ancestry</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Green">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Green"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Poison" />
+			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Con. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Red)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_RED">
+		<supports>Draconic Ancestry</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Red">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Red"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Fire" />
+			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Dex. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (Silver)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_SILVER">
+		<supports>Draconic Ancestry</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="Silver">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="Silver"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Cold" />
+			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Con. save)" />
+		</rules>
+	</element>
+	<element name="Draconic Ancestry (White)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY_WHITE">
+		<supports>Draconic Ancestry</supports>
+		<description>
+			<div element="ID_RACIAL_TRAIT_DRACONIC_ANCESTRY" />
+		</description>
+		<sheet alt="White">
+			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="draconic-ancestry" value="White"/>
+			<stat inline="true" name="draconic-ancestry:damage type" value="Cold" />
+			<stat inline="true" name="draconic-ancestry:breath" value="15 ft. cone (Con. save)" />
+		</rules>
+	</element>
+</elements>
+

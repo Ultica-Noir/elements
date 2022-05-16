@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Cultivator</name>
+		<update version="0.0.1">
+			<file name="CULTIVATOR.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/dms-guild/classes/class-swordmage.xml" />
+		</update>
+	</info>
+    <element name="Cultivator" type="Class" source="The Cultivator" id="ID_WOTC_CCC_CLASS_CULTIVATOR">
+		<description>
+            <p>An elf sits alone at the top of a cliff overlooking a small town. He keeps an eye on the movement if those below as he devotes the rest of his attention to sharpening and fletching arrows. A flash of light catches his eye. The signal. The elf picks up his spyglass to find the target. He catches sight of the dishevelled human stumbling from a worn barn. </p>
+            <p>As the elf starts to nock an arrow a soft, blue light begins to suffuse his eyes and arms. Slowly, the glow spreads to the arrow, all while the elf keeps the human in his sights. As the light reaches the tip of the arrow, he breathes out and releases his fingers. </p>
+            <p>The arrow fires so powerfully from the bow that the elf hears the sound moments after he's shot it. It tears through the air as it charges toward its target, near unseen in its speed. The human walks several steps before he realizes there is a hole in his chest. As he falls to the ground with a wordless gurgle, the elf nocks another arrow and waits, eyes on the barn door. </p>
+            <h4>Ki: Magic Refined</h4>
+            <p>A Cultivator will learn early in their training that ki is created when they condense the arcane energies that make up the magic in the world around them. It can be absorbed into the body and refined in one's core, which normally resides just above the navel. </p>
+            <p>Breathing techniques are used to refine ki, and there are as many breathing techniques as actual techniques. Regardless of how it's gathered, ki is the driving force behine a Cultivator's power. It is used to augment their bodies and the world around them much like magic. This energy has birthed a multitude of techniques that Cultivators use to prove themselves</p>
+            <p>However, a true Cultivator is someone who not only uses ki, but becomes it. This is the true goal of all those who follow this path.</p>
+            <h4>Devoted Bodies. Devoted Minds.</h4>
+            <p>A Cultivator will spend their entire life, often resolving to die training or fighting, focusing on their abilities. They will dedicate themselves to a single technique, spending their time improving it and making it their own. They train by fighting and constantly looking for the moment inspiration hits, driving their techniques to new limits.</p>
+            <p>A Cultivator must have a strong body to handle the stress that training and ki cycling puts on it. They must also have a mind just as strong to learn, improve, and apply what combat teaches.</p>
+            <h5 class="caption">QUICK BUILD</h5>
+			<p>You can make a Cultivator quickly by following these suggestions. First, make Intelligence your highest ability score, followed by Constitution. Second, choose the soldier background.</p>
+			<h2>CLASS FEATURES</h2>
+            <p>As a Cultivator, you gain the following class features.</p>
+             <h5 class="caption">HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d8 per Cultivator level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per Cultivator level after 1st</li>
+            </ul>
+            <h5 class="caption">PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> Light armor, medium armor, shields</li>
+                <li><strong>Weapons:</strong> Simple weapons, martial weapons</li>
+                <li><strong>Tools:</strong> Calligrapher's Supplies</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Saving Throws:</strong> Intelligence, Constitution</li>
+                <li><strong>Skills:</strong> Choose three from Acrobatics, Athletics, Deception, History, Intimidation, Sleight of Hand, Stealth, and Survival</li>
+            </ul>
+            <h5 class="caption">EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+				<li>(a) a martial weapon and a shield or (b) two martial weapons</li>
+				<li>(a) a dungeoneer’s pack or (b) an explorer’s pack</li>
+				<li>10 darts</li>
+			</ul>
+            <h5 class="caption">THE CULTIVATOR</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-10">Level</td><td class="col-10">Proficiency Bonus</td><td>Features</td><td class="col-10">Ki Pool</td></tr>
+				</thead>
+				<tr><td>1st</td><td>+2</td><td class="left">Cultivator's Aura, Ki, Unarmored Defense</td><td>1</td></tr>
+				<tr><td>2nd</td><td>+2</td><td class="left">Fighting Style</td><td>2</td></tr>
+				<tr><td>3rd</td><td>+2</td><td class="left">Techniques, Technique Feature</td><td>3</td></tr>
+				<tr><td>4th</td><td>+2</td><td class="left">Ability Score Improvement</td><td>4</td></tr>
+				<tr><td>5th</td><td>+3</td><td class="left">Extra Attack, Breakthrough</td><td>5</td></tr>
+				<tr><td>6th</td><td>+3</td><td class="left">Aura Infusion</td><td>6</td></tr>
+				<tr><td>7th</td><td>+3</td><td class="left">Technique Feature</td><td>7</td></tr>
+				<tr><td>8th</td><td>+3</td><td class="left">Ability Score Improvement</td><td>8</td></tr>
+				<tr><td>9th</td><td>+4</td><td class="left">Of Sound Mind and Bodyt</td><td>9</td></tr>
+				<tr><td>10th</td><td>+4</td><td class="left">Auric Influence</td><td>10</td></tr>
+				<tr><td>11th</td><td>+4</td><td class="left">Technique Feature</td><td>11</td></tr>
+				<tr><td>12th</td><td>+4</td><td class="left">Ability Score Improvement</td><td>12</td></tr>
+				<tr><td>13th</td><td>+5</td><td class="left">Reforged Body</td><td>13</td></tr>
+				<tr><td>14th</td><td>+5</td><td class="left">Aura Mastery</td><td>14</td></tr>
+				<tr><td>15th</td><td>+5</td><td class="left">Technique Feature</td><td>15</td></tr>
+				<tr><td>16th</td><td>+5</td><td class="left">Ability Score Improvement</td><td>16</td></tr>
+				<tr><td>17th</td><td>+6</td><td class="left">Cultivation Assault</td><td>17</td></tr>
+				<tr><td>18th</td><td>+6</td><td class="left">Accelerated Infusion</td><td>18</td></tr>
+				<tr><td>19th</td><td>+6</td><td class="left">Ability Score Improvement</td><td>19</td></tr>
+				<tr><td>20th</td><td>+6</td><td class="left">Ki Incarnate</td><td>20</td></tr>
+			</table>
+            <div element="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_CULTIVATORS_AURA" />
+			<div element="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_KI" />
+			<div element="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_UNARMORED_DEFENSE" />
+			<div element="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_FIGHTING_STYLE" />
+			<div element="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_TECHNIQUES" />
+			<div element="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_ABILITYSCOREIMPROVEMENT" />
+			<div element="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_EXTRA_ATTACK" />
+			<div element="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_BREAKTHROUGH" />
+			<div element="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_AURA_INFUSION" />
+			<div element="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_OF_SOUND_MIND_AND_BODY" />
+			<div element="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_AURIC_INFLUENCE" />
+			<div element="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_REFORGED_BODY" />
+			<div element="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_AURA_MASTERY" />
+			<div element="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_CULTIVATION_ASSAULT" />
+			<div element="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_WUJI" />
+		</description>
+		<sheet display="false">
+			<description>A master of unarmed fighting, harnessing the power of the body in pursuit of physical and spiritual perfection.</description>
+		</sheet>
+        <setters>
+			<set name="hd">d8</set>
+			<set name="short">The physical embodiment of ki</set>
+		</setters>
+        <rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_CCC_MULTICLASS_CULTIVATOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_WOTC_CCC_MULTICLASS_CULTIVATOR" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_WOTC_CCC_MULTICLASS_CULTIVATOR" />
+			<select type="Proficiency" name="Tool Proficiency (CULTIVATOR)" supports="Musical Instrument||Artisan tools" requirements="!ID_WOTC_CCC_MULTICLASS_CULTIVATOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_CCC_MULTICLASS_CULTIVATOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_WOTC_CCC_MULTICLASS_CULTIVATOR" />
+			<select type="Proficiency" name="Skill Proficiency (CULTIVATOR)" supports="ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_SLEIGHT_OF_HAND|ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_SURVIVAL" number="3" requirements="!ID_WOTC_CCC_MULTICLASS_CULTIVATOR" />
+            <grant type="Class Feature" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_UNARMORED_DEFENSE" level="1" />
+			<grant type="Class Feature" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_KI" level="1" />
+			<grant type="Class Feature" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_CULTIVATORS_AURA" level="1" />
+			<grant type="Class Feature" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_FIGHTING_STYLE" level="2" />
+            <grant type="Class Feature" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_TECHNIQUES" level="3" />
+            <grant type="Class Feature" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_ABILITYSCOREIMPROVEMENT" level="4" /> 
+            <grant type="Class Feature" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_EXTRA_ATTACK" level="5" />
+			<grant type="Class Feature" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_BREAKTHROUGH" level="5" />
+			<grant type="Class Feature" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_AURA_INFUSION" level="6" />
+			<grant type="Class Feature" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_OF_SOUND_MIND_AND_BODY" level="9" />
+			<grant type="Class Feature" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_AURIC_INFLUENCE" level="10" />
+			<grant type="Class Feature" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_REFORGED_BODY" level="13" />
+			<grant type="Class Feature" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_AURA_MASTERY" level="14" />
+			<grant type="Class Feature" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_CULTIVATION_ASSAULT" level="17" />
+			<grant type="Class Feature" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_WUJI" level="20" />
+		</rules>
+        <multiclass id="ID_WOTC_CCC_MULTICLASS_CULTIVATOR">
+			<prerequisite>Intelligence 13 and Constitution 13</prerequisite>
+			<requirements>([int:13],[con:13])</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Simple weapons, Martial weapons, Light armor, Medium armor, Shields</set>
+			</setters>
+            <rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_CCC_MULTICLASS_CULTIVATOR" />
+			    <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_WOTC_CCC_MULTICLASS_CULTIVATOR" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+			    <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_WOTC_CCC_MULTICLASS_CULTIVATOR" />
+            </rules>
+        </multiclass>
+	</element>
+    <element name="Unarmored Defense" type="Class Feature" source="The Cultivator" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_UNARMORED_DEFENSE">
+		<description>
+			<p>Beginning at 1st level, while you are wearing no armor, your AC equals 10 + your Intelligence modifier + your dexterity modifier. You can still use a shield and gain this benefit.</p>
+		</description>
+		<sheet>
+			<description>While you are wearing no armor, your AC equals {{ac:unarmored defense cultivator}}.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:unarmored defense cultivator:base" value="10" />
+			<stat name="ac:unarmored defense cultivator:dexterity" value="dexterity:modifier" />
+			<stat name="ac:unarmored defense cultivator:intelligence" value="intelligence:modifier" />
+			<stat name="ac:unarmored defense cultivator" value="ac:unarmored defense cultivator:base" />
+			<stat name="ac:unarmored defense cultivator" value="ac:unarmored defense cultivator:dexterity" />
+			<stat name="ac:unarmored defense cultivator" value="ac:unarmored defense cultivator:intelligence" />
+			<stat name="ac:calculation" value="ac:unarmored defense cultivator" bonus="calculation" equipped="[armor:none]" alt="Unarmored Defense (Cultivator)" />
+		</rules>
+	</element>
+    <element name="Fighting Style" type="Class Feature" source="The Cultivator" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_FIGHTING_STYLE">
+		<description>
+			<p>At the 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.</p>
+			<h5>ARCHERY</h5>
+			<p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
+			<h5>DEFENSE</h5>
+			<p>While you are wearing armor, you gain a +1 bonus to AC.</p>
+			<h5>DUELING</h5>
+			<p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
+			<h5>GREAT WEAPON FIGHTING</h5>
+			<p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the twohanded or versatile property for you to gain this benefit.</p>			
+			<h5>PROTECTION</h5>
+			<p>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</p>
+            <h5>TWO-WEAPON FIGHTING</h5>
+			<p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>
+            <h5>UNARMED FIGHTING</h5>
+            <p>Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier. If you strike with two free hands, the d6 becomes a d8. When you successfully start a grapple, you can deal 1d4 bludgeoning damage to the grappled creature. Until the grapple ends, you can also deal this damage to the creature whenever you hit it with a meelee attack.</p>
+		</description>
+		<sheet/>
+		<rules>
+			<select type="Class Feature" name="Fighting Style" supports="Fighting Style, Cultivator" level="1" />
+		</rules>
+	</element>
+    <element name="Techniques" type="Class Feature" source="The Cultivator" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_TECHNIQUES">
+		<description>
+			<p>You begin to devote your life to cultivating and perfecting one of many techniques. Chose a technique detailed at the end of the class description. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th levels.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Techniques" supports="Cultivator Techniques" level="2" />
+		</rules>
+	</element>
+    <element name="Ki" type="Class Feature" source="The Cultivator" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_KI" >
+        <description>
+			<p> Starting at 1st level, your cultivation affords you access to the condensed form of pure magic. Your access to this energy is represented by your ki pool. Your cultivator level determines the amount of ki you have, as showin in the ki Pool column of the cultivator table. You can spend ki to fuel various techniques and stance features</p>
+            <p>When you spend ki, that ki is unavailable until you finish a short or long rest, at the end of which you condense more ki, refilling your core. You must spend at least 30 mintes of the rest meditating to regain ki. </p>
+            <p>Some of your techniques and stance featues require your target to make a saving throw to reseit the feature's effect. The saving throw DC is calculated as follow:</p>
+            <center>
+				<p><strong>Cultivator save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
+			</center>
+        </description>
+		<sheet>
+			<description>You have {{ki:points}} Ki and your Ki DC is {{ki:dc}}</description>
+		</sheet>
+		<rules>
+			<stat name="ki:points" value="level:cultivator" />
+			<stat name="ki:dc" value="8" />
+			<stat name="ki:dc" value="proficiency" />
+			<stat name="ki:dc" value="intelligence:modifier" />
+		</rules>
+    </element>
+    <element name="Cultivators Aura" type="Class Feature" source="The Cultivator" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_CULTIVATORS_AURA">
+        <description>
+            <p>Your intense training and tempering of your body has left you Mwith the ability to physically exude your skill and power, allowing you to coerce or even physically affect others. As long as you have at least 1 ki point remaining your aura is active with a range of 10 feet, and has the following abilities:</p>
+				<ul>You may make Charisma based skill checks using your Intelligence modifier.</ul>
+				<ul>Enemies that make a saving throw while in your aura do so at a penalty equal to half your Intelligence modifier rounded down.</ul>
+				<ul>Your movement speed increases by 5 feet.</ul>
+			<p>You may dismiss and reactivate your aura as a bonus action, and it is automatically dismissed once you become unconscious.</p>
+        </description>
+        <sheet>
+            <description>As long as you have at least 1 ki point remaining, you may make Charsima based skill checks using your Intelligence Modifier, and enemies within 10 feet recieve a penalty to saving throws equal to half your Intelligence modifier rounded down. </description>
+        </sheet>
+    </element>
+    <element name="Ability Score Improvement" type="Class Feature" source="The Cultivator" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_ABILITYSCOREIMPROVEMENT">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Cultivator 4)" supports="Improvement Option,Cultivator,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Cultivator 6)" supports="Improvement Option,Cultivator,6" level="6" />
+			<select type="Class Feature" name="Improvement Option (Cultivator 8)" supports="Improvement Option,Cultivator,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Cultivator 12)" supports="Improvement Option,Cultivator,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Cultivator 14)" supports="Improvement Option,Cultivator,14" level="14" />
+			<select type="Class Feature" name="Improvement Option (Cultivator 16)" supports="Improvement Option,Cultivator,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Cultivator 19)" supports="Improvement Option,Cultivator,19" level="19" />
+        </rules>
+    </element>
+    <element name="Extra Attack" type="Class Feature" source="The Cultivator" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_EXTRA_ATTACK">
+		<description>
+			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+		</description>
+		<sheet>
+			<description level="5">You can attack twice, instead of once, whenever you take the Attack action on your turn</description>
+        </sheet>
+		<rules>
+			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+        </rules>
+    </element>
+	<element name="Breakthrough" type="Class Feature" source="The Cultivator" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_BREAKTHROUGH">
+		<description>
+			<p>At 5th level, you progress to the next step in your cultivation, strengthening certain aspects of your body. When you gain this feature you gain two options:</p>
+				<ul>Your Speed increases by 5 feet.</ul>
+				<ul>Your hit point maximum increases by 5.</ul>
+			<p>You gain these options again at 10th, 15th, and 20th level.</p>
+		</description>
+	<sheet display="false" />
+	<rules>
+		<stat name="cultivator:breakthrough" value="5" bonus="breakthrough" level="5" />
+		<stat name="cultivator:breakthrough" value="15" bonus="breakthrough" level="10" />
+		<stat name="cultivator:breakthrough" value="20" bonus="breakthrough" level="15" />
+		<stat name="cultivator:breakthrough" value="25" bonus="breakthrough" level="20" />
+
+		<stat name="innate speed:misc" value="cultivator:breakthrough" bonus="breakthrough" requirements="[innate speed:1]" />
+		<stat name="breakthrough:hp" value="cultivator:breakthrough" />
+		<stat name="hp" value="cultivator:breakthrough" />
+	</rules>
+	</element>
+	<element name="Aura Infusion" type="Class Feature" source="The Cultivator" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_AURA_INFUSION">
+		<description>
+			<p>Upon reaching 6th level, you harness the beneficial aspects of your aura to accelerate your body's natural healing. As a bonus action you may spend 2 ki points to heal yourself for 2d4. You may instead use an action and 2 ki points to touch and heal another creature for 2d4. This increases to 2d8 at 18th level.</p>
+		</description>
+	<sheet>
+		<description> As a bonus action you may spend 2 ki points to heal yourself for 2d4. You may instead use an action and 2 ki points to touch and heal another creature for 2d4.</description>
+		<description level="18">As a bonus action you may spend 2 ki points to heal yourself for 2d8. You may instead use an action and 2 ki points to touch and heal another creature for 2d8.</description>
+	</sheet>
+	</element>
+    <element name="Of Sound Mind And Body" type="Class Feature" source="The Cultivator" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_OF_SOUND_MIND_AND_BODY">
+        <description>
+            <p>At 9th level, your mastery over ki allows you to better safeguard yourself mentally and physically. When you are subjected to an effect that allows you to make a Constitution or Intelligence saving throw to take only half damage, you may spend a ki point to instead take no damage if you succeed on the saving throw.</p>
+        </description>
+        <sheet>
+            <description> When you are subjected to an effect that allows you to make a Constitution or Intelligence saving throw to take only half damage, you may spend a ki point to instead take no damage if you succeed on the saving throw.</description>
+        </sheet>
+    </element>
+	<element name="Auric Influence" type="Class Feature" source="The Cultivator" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_AURIC_INFLUENCE">
+		<description>At 9th level, your mastery over ki allows you to better safeguard yourself mentally and physically. When you are subjected to a spell or effect that allows you to make a Constitution or Intelligence saving throw to take only half damage, you may spend a ki point to instead take no damage if you succeed on the saving throw. You do not gain the benefit of this ability when you are unconscious.</description>
+		<sheet>
+			<description>When you are subjected to a spell or effect that allows you to make a Constitution or Intelligence saving throw to take only half damage, you may spend a ki point to instead take no damage if you succeed on the saving throw. You do not gain the benefit of this ability when you are unconscious.</description>
+		</sheet>
+	</element>
+	<element name="Reforged Body" type="Class Feature" source="The Cultivator" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_REFORGED_BODY">
+		<description>
+			<p>When you reach 13th level, you begin to integrate materials into your cultivation to reforge your body, tempering it with the elements. You gain resistance to one damage type of your choice.</p>
+		</description>
+		<sheet display ="false"/>
+		<rules>
+			<select type="Class Feature" name="Reforged Body" supports="Reforged Body" />
+		</rules>
+	</element>
+		<element name="Acid" type="Class Feature" source="The Cultivator" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_ACID">
+			<compendium display="false" />
+			<supports>Reforged Body</supports>
+			<sheet display ="false"/>
+			<rules>
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
+			</rules>
+		</element>
+		<element name="Cold" type="Class Feature" source="The Cultivator" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_COLD">
+			<compendium display="false" />
+			<supports>Reforged Body</supports>
+			<sheet display ="false"/>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+		</rules>
+		</element>
+		<element name="Fire" type="Class Feature" source="The Cultivator" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_FIRE">
+			<compendium display="false" />
+			<supports>Reforged Body</supports>
+			<sheet display ="false"/>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+		</rules>
+		</element>
+		<element name="Lightning" type="Class Feature" source="The Cultivator" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_LIGHTNING">
+			<compendium display="false" />
+			<supports>Reforged Body</supports>
+			<sheet display ="false"/>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
+		</rules>
+		</element>
+		<element name="Thunder" type="Class Feature" source="The Cultivator" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_THUNDER">
+			<compendium display="false" />
+			<sheet display ="false"/>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" />
+		</rules>
+		</element>
+	<element name="Aura Mastery" type="Class Feature" source="The Cultivator" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_AURA_MASTERY">
+		<description>
+			<p>At 15th level, you become adept at manipulating your aura to gain a multitude of information from it, affect a larger area, or focus its effects on a single enemy. As an action you may ,extend the range of your aura to 30 feet until the end of your next turn. While the range is extended you are aware of any creatures, living or otherwise, within your aura. This ability does not tell you their location, only that they are within your aura.</p>
+			<p>You may choose to instead focus your aura on one creature to enhance its effect. You may choose only one target for your Culitvator's Aura ability within 30 feet and spend a ki point, the saving throw penalty increases by 1 and you have a bonus to your attacks to hit that creature equal to the total penalty. This ability lasts for a minute and can only be used once per long rest.</p>
+		</description>
+		<sheet>
+			<description>You may extend the range of your aura to 30 feet until the end of your next turn. While the range is extended you are aware of any creatures, living or otherwise, within your aura. You may choose to instead focus your aura on one creature to enhance its effect. You may choose only one target for your Culitvator's Aura ability within 30 feet and spend a ki point, the saving throw penalty increases by 1 and you have a bonus to your attacks to hit that creature equal to the total penalty. This ability lasts for a minute and can only be used once per long rest.</description>
+		</sheet>
+	</element>
+	<element name="Cultivation Assault" type="Class Feature" source="The Cultivator" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_CULTIVATION_ASSAULT">
+		<description>
+			<p>Upon reaching 17th level, you learned to assail an enemy's core using your cultivation technique to damage and/or shatter it.</p>
+			<p>As long as you have at least 1 ki point, when you damage a creature with an attack, you can cause that attack to deal extra damage equal to half your Cultivator level. You may use this ability a number of times per long rest equal to your Intelligence modifier (minimum once).</p>
+		</description>
+	<sheet>
+		<description>As long as you have at least 1 ki point, when you damage a creature with an attack, you can cause that attack to deal ,extra damage equal to half your Cultivator level. You may use this ability a number of times per long rest equal to your Intelligence modifier (minimum once).</description>
+	</sheet>
+	</element>
+	<element name="Wuji" type="Class Feature" source="The Cultivator" id="ID_WOTC_CCC_CLASS_FEATURE_CULTIVATOR_WUJI">
+		<description>
+			<p>Beginning at 20th level, you are ki made flesh. You may use ki features despite having no ki. Whenever you do so, take 1d4 unavoidable force damage per ki point you avoided spending.</p>
+		</description>
+		<sheet>
+			<description>You may use ki features despite having no ki. Whenever you do so, take 1d4 unavoidable force damage per ki point you avoided spending.</description>
+		</sheet>
+	</element>
+
+
+
+
+
+    <!-- Fighting Styles -->
+    <element name="Archery" type="Class Feature" source="The Cultivator" id="ID_WOTC_CCC_CLASS_FEATURE_FIGHTINGSTYLE_ARCHERY">
+		<supports>Fighting Style, Cultivator</supports>
+		<description>
+			<p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
+		</description>
+		<sheet>
+			<description>You gain a +2 bonus to attack rolls you make with ranged weapons.</description>
+		</sheet>
+		<rules>
+			<stat name="ranged:attack" value="2" />
+		</rules>
+	</element>
+	<element name="Defense" type="Class Feature" source="The Cultivator" id="ID_WOTC_CCC_CLASS_FEATURE_FIGHTINGSTYLE_DEFENSE">
+		<supports>Fighting Style, Cultivator</supports>
+		<description>
+			<p>While you are wearing armor, you gain a +1 bonus to AC.</p>
+		</description>
+		<sheet>
+			<description>While you are wearing armor, you gain a +1 bonus to AC.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:misc" value="1" bonus="fighting style" equipped="[armor:any]" alt="Defense (Fighting Style)" />
+		</rules>
+	</element>
+	<element name="Dueling" type="Class Feature" source="The Cultivator" id="ID_WOTC_CCC_CLASS_FEATURE_FIGHTINGSTYLE_DUELING">
+		<supports>Fighting Style, Cultivator</supports>
+		<description>
+			<p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
+		</description>
+		<sheet>
+			<description>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</description>
+		</sheet>
+		<rules>
+			<!-- <stat name="melee:damage" value="2" equipped="[primary:any],([secondary:none]||[shield:any])" /> -->
+		</rules>
+	</element>
+	<element name="Great Weapon Fighting" type="Class Feature" source="The Cultivator" id="ID_WOTC_CCC_CLASS_FEATURE_FIGHTINGSTYLE_GREAT_WEAPON_FIGHTING">
+		<supports>Fighting Style, Cultivator</supports>
+		<description>
+			<p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</p>
+		</description>
+		<sheet>
+			<description>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</description>
+		</sheet>
+	</element>
+    <element name="Unarmed Fighting" type="Class Feature" source="The Cultivator" id="ID_WOTC_CCC_CLASS_FEATURE_FIGHTINGSTYLE_UNARMED_FIGHTING">
+        <supports>Fighting Style, Cultivator</supports>
+		<description>
+			<p>Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier. If you strike with two free hands, the d6 becomes a d8. When you successfully start a grapple, you can deal 1d4 bludgeoning damage to the grappled creature. Until the grapple ends, you can also deal this damage to the creature whenever you hit it with a meelee attack.</p>
+		</description>
+		<sheet>
+			<description>Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier. If you strike with two free hands, the d6 becomes a d8.When you successfully start a grapple, you can deal 1d4 bludgeoning damage to the grappled creature. Until the grapple ends, you can also deal this damage to the creature whenever you hit it with a meelee attack.</description>
+		</sheet>
+		<rules>
+			<stat name="unarmed Fighting:attack" value="strength:modifier" bonus="unarmed fighting" />
+			<stat name="unarmed fighting:damage" value="strength:modifier" bonus="unarmed fighting" />
+			<stat name="unarmed fighting:dice" value="6" bonus="unarmed fighting" />
+			<stat name="unarmed fighting:dice" value="8" bonus="unarmed fighting" equipped="[weapons:none]"/>
+		</rules>
+	</element>
+		<element name="Two-Weapon Fighting" type="Class Feature" source="The Cultivator" id="ID_WOTC_CCC_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING">
+		<supports>Fighting Style, Cultivator</supports>
+		<description>
+			<p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>
+		</description>
+		<sheet>
+			<description>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</description>
+		</sheet>
+	</element>
+	<element name="Protection" type="Class Feature" source="The Cultivator" id="ID_WOTC_CCC_CLASS_FEATURE_FIGHTINGSTYLE_PROTECTION">
+		<supports>Fighting Style, Cultivator</supports>
+		<description>
+			<p>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</description>
+		</sheet>
+	</element>
+
+
+
+
+    <!-- Techniques -->
+    <element name="Taiji" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_TAIJI">
+		<supports>Cultivator Techniques</supports>
+		<description>
+            <p>Known as the technique that pursues the oneness of everything. The ultimate whole of every state. Taiji disciples practice balancing opposing forces to achieve perfect harmony with the universe. These disciples, while seemingly docile in their slow and inexorable practice of forms, use their mastery of these skills with extreme and deadly efficiency.</p>
+            <div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_TAIJI_STANCES"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_TAIJI_INTERNAL_STANCE"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_TAIJI_EXTERNAL_STANCE"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_DUALITY"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_ELEMENTAL_HURRICANE" />
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_BALANCE_IN_NATURE"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_WUJI"/>
+        </description>
+		<sheet display="false" />
+        <rules>
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_TAIJI_STANCES" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_TAIJI_INTERNAL_STANCE" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_TAIJI_EXTERNAL_STANCE" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_DUALITY" level="7" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_ELEMENTAL_HURRICANE" level="7" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_BALANCE_IN_NATURE" level="11" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_WUJI" level="15" />
+		</rules>
+	</element> 
+    <element name="Stances" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_TAIJI_STANCES">
+        <description>
+            <p>Starting at 3nd level, your technique allows you to access to knowledge on how to use ki internally for defensive abilites and externally for offensive ones.</p>
+            <p>You can choose the external or internal stance before you roll for inititave. Switching between stances is a bonus action. Unless otherwise noted, you can only use the abilites and benefits granted by each stance while you are in it. Most stances have static passives that are active while in that stance and activated abilites</p>
+            <p>You are unable to use stances while you are incapacitated. If you are incapacitated while in a stance, you may regain either stance as a bonus action.</p>
+        </description>
+		<sheet>
+			<description>You may only have one stance active at a time. You may choose a stance before you roll for inititave and may use a bonus action to change stances in battle.</description>
+		</sheet>
+    </element>
+	<element name="Internal Stance" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_TAIJI_INTERNAL_STANCE">
+		<description>
+			<h5>Internal Stance</h5>
+            <ul>
+                <li>You gain the ability to cast absorb elements while in this stance. You may do so once per short rest. You gain a second use at level 10.</li>
+                <li>When you take fire or cold damage, you may, as a reaction, reduce this damage by 1d10 + Intelligence modifier. When you do so, you regain a number of ki points equal to half your proficiency modifier rounded down. If you reduce the elemental damage taken to 0, you regain 1 extra ki point.</li>
+                <li>All allies within your aura gain advantage on saves from spells dealing fire or cold damage.</li>
+            </ul>
+		</description>
+		<sheet>
+			<description>Once per short rest you may absorb fire or cold damage. Additionally as a reaction, reduce fire or cold damage by 1d10 + Intelligence modifier. When you do so, you regain a number of ki points equal to half your proficiency modifier rounded down. If you reduce the elemental damage taken to 0, you regain 1 extra ki point. All allies within 10 feet gain advantage on saves from spells dealing fire or cold damage. </description>
+			<description level="10">Twice per short rest you may absorb fire or cold damage. Additionally as a reaction, reduce fire or cold damage by 1d10 + Intelligence modifier. When you do so, you regain a number of ki points equal to half your proficiency modifier rounded down. If you reduce the elemental damage taken to 0, you regain 1 extra ki point. All allies within 30 feet gain advantage on saves from spells dealing fire or cold damage. </description>
+		</sheet>
+	</element>
+	<element name="External Stance" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_TAIJI_EXTERNAL_STANCE">
+		<description>
+			<h5>External Stance</h5>
+            <p>You lose 1 ki point whenever you begin or end a turn in this stance (max 1 per turn).</p>
+			<ul>
+                <li>You may use your Intelligence modifier for unarmed attack rolls.</li>
+                <li>You may add your Intelligence modifier as additional damage for unarmed attack rolls.</li>
+                <li>Your attacks within your aura ignore half and threequarters cover.</li>
+				<li>The range of your attacks increase to the range of your aura.</li>
+				<li>Your attacks may use fire or cold damage instead of their original damage type.</li>
+            </ul>
+			<p>At 6th level, all weapon attacks while in this stance do an extra 1d4 fire or cold damage. This increases to 1d6 at 12th level.</p>
+        </description>
+		<sheet>
+			<description>While in this stance you lose 1 ki point at the end of every turn. In this stance you may use your Intelligence modifier for unarmed attack rolls, as additional damage, and your attacks ignore up to three-quarters cover. Your attack range is increased to 30 feet and you may use fire or cold damage instead of their original damage type.</description>
+			<description level="6">While in this stance you lose 1 ki point at the end of every turn. In this stance you may use your Intelligence modifier for unarmed attack rolls, as additional damage, and your attacks ignore up to three-quarters cover. Your attack range is increased to 30 feet and you may use fire or cold damage instead of their original damage type and deal an additonal 1d4 damage.</description>
+			<description level="12">While in this stance you lose 1 ki point at the end of every turn. In this stance you may use your Intelligence modifier for unarmed attack rolls, as additional damage, and your attacks ignore up to three-quarters cover. Your attack range is increased to 30 feet and you may use fire or cold damage instead of their original damage type and deal an additonal 1d6 damage.</description>
+		</sheet>
+	</element>
+	<element name="Duality" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_DUALITY">
+        <description> 
+            <p>Upon reaching 7th level, you grow your knowledge of the whole of life's many aspects, allowing you to harness the world's numerous dualities. All stance abilities referring to fire and cold damage may now be changed to poison and acid, or lightning and thunder damage. At 10th level, all stance abilities referring to fire and cold damage may now also be changed to radiant and necrotic, or psychic and force damage.</p>
+			<p>You can only choose one set at a time and you may choose a different set after a short or long rest.</p>
+		</description>
+        <sheet>
+            <description>Your stance ability elements can now be changed to posion and acid, or lightning and thunder. You can only choose one set at a time and choose after a short or long rest.</description>
+            <description level="10">Your stance ability elements can now be changed to posion and acid, lightning and thunder, radiant and necrotic, or psychic and force. You can only choose one set at a time and choose after a short or long rest.</description>
+        </sheet>
+    </element>
+	<element name="Elemental Hurrican" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_ELEMENTAL_HURRICANE">
+		<description>
+			<p>At 7th level, you may become one with the elements. Once per long rest, as a bonus action, you may benefit from the effects of both stances without losing ki points for one minute. However, you gain vulnerability to your chosen elements as well.</p>
+		</description>
+		<sheet>
+			<description>Once per long rest you may benifit from both stances without losing ki for one minute, however you gain vulnerability in your stance elements.</description>
+		</sheet>
+	</element>
+    <element name="Balance in Nature" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_BALANCE_IN_NATURE">
+        <description>
+            <p>Beginning at 11th level, you are able to enact your will upon elemental forces around you. When you and allies within 15 feet of you are subject to an area attack of an element of your stance, as a reaction you may spend a ki point for yourself and each ally within range. You and chosen allies gain resistance to the damage type for the attack.</p>
+            <p>Furthermore, you may make an extra unarmed attack as a bonus action, as long as you have spent a minimum of 1 ki point this turn.</p>
+        </description>
+        <sheet>
+            <description>You may make an extra unarmed attack as a bonus action as long as you have spent 1 ki point this turn. Additonaly as a reaction, when you and allies within 15 feet of you are subject to an area attack of an element of your stance, you may spend a ki point for yourself and each ally within range. You and chosen allies gain resistance to the damage type for the attack.</description>
+        </sheet>
+    </element>
+    <element name="Wuji" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_WUJI">
+        <description>
+            <p>Starting at 15th level, you have reached the pinnicale of balance and control. While in external stance, your attacks ignore your chosen elements damage resistances, and you treat those same immunities as resistances.</p>
+            <p>While in internal stance, as a reaction, if a saving throw would have an ally take half damage on a pass, you may spend a ki point per ally in your aura to instead have them take no damage on a success. You may use this ability a number of times per day equal to your Intelligence modifier.</p>
+        </description>
+        <sheet>
+            <description>While in external stance your attacks ignore your stance element resistances, and treat immunites as resistences. While in internal stance, as a reaction, if a saving throw would have an ally take half damage on a pass, you may spend a ki point per ally in your aura to instead have them take no damage on a success. You may use this ability a number of times per day equal to your Intelligence modifier. </description>
+        </sheet>
+    </element>
+
+
+<element name="Iaijutsu" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_IAIJUSTSU">
+		<supports>Cultivator Techniques</supports>
+		<description>
+            <p>A master of the Iaijutsu spends their time standing or kneeling. Sitting is a past time for those asking to be killed. With bodies tensed like coiled springs, these cultivators are faster than lightning and just as deadly. Users of this technique have mastered the art of the sword draw to the point that most will never see the blade before their death. A speed born of talent, skill, or perseverance have made these cultivators some of the deadliest swordsman to hold a blade.</p>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_FLASH_DRAW"/> 
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_IAI_DICE"/>           
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_IAIJUTSU_STANCES"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_IAIJUTSU_INTERNAL_STANCE"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_IAIJUTSU_EXTERNAL_STANCE"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_IAI_GOSHI"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_TACHI_AI"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_KENNOKABE"/>
+        </description>
+		<sheet display="false" />
+        <rules>
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_FLASH_DRAW" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_IAI_DICE" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_IAIJUTSU_STANCES" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_IAIJUTSU_INTERNAL_STANCE" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_IAIJUTSU_EXTERNAL_STANCE" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_IAI_GOSHI" level="7" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_TACHI_AI" level="11" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_KENNOKABE" level="15" />
+		</rules>
+	</element> 
+	<element name="Flash Draw"  type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_FLASH_DRAW">
+		<description>
+			<p>While assuming either of your stances you may draw and sheathe one weaponas part of any and every atttack you make. This weapon must deal slashing damage, and cannot have the heavy property. Enemies can also provoke opportunity attacks from you even if you haven't drawn your weapon.</p>
+		</description>
+		<sheet>
+			<description>You may draw and sheathe any slashing, non-heavy weapon as part of every attack. Additionally enemies provoke attacks of opportunity even if you haven't drawn your weapon.</description>
+		</sheet>
+	</element>
+	<element name="Iai Dice" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_IAI_DICE">
+		<description>
+			<p>You gain a die called the Iai die that begins as a 1d4 but increases with your level as shown below. This die can only be used with weapons that fit the prerequisites of Flash Draw.</p>
+			<table class="iai-dice">
+			<thead>
+					<tr><td class="col-10">Level</td><td class="col-10">Die</td></tr>
+				</thead>
+				<tr><td>3</td><td>1d4</td></tr>
+				<tr><td>5</td><td>1d6</td></tr>
+				<tr><td>9</td><td>1d8</td></tr>
+				<tr><td>11</td><td>2d6</td></tr>
+				<tr><td>13</td><td>2d8</td></tr>
+				<tr><td>17</td><td>3d6</td></tr>
+			</table>
+		</description>
+		<sheet>
+			<description>Your Iai Die is a 1d4.</description>
+			<description level="5">Your Iai Die is a 1d6.</description>
+			<description level="9">Your Iai Die is a 1d8.</description>
+			<description level="11">Your Iai Die is a 2d6.</description>
+			<description level="13">Your Iai Die is a 2d8.</description>
+			<description level="17">Your Iai Die is a 3d6.</description>
+		</sheet>
+	</element>	
+	<element name="Stances" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_IAIJUTSU_STANCES">
+		<description>
+			<p>Starting at 3nd level, your technique allows you to access to knowledge on how to use ki internally for defensive abilites and externally for offensive ones.</p>
+            <p>You can choose the external or internal stance before you roll for inititave. Switching between stances is a bonus action. Unless otherwise noted, you can only use the abilites and benefits granted by each stance while you are in it. Most stances have static passives that are active while in that stance and activated abilites.</p>
+            <p>You are unable to use stances while you are incapacitated. If you are incapacitated while in a stance, you may regain either stance as a bonus action.</p>
+        </description>
+		<sheet>
+			<description>You may only have one stance active at a time. You may choose a stance before you roll for inititave and may use a bonus action to change stances in battle.</description>
+		</sheet>
+    </element>
+	<element name="Internal Stance" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_IAIJUTSU_INTERNAL_STANCE">
+		<description>
+			<h5>Internal Stance</h5>
+            <ul>If you have not moved since the beginning of your last turn, as your turn begins, you may spend a ki point to gain blindsight and reach equal to your aura range until you move or are moved.</ul>
+			<ul>You may take the dodge action as a bonus action as long as you have not moved and will not move this turn.</ul>
+			<ul>When you take the attack action, you may spend 1 ki point to gain a bonus to AC and saves equal to half your proficiency bonus rounded up, but you take an equal penalty to your attack rolls. This bonus and penalty lasts until the beginning of your next turn.</ul>
+		</description>
+		<sheet>
+			<description>If you have not moved since the beginning of your last turn you may spend a ki poin to gain blindsight up to 30 feet until you move. If you do not to plan to move this turn you may take the dodge action as a bonus action. When you take the attack action, you may spend 1 ki point to gain a bonus to AC and saves equal to half your proficiency bonus rounded up, but you take an equal penalty to your attack rolls. This bonus and penalty lasts until the beginning of your next turn.</description>
+		</sheet>
+	</element>
+	<element name="External Stance" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_IAIJUTSU_EXTERNAL_STANCE">
+		<description>
+			<h5>External Stance</h5>
+			<ul>You can spend 1 ki point to gain advantage on initiative when rolling initiative.</ul>
+			<ul>When in this stance, your AC is decreased by half your proficiency bonus, however, you deal additional damage equal to your Iai die.</ul>
+			<ul>If you would attack a creature that has not yet acted in combat you instead add your Iai die twice to the damage rolls.</ul>
+		</description>
+		<sheet>
+			<description>You may spend 1 ki to gain advantage on inititave. While in this stance your AC is decreased by half your proficiency bonus, but you deal additional damage equal to your Iai die. If you would attack a creature that has not acted in comabat yet you had your Iai die twice to damage rolls.</description>
+		</sheet>
+	</element>
+	<element name="Iai-Goshi" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_IAI_GOSHI">
+		<description>
+			<p>Upon reaching 7th level, you master the first position of of this technique; using a single strike to fell an army. Once per short rest you may, as an action, make a single melee attack roll that affects every enemy within your reach.</p>
+		</description>
+		<sheet>
+			<description>Once per short rest you may, as an action, make a single melee attack roll that affects every enemy within your reach.</description>
+		</sheet>
+	</element>
+	<element name="Tachi-Ai" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_TACHI_AI">
+	<description>
+		<p>When you reach 11th level, your practice has allowed you to master the next stance of this technique, capitalizing on your enemies mistakes. Enemies provoke opportunity attacks when they would leave any square in your reach.</p>
+		<p>Additionally, any attack rolls you make as a reaction deal an additional amount of weapon damage equal to your Iai die on a successful attack. While in external stance you would instead deal your Iai damage die twice.</p>
+	</description>
+	<sheet>
+		<description>Enemies provoke opportunity attacks when they would leave any square within your reach. These reaction deal additional damage equal to your Iai die, or twice your Iai Die if you're in external stance.</description>
+	</sheet>
+	</element>
+	<element name="Kennokabe" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_KENNOKABE">
+	<description>
+		<p>At 15th level, you have developed a skill that epitomizes the perfect defense and offense. You may spend 1 ki point to gain and take a reaction anytime one would be triggered. You may do this a number of times per long rest equal to your Intelligence modifier.</p>
+		<p>Additionally, when you are about to take damage from a spell, or ranged attack roll, you may make a weapon attack as a reaction. This attack is always made at disadvantage if you are in external stance. If you roll higher than the attack roll you may roll your weapon damage adding your Iai dice, and subtract that from the damage you would take. If the damage is negated, you can redirect the attack back to its source, forcing your attacker to target itself with its attack using your attack roll.</p>
+	</description>
+	<sheet>
+		<description>You may spend 1 ki point to take a reaction anytime one would be triggered. Additonally when you take damage from an spell or ranged attack roll you may make a weapon attack as a reaction. If you are in external stance this is made at disadvantage. If you roll higher than the attack roll you may roll your weapon damage with your Iai dice and subtract it from the damage you would take. If the damage is negated you redirect the attack at its source.</description>
+	</sheet>
+	</element>
+
+
+	<element name="Falling Phoenix" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FALLING_PHOENIX">
+		<supports>Cultivator Techniques</supports>
+		<description>
+            <p>Cultivators learning the Falling Phoenix technique have a predilection for fire. Some particularly enjoy raining it from the heavens, and seize on any chance to do so.</p>            
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_FP_STANCES"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_FP_INTERNAL_STANCE"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_FP_EXTERNAL_STANCE"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_PHOENIX_FALL"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_PHOENIXS_VESTMENT"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_WINGED_WILDFIRE"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_PHOENIX_ARISEN"/>
+        </description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_FP_STANCES" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_FP_INTERNAL_STANCE" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_FP_EXTERNAL_STANCE" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_PHOENIX_FALL" level="7" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_PHOENIXS_VESTMENT" level="11" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_WINGED_WILDFIRE" level="11" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_PHOENIX_ARISEN" level="15" />
+		</rules>
+	</element>
+	<element name="Stances" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_FP_STANCES">
+		<description>
+			<p>Starting at 3rd level, your technique allows you to access to knowledge on how to use ki internally for defensive abilites and externally for offensive ones.</p>
+            <p>You can choose the external or internal stance before you roll for inititave. Switching between stances is a bonus action. Unless otherwise noted, you can only use the abilites and benefits granted by each stance while you are in it. Most stances have static passives that are active while in that stance and activated abilites.</p>
+            <p>You are unable to use stances while you are incapacitated. If you are incapacitated while in a stance, you may regain either stance as a bonus action.</p>
+        </description>
+		<sheet>
+			<description>You may only have one stance active at a time. You may choose a stance before you roll for inititave and may use a bonus action to change stances in battle.</description>
+		</sheet>
+    </element>
+	<element name="Internal Stance" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_FP_INTERNAL_STANCE">
+		<description>
+			<ul>You gain resistance to fire damage as long as you are in this stance.</ul>
+			<ul>You may spend a ki point as a reaction to give all allies in your aura fire resistance as long as they remain in your aura and you remain in this stance.</ul>
+		</description>
+		<description level="11">
+			<ul>You gain immunity to fire damage as long as you are in this stance.</ul>
+			<ul>You may spend a ki point as a reaction to give all allies in your aura fire resistance as long as they remain in your aura and you remain in this stance.</ul>
+		</description>
+		<sheet>
+			<description>You gain resistance to fire damage as long as you are in this stance. As a reaction you may spend a ki point as a reaction to give all allies in your aura fire resistance as long as they remain in your aura and you remain in this stance.</description>
+			<description level="11">You gain immunity to fire damage as long as you are in this stance. As a reaction you may spend a ki point as a reaction to give all allies in your aura fire resistance as long as they remain in your aura and you remain in this stance.</description>
+		</sheet>
+	</element>
+	<element name="External Stance" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_FP_EXTERNAL_STANCE">
+		<description>
+			<ul>You take unavoidable fire damage equal to your proficiency bonus every turn whenever you would enter this stance, or if you start or end your turn in this stance. You only take this damage once per turn. </ul>
+			<ul>When you would deal fire damage you double the number of those dice you roll. (i.e. Create bonfire would deal 2d8 at 3rd level instead of 1d8.)</ul>
+		</description>
+		<sheet>
+			<description>
+				<p>Once per turn while in this stance or when you first change to it you take unavoidable {{FP:EXdmg}} fire damage.</p>
+				<p>All fire damage dealt in this stance with roll with double the normal dies.</p>
+			</description>
+		</sheet>
+		<rules>
+			<stat name="FP:EXdmg" value="proficiency" />
+		</rules>
+	</element>
+	<element name="Phoenix Fall" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_PHOENIX_FALL">
+		<description>
+			<p>Starting at 7th level, you learn to rain a flock of phoenixes on a flock of foes. You may spend 3 ki points to cast fireball</p>
+		</description>
+		<sheet>
+			<p>Spend 3 Ki Points to cast the Fireball spell</p>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_FIREBALL" />
+		</rules>
+	</element>
+	<element name="Phoenix's Vestment" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_PHOENIXS_VESTMENT">
+		<description>
+			<p>Upon reaching 11th level, you gain resistance to fire damage. Whenever you are in your internal stance you instead gain immunity to fire damage. Additionally, your abilities ignore fire resistance, and treat fire immunity as fire resistance.</p>
+		</description>
+		<sheet>
+			<p>You gain resistance to fire damage and your abilities ignore fire resistance, and treat fire immunity as fire resistance.</p>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+		</rules>
+	</element>
+	<element name="Winged Wildfire" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_WINGED_WILDFIRE">
+		<description>
+			<p>At 11th level, your control over fire lends you potent and notable aspects of the phoenix. While in your external stance you gain fiery wings and a fly speed of 60 feet.</p>
+		</description>
+		<sheet>
+			<p>While in your external stance you gain fiery wings and a fly speed of 60 feet.</p>
+		</sheet>
+	</element>
+	<element name="Phoenix Arisen" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_PHOENIX_ARISEN">
+		<description>
+			<p>Beginning at 15th level, you begin to personify every aspect of the powerful phoenix. When an attack would reduce you to 0 hit points, you may instead be reduced to 1 hit point and 0 ki remaining, and the attacker takes 2d8 + 1d8 fire damage per ki point you had left before you were reduced to 0. You also fall out of your current stance.</p>
+			<p>Once you use this feature, you cannot use it again until you take a long rest. The damage you deal increases to 2d10 +1d10 per ki point fire damage at level 17. This damage is not affected by the external stance.</p>
+		</description>
+		<sheet>
+			<p>Onec per long rest while you have at least 1 ki point, and are reduced to 0 hit points, you may instead consume all remaining points and drop to 1 instead. The attacker takes 2d8 fire damage plus an additonal 1d8 per ki point consumed after the first. This damage is not affected by the external stance.</p>
+		</sheet>
+		<sheet level="17">
+			<p>Onec per long rest while you have at least 1 ki point, and are reduced to 0 hit points, you may instead consume all remaining points and drop to 1 instead. The attacker takes 2d10 fire damage plus an additonal 1d10 per ki point consumed after the first. This damage is not affected by the external stance.</p>
+		</sheet>
+	</element>
+
+	<element name="Ki Caster" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_KI_CASTER">
+		<supports>Cultivator Techniques</supports>
+		<description>
+			<p>Ki casting users are well known for their inexhaustible ammunition, ranged, and close quarters combat prowess. What they are most known for, however, is their Ki Construct techniques. Arrows made from their ambient auras that host a slew of devastating and destructive abilities. Sometimes hailed as walking ballistas, these cultivators make a name for themselves quickly on any and every battlefield. </p>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_KI_CASTER_SPELLCASTING"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_AURA_CAST"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_POINT_BLANK"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_SHARP_SHOOTING"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_SURPRESSING_FIRE"/>
+			</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_KI_CASTER_SPELLCASTING" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_AURA_CAST" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_POINT_BLANK" level="7" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_SHARP_SHOOTING" level="11" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_SURPRESSING_FIRE" level="15"  /> 
+		</rules>
+	</element>
+
+	<element name="Spellcasting" type="Archetype Feature" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_KI_CASTER_SPELLCASTING">
+		<description>
+		<p>When you reach 3rd level, you augment your martial prowess with the ability to cast spells.</p>
+			<p class="indent"><strong><em>Cantrips.</em></strong> You learn two cantrips of your choice from the Wizard spell list. You learn an additional Wizard cantrip of your choice at 10th level.</p>
+			<p class="indent"><strong><em>Spell Slots.</em></strong> The Ki Caster Spellcasting table shows how many spell slots you have to cast your Wizard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</p>
+			<p class="indent">For example, if you know the 1st-level spell shield and have a 1st-level and a 2nd-level spell slot available, you can cast shield using either slot.</p>
+			<p class="indent"><strong><em>Spells Known of 1st-Level and Higher.</em></strong> You know three 1st-level Wizard spells of your choice, two of which you must choose from the abjuration and evocation spells on the Wizard spell list.</p>
+			<p class="indent">The Spells Known column of the Ki Caster Spellcasting table shows when you learn more Wizard spells of 1st level or higher. Each of these spells must be an abjuration or evocation spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.</p>
+			<p class="indent">The spells you learn at 8th, 14th, and 20th level can come from any school of magic.</p>
+			<p class="indent">Whenever you gain a level in this class, you can replace one of the Wizard spells you know with another spell of your choice from the Wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an abjuration or evocation spell, unless you’re replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic.</p>
+			<p class="indent"><strong><em>Spellcasting Ability.</em></strong> Intelligence is your spellcasting ability for your Wizard spells, since you learn your spells through study and memorization. You use your Dexterity whenever a spell refers to your spellcasting ability. In addition, you use your Dexterity modifier when setting the saving throw DC for a Wizard spell you cast and when making an attack roll with one.</p>
+			<center>
+				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>
+			</center>
+			<h5 class="caption">KI CASTER SPELLCASTING</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-10">Cultivator Level</td><td class="col-10">Cantrips Known</td><td class="col-10">Spells Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td></tr>
+				</thead>
+				<tr><td> 3rd</td><td>2</td><td> 3</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4th</td><td>2</td><td> 4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5th</td><td>2</td><td> 4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6th</td><td>2</td><td> 4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7th</td><td>2</td><td> 5</td><td>4</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td> 8th</td><td>2</td><td> 6</td><td>4</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td> 9th</td><td>2</td><td> 6</td><td>4</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td>10th</td><td>3</td><td> 7</td><td>4</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>11th</td><td>3</td><td> 8</td><td>4</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>12th</td><td>3</td><td> 8</td><td>4</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>13th</td><td>3</td><td> 9</td><td>4</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>14th</td><td>3</td><td>10</td><td>4</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>15th</td><td>3</td><td>10</td><td>4</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>16th</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
+				<tr><td>17th</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
+				<tr><td>18th</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr>
+				<tr><td>19th</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>20th</td><td>3</td><td>13</td><td>4</td><td>3</td><td>3</td><td>1</td></tr>
+			</table>
+		</description>
+		<sheet display="false">
+		<description>You augment your martial prowess with the ability to cast spells.</description>
+		</sheet>
+		<spellcasting name="Ki Caster" ability="Intelligence" prepare="false" allowReplace="true">
+			<list>Bard</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
+			<grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+
+			<stat name="Ki Caster:spellcasting:slots:1" value="2" level="1" />
+			<stat name="Ki Caster:spellcasting:slots:1" value="1" level="2" />
+			<stat name="Ki Caster:spellcasting:slots:1" value="1" level="3" />
+			<stat name="Ki Caster:spellcasting:slots:2" value="2" level="3" />
+			<stat name="Ki Caster:spellcasting:slots:2" value="1" level="4" />
+			<stat name="Ki Caster:spellcasting:slots:3" value="2" level="5" />
+			<stat name="Ki Caster:spellcasting:slots:3" value="1" level="6" />
+			<stat name="Ki Caster:spellcasting:slots:4" value="1" level="7" />
+			<stat name="Ki Caster:spellcasting:slots:4" value="1" level="8" />
+			<stat name="Ki Caster:spellcasting:slots:4" value="1" level="9" />
+			<stat name="Ki Caster:spellcasting:slots:5" value="1" level="9" />
+			<stat name="Ki Caster:spellcasting:slots:5" value="1" level="10" />
+			<stat name="Ki Caster:spellcasting:slots:5" value="1" level="18" />
+			<stat name="Ki Caster:spellcasting:slots:6" value="1" level="11" />
+			<stat name="Ki Caster:spellcasting:slots:6" value="1" level="19" />
+			<stat name="Ki Caster:spellcasting:slots:7" value="1" level="13" />
+			<stat name="Ki Caster:spellcasting:slots:7" value="1" level="20" />
+			<stat name="Ki Caster:spellcasting:slots:8" value="1" level="15" />
+			<stat name="Ki Caster:spellcasting:slots:9" value="1" level="17" />
+
+			<select type="Spell" name="Cantrip (Ki Caster)" supports="$(spellcasting:list), 0" level="1" number="2" spellcasting="Ki Caster" />
+			<select type="Spell" name="Cantrip (Ki Caster)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="Ki Caster" />
+			<select type="Spell" name="Cantrip (Ki Caster)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Ki Caster" />
+			<select type="Spell" name="Spellcasting (Ki Caster)" supports="$(spellcasting:list), $(spellcasting:slots)" level="1" number="4" spellcasting="Ki Caster" />
+			<select type="Spell" name="Spellcasting (Ki Caster)" supports="$(spellcasting:list), $(spellcasting:slots)" level="2" number="1" spellcasting="Ki Caster" />
+			<select type="Spell" name="Spellcasting (Ki Caster)" supports="$(spellcasting:list), $(spellcasting:slots)" level="3" number="1" spellcasting="Ki Caster" />
+			<select type="Spell" name="Spellcasting (Ki Caster)" supports="$(spellcasting:list), $(spellcasting:slots)" level="4" number="1" spellcasting="Ki Caster" />
+			<select type="Spell" name="Spellcasting (Ki Caster)" supports="$(spellcasting:list), $(spellcasting:slots)" level="5" number="1" spellcasting="Ki Caster" />
+			<grant type="Spell" id="ID_PHB_SPELL_REVIVIFY" level="5" spellcasting="Ki Caster" prepared="true" />
+			<select type="Spell" name="Spellcasting (Ki Caster)" supports="$(spellcasting:list), $(spellcasting:slots)" level="6" number="1" spellcasting="Ki Caster" />
+			<select type="Spell" name="Spellcasting (Ki Caster)" supports="$(spellcasting:list), $(spellcasting:slots)" level="7" number="1" spellcasting="Ki Caster" />
+			<select type="Spell" name="Spellcasting (Ki Caster)" supports="$(spellcasting:list), $(spellcasting:slots)" level="8" number="1" spellcasting="Ki Caster" />
+			<select type="Spell" name="Spellcasting (Ki Caster)" supports="$(spellcasting:list), $(spellcasting:slots)" level="9" number="1" spellcasting="Ki Caster" />
+			<select type="Spell" name="Spellcasting (Ki Caster)" supports="$(spellcasting:list), $(spellcasting:slots)" level="11" number="1" spellcasting="Ki Caster" />
+			<select type="Spell" name="Spellcasting (Ki Caster)" supports="$(spellcasting:list), $(spellcasting:slots)" level="13" number="1" spellcasting="Ki Caster" />
+			<select type="Spell" name="Spellcasting (Ki Caster)" supports="$(spellcasting:list), $(spellcasting:slots)" level="15" number="1" spellcasting="Ki Caster" />
+			<select type="Spell" name="Spellcasting (Ki Caster)" supports="$(spellcasting:list), $(spellcasting:slots)" level="17" number="1" spellcasting="Ki Caster" />
+		</rules>
+	</element>
+	<element name="Aura Cast" type="Archetype Feature" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_AURA_CAST">
+		<description>
+				<p>Starting at 3rd level, you learn to utilize your aura to create physical ammunition. As a part of each of your attacks, you may summon an arrow to attack with. This arrow is magical for the purposes of overcoming resistances, deals 2d4 force damage regardless of how you attack with it. This arrow requires a ranged 2-handed weapon to shoot. The arrow’s damage die increases to 2d6 at level 10. The arrow dematerialises upon hitting or missing a target, and making one when another exists causes the older one to disappear, unless stated otherwise.</p>
+				<p>Additionally, you may change the construct of the arrow to imbue spells into the arrow. You may spend a ki point and a spell slot of the respective spell to shoot it through the arrow.</p>
+		</description>
+		<sheet>
+			<description>As a part of each of your attacks, you may summon an arrow to attack with. This arrow is magical for the purposes of overcoming resistances, deals 2d4 force damage regardless of how you attack with it. You may forgo the damage to instead use 1 ki point and imbue the arrow with a spell. </description>
+			<description level="10">As a part of each of your attacks, you may summon an arrow to attack with. This arrow is magical for the purposes of overcoming resistances, deals 2d6 force damage regardless of how you attack with it. You may forgo the damage to instead use 1 ki point and imbue the arrow with a spell. </description>
+		</sheet>
+	</element>
+	<element name="Point-Blank Shot" type="Archetype Feature" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_POINT_BLANK">
+		<description>
+			<p>At 7th level, you learn how to make arrows even more lethal in close quarters. Once per short rest, you may make an attack roll with a range of 5 feet. On a hit, the attack is considered a critical hit.</p>
+			<p>At 17th level, you may add double your Intelligence modifier to the damage roll.</p>
+		</description>
+		<sheet>
+			<description>Once per short rest, you may make an attack roll with no modifiers within a range of 5 feet. On a hit, the attack is considered a critical hit.</description>
+			<description level="17">>Once per short rest, you may make an attack roll within a range of 5 feet. On a hit, the attack is considered a critical hit. You may add double your Intelligence modifier to the damage roll.</description>
+		</sheet>
+	</element>
+	<element name="Sharp Shotting" type="Archetype Feature" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_SHARP_SHOOTING">
+		<description>
+			<p>Beginning at 11th level, your skill and talent at shooting lends you a deadly accuracy. You may use double you Intelligence modifier for attack and damage rolls. If you crit you regain 1 ki point.</p>
+		</description>
+		<sheet>
+			<description>You may use double your Intelligence modifier for attack and damage rolls. If you crit you regain 1 ki point.</description>
+		</sheet>
+	</element>
+	<element name="Surpressing Fire" type="Archetype Feature" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_SURPRESSING_FIRE">
+		<description>
+			<p>Starting at 15th level, you've become a spellcaster's bane. As a reaction, when an enemy within your weapon's range casts a spell, you may make a ranged attack roll against them. This attack cannot be made at advantage. If the attack hits, you do no damage, but the enemy must make a concentration save as if it were concentrating on a spell with a DC equal to your cultivator save DC. On a fail, the spell fails, and the slot is wasted. You may do this twice per long rest.</p>
+		</description>
+		<sheet>
+			<description>Twice per long rest, as a reaction, when an enemy within your weapon's range casts a spell, you may make a ranged attack roll against them. This attack cannot be made at advantage. If the attack hits, you do no damage, but the enemy must make a concentration save as if it were concentrating on a spell with a DC equal to your cultivator save DC. On a fail, the spell fails, and the slot is wasted.</description>
+		</sheet>
+	</element>
+
+
+
+<element name="Aura Master" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_AURA_MASTER">
+	<supports>Cultivator Techniques</supports>
+		<description>
+            <p>Cultivators learning the Falling Phoenix technique have a predilection for fire. Some particularly enjoy raining it from the heavens, and seize on any chance to do so.</p>            
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_AM_STANCES"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_AM_INTERNAL_STANCE"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_AM_EXTERNAL_STANCE"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_AURIC_FINESSE"/>
+        </description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_AM_STANCES" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_AM_INTERNAL_STANCE" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_AM_EXTERNAL_STANCE" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_AURIC_FINESSE" level="3" />
+		</rules>
+	</element>
+	<element name="Stances" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_AM_STANCES">
+		<description>
+			<p>Starting at 3rd level, your technique allows you to access to knowledge on how to use ki internally for defensive abilites and externally for offensive ones.</p>
+            <p>You can choose the external or internal stance before you roll for inititave. Switching between stances is a bonus action. Unless otherwise noted, you can only use the abilites and benefits granted by each stance while you are in it. Most stances have static passives that are active while in that stance and activated abilites.</p>
+            <p>You are unable to use stances while you are incapacitated. If you are incapacitated while in a stance, you may regain either stance as a bonus action.</p>
+        </description>
+		<sheet>
+			<description>You may only have one stance active at a time. You may choose a stance before you roll for inititave and may use a bonus action to change stances in battle.</description>
+		</sheet>
+    </element>
+	<element name="Internal Stance" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_AM_INTERNAL_STANCE">
+		<description>
+			<p>All attacks made by enemies to allies other than you from within your aura do less damage equal to your proficiency bonus.</p>
+		</description>
+		<sheet>
+			<p>All attacks made by enemies to allies other than you from within your aura do less damage equal to your proficiency bonus.</p>
+		</sheet>
+	</element>
+	<element name="External Stance" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_AM_EXTERNAL_STANCE">
+		<description>
+			<p>All attacks made by allies to enemies within your aura do additional damage equal to your proficiency bonus.</p>
+		</description>
+		<sheet>
+			<p>All attacks made by allies to enemies within your aura do additional damage equal to your proficiency bonus.</p>
+		</sheet>
+	</element>
+</elements>	

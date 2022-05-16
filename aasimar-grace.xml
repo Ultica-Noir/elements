@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Aasimar</name>
+		<description></description>
+		<author url="http://dnd.wizards.com">Wizards of the Coast</author>
+		<update version="0.1.6">
+			<file name="race-aasimar.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/volos-guide-to-monsters/race-aasimar.xml" />
+		</update>
+	</info>
+  <element name="Grace Aasimar" type="Sub Race" source="Ultica Pack" id="ID_WOTC_VGTM_SUB_RACE_Grace_AASIMAR">
+    <supports>Aasimar</supports>
+    <description>
+      <p>Grace Aasimar are the winged watchers of the world. Traveling from place to place, they stay vigilant for evil while spreading good where they can by sharing the grace they have with those the meet. They have an ingrained desire to see as much as they can and to continue to meet new people. Their endless wounderlust and appreciation for even the smallest good gives them a very warm and hopeful personality that can uplift even the most downtrodden.</p>
+      <p>
+        <span class="feature">Ability Score Increase.</span>Your Constitution score increases by 1.<br />
+        <span class="feature">Grace Bringer.</span>Starting at 3rd level, you gain the ability to cast Bless without concentration. Once you use this trait, you can't use it again until you finish a long rest.<br />
+        <span class="feature">Winged.</span>You have a pair of white feathered wing that sprout from your back. You have a flying speed of 30 feet with them. You may also as an action hide your wings under your armor or clothes provided they are made properly to allow it. While you are not wearing anything however they are impossible to hide.<br />
+      </p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <stat name="constitution" value="1" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_AASIMAR_GRACE_BRINGER" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_AASIMAR_WINGED" />
+    </rules>
+  </element>
+  <element name="Grace Bringer" type="Racial Trait" source="Ultica Pack" id="ID_RACIAL_TRAIT_AASIMAR_GRACE_BRINGER" >
+    <description>
+      <p>Starting at 3rd level, you gain the ability to cast Bless without concentration.</p>
+      <p>Once you use this trait, you can't use it again until you finish a long rest.</p>
+    </description>
+    <sheet usage="1/Long Rest">
+      <description>You may cast Bless without needing to concentrate on the spell.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_BLESS" level="1" prepared="true" />
+    </rules>
+  </element>
+  <element name="Winged" type="Racial Trait" source="Ultica Pack" id="ID_RACIAL_TRAIT_AASIMAR_WINGED" >
+    <description>
+			<p>You have a flying speed of 30 feet. To use this speed, you can’t be wearing heavy armor.</p>
+		</description>
+		<sheet>
+			<description>You have a flying speed of 30 feet. To use this speed, you can’t be wearing heavy armor.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed:fly" value="30" bonus="base" equipped="![armor:heavy]" />
+      <grant type="Spell" id="ID_PHB_SPELL_BLESS" />
+		</rules>
+  </element>
+</elements>

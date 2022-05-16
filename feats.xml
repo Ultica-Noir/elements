@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+        <update version="0.0.1">
+			<file name="feats.xml" url="https://github.com/Lykos9/feats/blob/main/feats.xml" />
+		</update>
+    </info>	
+    <element name="Drakyn Claws" type="Feat" source="Tasha's Cauldron of Lost Files" id="ID_WOTC_ERLW_FEAT_DRAKYN_CLAWS">
+        <requirements>ID_RACE_DRAKYN</requirements>
+		<prerequisite>Drakyn</prerequisite>
+		<description>
+            <p><em>Prerequisite: Drakyn</em></p>
+            <p>You have learned to tap into your draconic blood and have developed retractable claws from the tips of your fingers and harder scales on your hands and arms. You gain the following benefits:</p>
+            <ul>
+                <li>Your Strength or Dexterity score increases by 1, up to a maximum of 20.</li>
+                <li>You have a pair of claws that can be extended or retracting freely. These claws are natural weapons, which you can use to make unarmed strikes. If you successfully hit a target, you deal slashing damage equal to 1d4 + your Strength or Dexterity modifier.</li>
+                <li>You gain a +1 to your Armor class while not wearing armor.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>You have a pair of claws that can be extended or retracted freely. These claws are natural weapons, which you can use to make unarmed strikes. If you successfully hit a target, you deal slashing damage equal to 1d4 + your Strength or Dexterity modifier.</description>
+        </sheet>
+        <rules>
+            <select type="Ability Score Improvement" name="Ability Score Increase, Drakyn Claws" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY" />
+            <stat name="ac:misc" value="1" equipped="[armor:none]" />
+        </rules>
+    </element>
+    <element name="Drakyn Tail" type="Feat" source="Tasha's Cauldron of Lost Files" id="ID_WOTC_ERLW_FEAT_DRAKYN_TAIL">
+    <requirements>ID_RACE_DRAKYN</requirements>
+		<prerequisite>Drakyn</prerequisite>
+		<description>
+            <p><em>Prerequisite: Drakyn</em></p>
+            <p>You have learned to tap into your draconic blood and have developed a tail that can be used to attack and provide greater stability. You gain the following benefits:</p>
+            <ul>
+                <li>Your Strength or Dexterity score increases by 1, up to a maximum of 20.</li>
+                <li>When you make a successful melee attack against a creature within 5 feet of you, you can swipe at that creature's legs as a bonus action. The creature must succeed on a Strength saving throw or fall prone and take bludgeoning damage equal to your Strength modifier. The DC for this saving throw equals 8 + your Strength modifier + your proficiency bonus.</li>
+                <li>While flying, ranged attacks against you suffer from a penalty equal to half your proficiency bonus.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>When you make a successful melee attack against a creature within 5 feet of you, you can swipe at that creature's legs as a bonus action. The creature must succeed on a Strength saving throw (DC {{tail swipe:dc}}) or fall prone and take bludgeoning damage equal to your Strength modifier. </description>
+        </sheet>
+        <rules>
+            <select type="Ability Score Improvement" name="Ability Score Increase, Drakyn Tail" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY" />
+            <stat name="tail swipe:dc" value="8" />
+            <stat name="tail swipe:dc" value="proficiency" />
+            <stat name="tail swipe:dc" value="strength:modifier" />
+        </rules>
+    </element>
+    <element name="Drakyn Wings" type="Feat" source="Tasha's Cauldron of Lost Files" id="ID_WOTC_ERLW_FEAT_DRAKYN_WINGS">
+    <requirements>ID_RACE_DRAKYN</requirements>
+		<prerequisite>Drakyn</prerequisite>
+		<description>
+            <p><em>Prerequisite: Drakyn</em></p>
+            <p>You sprout a pair of draconic wings from your back or you gain the needed proficiency to use your current set of wings to fly. With your wings, you have a flying speed of 30 feet as long as:</p>
+            <ul>
+                <li>You are not wearing heavy armor.</li>
+                <li>You are not exceeding your carrying capacity</li>
+                <li>The area you are attempting to fly is not too small to spread your wings. You require at least 5-foot in one direction, and at least 5-foot of space above you.</li>
+                <li>In addition, while flying you may negate fall damage as long as you can meet the above requirements as well as extend your wings out.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>While you are not wearing heavy armor, your flying speed is 30ft and you may negate fall damage as long as there is 5 ft of space in one direction.</description>
+        </sheet>
+        <setters>
+            <set name="speed">30 ft., fly 30 ft.</set>
+        </setters>
+    </element>
+</elements>
