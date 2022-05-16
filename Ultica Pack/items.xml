@@ -3,7 +3,7 @@
 	<info>
 		<name>Items</name>
 		<description></description>
-		<author url="https://www.worldanvil.com/w/ulticia-phoenixnoir">Ultica Pack</author>
+		<author url="https://www.worldanvil.com/w/ulticia-phoenixnoir">Ulticia Pack</author>
 		<update version="0.0.1">
 			<file name="items.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ultica%20Pack/items.xml" />
 		</update>
@@ -50,7 +50,7 @@
 		</setters>
 	</element>
 
-    <element name="Durandal (Base)" type="Magic Item" source="Ulticia" id="ID_WOTC_DMG_MAGIC_ITEM_DURANDAL1">
+    <element name="Durandal (Base)" type="Magic Item" source="Ulticia Pack" id="ID_WOTC_DMG_MAGIC_ITEM_DURANDAL1">
 		<description>
             <p>This Weapon grows with you as you level.</p>
 			<p>This is a +2 Longsword that cannot be destroyed. You can swing this sword as a bonus action once per turn.</p>
@@ -69,7 +69,7 @@
             <description>This is a +2 Longsword that cannot be destroyed. You can swing this sword as a bonus action once per turn.</description>
         </sheet>
 	</element>
-     <element name="Durandal (10)" type="Magic Item" source="Ulticia" id="ID_WOTC_DMG_MAGIC_ITEM_DURANDAL2">
+     <element name="Durandal (10)" type="Magic Item" source="Ulticia Pack" id="ID_WOTC_DMG_MAGIC_ITEM_DURANDAL2">
 		<description>
             <p>This Weapon grows with you as you level.</p>
             <p>This is a +3 Longsword that cannot be destroyed and deal an extra 2d10 radiant damage on crit. You can swing this sword as a bonus action once per turn.</p>
@@ -85,7 +85,7 @@
 			<set name="weapon">Longsword</set>
 		</setters>
 	</element>
-     <element name="Durandal (15)" type="Magic Item" source="Ulticia" id="ID_WOTC_DMG_MAGIC_ITEM_DURANDAL3">
+     <element name="Durandal (15)" type="Magic Item" source="Ulticia Pack" id="ID_WOTC_DMG_MAGIC_ITEM_DURANDAL3">
 		<description>
             <p>This Weapon grows with you as you level.</p>
             <p>This is a +3 Longsword that cannot be destroyed and deal an extra 2d10 radiant damage on crit. You can swing this sword as a bonus action once per turn. While you hold the drawn Durandal, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects.</p>
@@ -101,7 +101,7 @@
 			<set name="weapon">Longsword</set>
 		</setters>
 	</element>
-     <element name="Durandal (20)" type="Magic Item" source="Ulticia" id="ID_WOTC_DMG_MAGIC_ITEM_DURANDAL4">
+     <element name="Durandal (20)" type="Magic Item" source="Ulticia Pack" id="ID_WOTC_DMG_MAGIC_ITEM_DURANDAL4">
 		<description>
             <p>This Weapon grows with you as you level.</p>
             <p>This is a +3 Longsword that crits when rolling a 15-20 and cannot be destroyed. It deals an extra 2d10 radiant damage on crit. You can swing this sword as a bonus action once per turn. While you hold the drawn Durandal, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects.</p>
