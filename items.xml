@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Items</name>
+		<description></description>
+		<author url="https://www.worldanvil.com/w/ulticia-phoenixnoir">Ultica Pack</author>
+		<update version="0.0.1">
+			<file name="items.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/curse-of-strahd/items.xml" />
+		</update>
+	</info>
+
+    <element name="30 Days and 30 Nights" type="Magic Item" source="Ulticia Pack" id="ID_WOTC_DMG_MAGIC_ITEM_30_DAYS_30_NIGHTS">
+		<description>
+			<p>This staff can be wielded as a magic quarterstaff that grants a +3 bonus to attack and damage rolls made with it. While holding it, you have a +3 bonus to spell attack rolls.</p>
+			<p class="indent">The staff has 15 Charges for the following Properties. It regains 1d10 + 4 expended Charges daily at dawn.</p>
+			<p class="indent"><strong>Spells.</strong> You can use an action to expend 1 or more of the staff’s charges to cast one of the following spells from it, using your spell save DC: <em>dispel magic</em> (1 charge), <em>mass cure wounds</em> (5 charges), <em>dominate beast</em> (2 charges), <em>freedom of movement</em> (2 charges), <em>speak with animals</em> (1 charge), or <em>sunburst</em> (6 charges).</p>
+			<p class="indent">You can also use an action to cast the <em>pass without trace</em> spell from the staff without using any charges.</p>
+			<p class="indent"><strong>Remember The Druids:</strong> Once per long rest, upon death you may consume 10 charges from the staff and all wild shape uses to draw on the power of the fallen, allowing you to wild shape into a creature with a CR equal to your level. Upon exiting the wild shape you return to 1 hit point but the overwhelming power takes its toll on your body. You gain exaustion equal to 1/4 of the CR used, rounded up.</p>
+		</description>
+		<setters>
+			<set name="keywords">druid</set>
+			<set name="category">Staffs</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="8">8 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">Quarterstaff</set>
+			<set name="type">Staff</set>
+			<set name="attunement" addition="by a druid">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="enhancement">3</set>
+			<set name="charges">15</set>
+		</setters>
+	</element>
+
+    <element name="Caliburn" type="Magic Item" source="Ulticia Pack" id="ID_WOTC_DMG_MAGIC_ITEM_CALIBURN">
+		<description>
+			<p>One of the first and only attempts by the elves to recreate the sword of legend, Excalibur. While creation of the sword was completed, it was unfortunatly tainted by a curse instead of a blessing. </p>
+			<p>This is a +3 longsword that chooses its wielder. Once the wielder has been chosen and they take the sword, they are permanantly attuned to Caliburn until they die. They can not wield any other weapons while attuned to Caliburn.</p>
+			<p><strong><em>Caliburn's Curse.</em></strong> When wielding this weapon it transforms the arm of its wielder into that of a demonic form. During this time you are immune to being charmed, frightened, or other curses. Upon killing an enemy with Caliburn, you may consume the creatures soul to feed Caliburn. Each soul can be consumed to add an extra 1d6 necrotic damage to damage rolls for 5 minutes. After consuming souls you must make a <em> DC 13 + the number of souls consumed </em> or go beserk for 1 minute. During this time you may not do anything other than attack during your turns until the condition fades away. Should your hitpoints be reduced to 0 while beserk, you stay on your feet and continue to attack while making death saving throws.</p>
+		</description>
+		<setters>
+			<set name="keywords">longsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="attunement" addition="by an elf">true</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">Longsword</set>
+		</setters>
+	</element>
+
+    <element name="Durandal (Base)" type="Magic Item" source="Ulticia" id="ID_WOTC_DMG_MAGIC_ITEM_DURANDAL1">
+		<description>
+            <p>This Weapon grows with you as you level.</p>
+			<p>This is a +2 Longsword that cannot be destroyed. You can swing this sword as a bonus action once per turn.</p>
+         </description>
+	    <setters>
+            <set name="keywords">longsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">Longsword</set>
+		</setters>
+        <sheet>
+            <description>This is a +2 Longsword that cannot be destroyed. You can swing this sword as a bonus action once per turn.</description>
+        </sheet>
+	</element>
+     <element name="Durandal (10)" type="Magic Item" source="Ulticia" id="ID_WOTC_DMG_MAGIC_ITEM_DURANDAL2">
+		<description>
+            <p>This Weapon grows with you as you level.</p>
+            <p>This is a +3 Longsword that cannot be destroyed and deal an extra 2d10 radiant damage on crit. You can swing this sword as a bonus action once per turn.</p>
+         </description>
+	    <setters>
+            <set name="keywords">longsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">Longsword</set>
+		</setters>
+	</element>
+     <element name="Durandal (15)" type="Magic Item" source="Ulticia" id="ID_WOTC_DMG_MAGIC_ITEM_DURANDAL3">
+		<description>
+            <p>This Weapon grows with you as you level.</p>
+            <p>This is a +3 Longsword that cannot be destroyed and deal an extra 2d10 radiant damage on crit. You can swing this sword as a bonus action once per turn. While you hold the drawn Durandal, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects.</p>
+         </description>
+	    <setters>
+            <set name="keywords">longsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">Longsword</set>
+		</setters>
+	</element>
+     <element name="Durandal (20)" type="Magic Item" source="Ulticia" id="ID_WOTC_DMG_MAGIC_ITEM_DURANDAL4">
+		<description>
+            <p>This Weapon grows with you as you level.</p>
+            <p>This is a +3 Longsword that crits when rolling a 15-20 and cannot be destroyed. It deals an extra 2d10 radiant damage on crit. You can swing this sword as a bonus action once per turn. While you hold the drawn Durandal, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects.</p>
+         </description>
+	    <setters>
+            <set name="keywords">longsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">Longsword</set>
+		</setters>
+	</element>
+</elements>
