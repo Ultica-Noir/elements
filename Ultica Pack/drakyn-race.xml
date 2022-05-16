@@ -5,7 +5,7 @@
         	<description></description>
 		<author url="https://www.worldanvil.com/w/ulticia-phoenixnoir">Ultica Pack</author>
 		<update version="0.2.3">
-			<file name="drakyn-race.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ultica%20Pack/drakyn-race.xml?token=GHSAT0AAAAAABUUB2SFKWIMKHYG2PFF4H2KYUCSACAYUCQXRA" />
+			<file name="drakyn-race.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ultica%20Pack/drakyn-race.xml" />
 		</update>
     </info>
     <element name="Drakyn" type="Race" source="Tasha's Cauldron of Everything" id="ID_RACE_DRAKYN">
