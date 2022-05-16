@@ -15,5 +15,6 @@
 		<file name="drakyn-race.xml" url="https://raw.githubusercontent.com/Ulticia-Noir/elements/main/Ulticia%20Pack/drakyn-race.xml" />
 	        <file name="feats.xml" url="https://raw.githubusercontent.com/Ulticia-Noir/elements/main/Ulticia%20Pack/feats.xml" />
                 <file name="subclasses-ultica-pack.xml" url="https://raw.githubusercontent.com/Ulticia-Noir/elements/main/Ulticia%20Pack/subclasses-ulticia-pack.xml" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/Ulticia-Noir/elements/main/Ulticia%20Pack/source.xml" />
 	</files>
 </index>
