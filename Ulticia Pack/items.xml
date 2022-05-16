@@ -117,4 +117,115 @@
 			<set name="weapon">Longsword</set>
 		</setters>
 	</element>
+	
+     <element name="Harmony" type="Magic Item" source="Ulticia Pack" id="ID_WOTC_DMG_MAGIC_ITEM_HARMONY">
+        <description>
+			<p>One of the five songblades. </p>
+			<p>This is a +3 longsword that chimes as it is swung.</p>
+			<p><strong><em>Harmony.</em></strong> When this weapon misses it's song joins the other blades, it adds it's damage to the next attack with another songblade.</p>
+		</description>
+		<setters>
+			<set name="keywords">longsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">Longsword</set>
+		</setters>
+	</element>
+    <element name="Crescendo" type="Magic Item" source="Ulticia Pack" id="ID_WOTC_DMG_MAGIC_ITEM_CRESCENDO">
+        <description>
+			<p>One of the five songblades. </p>
+			<p>This is a +3 longsword that chimes as it is swung.</p>
+			<p><strong><em>Crescendo.</em></strong> Landing a crit with this amps the volume of its song and this weapon grants another turn.</p>
+		</description>
+		<setters>
+			<set name="keywords">longsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">Longsword</set>
+		</setters>
+	</element>
+    <element name="Vibrato" type="Magic Item" source="Ulticia Pack" id="ID_WOTC_DMG_MAGIC_ITEM_VIBRATO">
+        <description>
+			<p>One of the five songblades. </p>
+			<p>This is a +3 longsword that chimes as it is swung.</p>
+			<p><strong><em>Vibrato.</em></strong> Landing a crit with this shakes the victim to their core, stunning them for a round.</p>
+		</description>
+		<setters>
+			<set name="keywords">shortsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="shortsword">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">Shortsword</set>
+		</setters>
+	</element>
+        <element name="Melody" type="Magic Item" source="Ulticia Pack" id="ID_WOTC_DMG_MAGIC_ITEM_MELODY">
+        <description>
+			<p>One of the five songblades. </p>
+			<p>This is a +3 longsword that chimes as it is swung.</p>
+			<p><strong><em>Melody.</em></strong> Missing with this weapon allows you to recover with a flourish, allowing you to use the uncanny dodge feature once per long rest.</p>
+		</description>
+		<setters>
+			<set name="keywords">shortsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="shortsword">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">Shortsword</set>
+		</setters>
+	</element>
+    <element name="Finale" type="Magic Item" source="Ulticia Pack" id="ID_WOTC_DMG_MAGIC_ITEM_FINALE">
+        <description>
+			<p>One of the five songblades. </p>
+			<p>This is a +3 longsword that chimes as it is swung.</p>
+			<p><strong><em>Finale.</em></strong> When this weapon crits the song ends, tripling the damage dealt and activating the effects of all other songblades in your possesion.</p>
+		</description>
+		<setters>
+			<set name="keywords">longsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">4</set>
+			<set name="weapon">Longsword</set>
+		</setters>
+    </element>
+	
+    <element name="The Avalon's Delight" type="Magic Item" source="Ulticia Pack" id="ID_WOTC_DMG_MAGIC_ITEM_TAD">
+        <description>
+            <p>A fusion of the latent powers of the legendary sword Excalibur and The Gambler's Delight. Together they make a weapon capable of bringing out a small percentage of the true weapon. As long as luck is on your side that is. </p>
+            <p>This is a +4 longsword. This weapon is unbreakable and will never rust or deterioate.</p>
+            <p><strong><em>Avalon.</em></strong>Once per long rest, as a reaction when an enemy attacks or uses a spell that would target you and at least 1 other ally, you can summon upon the protective powers of Avalon. All allies within 20 feet gain +5 AC for 1 turn and the enemy must reroll the attack. If the attack is a saving throw all targted allies automatically succeed and suffer no effects or damage.</p>
+            <p><strong><em>The Avalon's Delight.</em></strong>This weapon has 3 charges that recharge once per year. Consuming a charge will change this weapons damage to 2d50 for one attack and require a 1d4 to be rolled to hit. On a 4 the weapon auto crits and deals an additional 100 damage. On a 3 the weapon auto hits and deals an additional 50 damage. On a 2 the weapon auto hits and deals an additional 25 damage. On a 1 the weapon auto hits and deals 25 damge to you.</p>
+        </description>
+        <setters>
+			<set name="keywords">longsword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">4</set>
+			<set name="weapon">Longsword</set>
+		</setters>
+	</element>
+   <element name="Ethereal Dragon Earrings" type="Magic Item" source="Ulticia Pack" id="ID_UNKNOWN_LEGENDARY_ITEM_ETHEREAL_DRAGON_EARRINGS">
+    <description>
+        <p>While wearing these earrings once per day you may transport you and one other creature to a magical shadow realm. While in this realm you have advantage on all attacks and your attacks dies roll max. This last for 30 seconds or until you leave the realm willingly. You and the creature cannot be affected by effects outside the realm.</p>
+    </description>
+    <setters>
+        <set name="category">Wondrous Items</set>
+        <set name="cost" currency="gp">0</set>
+        <set name="weight" lb="0">0 lb.</set>
+        <set name="type">Wondrous Item</set>
+        <set name="rarity">Legendary</set>
+    </setters>
+</element>
 </elements>
