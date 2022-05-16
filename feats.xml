@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-        <update version="0.0.1">
-			<file name="feats.xml" url="https://github.com/Lykos9/feats/blob/main/feats.xml" />
+		<name>Feats</name>
+		<description></description>
+		<author url="https://www.worldanvil.com/w/ulticia-phoenixnoir">Ultica Pack</author>
+        	<update version="0.0.1">
+			<file name="feats.xml" url="https://raw.githubusercontent.com/Lykos9/elements/main/feats.xml?token=GHSAT0AAAAAABUT742UN7RRHSFYSV7JTO3AYUCQLFA" />
 		</update>
     </info>	
     <element name="Drakyn Claws" type="Feat" source="Tasha's Cauldron of Lost Files" id="ID_WOTC_ERLW_FEAT_DRAKYN_CLAWS">
