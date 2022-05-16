@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.2">
+			<file name="source.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/dms-guild/xanathars-lost-notes-to-everything-else/source.xml" />
+		</update>
+	</info>
+
+	<element name="Ulticia Pack" type="Source" source="Core" id="ID_UP_SOURCE_ULTICiA_PACK">
+		<description>
+		</description>
+		<setters>
+			<set name="abbreviation">UP</set>
+			<set name="url"></set>
+			<set name="image"></set>
+			<set name="author" url="https://www.worldanvil.com/w/ulticia-phoenixnoir">Noir</set>
+			<set name="homebrew">true</set>
+			<set name="release">20220516</set>
+		</setters>
+	</element>
+</elements>
