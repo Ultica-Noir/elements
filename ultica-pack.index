@@ -5,15 +5,15 @@
 		<description>The world of Ultica.</description>
 		<author url="https://www.worldanvil.com/w/ulticia-phoenixnoir">Ultica Pack</author>
 		<update version="0.2.6">
-			<file name="ultica-pack.index" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/ultica-pack.index?token=GHSAT0AAAAAABUUB2SEV2UAJQZBKJOB7262YUCSD3Q" />
+			<file name="ultica-pack.index" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/ultica-pack.index" />
 		</update>
 	</info>
 	<files>
-		<file name="items.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ultica%20Pack/items.xml?token=GHSAT0AAAAAABUUB2SF42IZ4BQ2BHVQ6GRMYUCSCDA" />
-		<file name="aasimar-grace.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ultica%20Pack/aasimar-grace.xml?token=GHSAT0AAAAAABUUB2SES2AFSYY46JMJHHQGYUCR5RQ" />
-		<file name="class-cultivator.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ultica%20Pack/class-cultivator.xml?token=GHSAT0AAAAAABUUB2SE4FZ7KC3XP42YZRJOYUCR6WAYUCQWDA" />
-		<file name="drakyn-race.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ultica%20Pack/drakyn-race.xml?token=GHSAT0AAAAAABUUB2SFKWIMKHYG2PFF4H2KYUCSACA" />
-	        <file name="feats.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ultica%20Pack/feats.xml?token=GHSAT0AAAAAABUUB2SF7QNVNH72CDKTCCJ6YUCSBTQQXRA" />
-                <file name="subclasses-ultica-pack.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ultica%20Pack/subclasses-ultica-pack.xml?token=GHSAT0AAAAAABUUB2SFGSHOSKMCXE2LFLLQYUCSCVA" />
+		<file name="items.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ultica%20Pack/items.xml" />
+		<file name="aasimar-grace.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ultica%20Pack/aasimar-grace.xml" />
+		<file name="class-cultivator.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ultica%20Pack/class-cultivator.xml" />
+		<file name="drakyn-race.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ultica%20Pack/drakyn-race.xml" />
+	        <file name="feats.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ultica%20Pack/feats.xml" />
+                <file name="subclasses-ultica-pack.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ultica%20Pack/subclasses-ultica-pack.xml" />
 	</files>
 </index>
