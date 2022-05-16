@@ -9,11 +9,11 @@
 		</update>
 	</info>
 	<files>
-		<file name="items.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ulticia%20Pack/items.xml" />
-		<file name="aasimar-grace.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ulticia%20Pack/aasimar-grace.xml" />
-		<file name="class-cultivator.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ulticia%20Pack/class-cultivator.xml" />
-		<file name="drakyn-race.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ulticia%20Pack/drakyn-race.xml" />
-	        <file name="feats.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ulticia%20Pack/feats.xml" />
-                <file name="subclasses-ultica-pack.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ulticia%20Pack/subclasses-ultica-pack.xml" />
+		<file name="items.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ultica%20Pack/items.xml" />
+		<file name="aasimar-grace.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ultica%20Pack/aasimar-grace.xml" />
+		<file name="class-cultivator.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ultica%20Pack/class-cultivator.xml" />
+		<file name="drakyn-race.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ultica%20Pack/drakyn-race.xml" />
+	        <file name="feats.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ultica%20Pack/feats.xml" />
+                <file name="subclasses-ultica-pack.xml" url="https://raw.githubusercontent.com/Ultica-Noir/elements/main/Ultica%20Pack/subclasses-ulticia-pack.xml" />
 	</files>
 </index>
