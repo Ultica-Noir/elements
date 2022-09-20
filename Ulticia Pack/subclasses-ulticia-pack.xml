@@ -751,5 +751,101 @@
 		<rules>
 			<stat name="speed:fly" value="60" bonus="base" />
 		</rules>
-	</element>    
+	</element>
+	
+    <!-- Limit Breaker - Wizard --> 
+
+    <element name="Limit Breaker" type="Archetype" source="Ultica Pack" id="ID_UP_WIZARD_ARCHETYPE_LIMIT_BREAKER">
+		<supports>Arcane Tradition</supports>
+		<description>  
+			<p>Limits. They are all different but everyone has them. So what happens when you reach that limit? Do you just give up? Do you just accept this is the extent of your abilities? No. You push through. You push beyond. You continue pushing until you achieve something greater. Something stronger. You learn to break those limits. </p>
+			<p class="indent">Limit Breakers push their abilites temporarily beyond their normal limits at the cost of their own vitality. No matter the cost you are determined to prove yourself greater. To push yourself to whatever lies beyond. </p>
+			<div element="ID_UP_ARCHETYPE_FEATURE_LIMIT_BREAKER_LIMIT_DICE" />
+			<div element="ID_UP_ARCHETYPE_FEATURE_LIMIT_BREAKER_DESPERATE_MEASURES" />
+			<div element="ID_UP_ARCHETYPE_FEATURE_LIMIT_BREAKER_RECOVERY_MODE" />
+			<div element="ID_UP_ARCHETYPE_FEATURE_LIMIT_BREAKER_POWER_LINK" />
+			<div element="ID_UP_ARCHETYPE_FEATURE_LIMIT_BREAKER_LIMIT_BREAK" />
+		</description>   
+		<sheet display="false">
+			<description>Your power pushes beyond mortal limits.</description>
+		</sheet>    
+		<rules>
+			<grant type="Archetype Feature" id="ID_UP_ARCHETYPE_FEATURE_LIMIT_BREAKER_LIMIT_DICE" level="2"/>
+			<grant type="Archetype Feature" id="ID_UP_ARCHETYPE_FEATURE_LIMIT_BREAKER_DESPERATE_MEASURES" level="2"/>
+			<grant type="Archetype Feature" id="ID_UP_ARCHETYPE_FEATURE_LIMIT_BREAKER_RECOVERY_MODE" level="6"/>
+			<grant type="Archetype Feature" id="ID_UP_ARCHETYPE_FEATURE_LIMIT_BREAKER_POWER_LINK" level="10"/>
+			<grant type="Archetype Feature" id="ID_UP_ARCHETYPE_FEATURE_LIMIT_BREAKER_LIMIT_BREAK" level="14"/>
+		</rules> 
+    </element>
+	<element name="Limit Dice" type="Archetype Feature" source="Ulticia Pack" id="ID_UP_ARCHETYPE_FEATURE_LIMIT_BREAKER_LIMIT_DICE">
+		<description>
+			<p>Starting at the 2nd level you gain a number of Limit Dice equal to your proficiency bonus that recover after a long rest. Your limit dice have multiple uses and grow in power as displayed on the Limit Die Table. When using your limit dice along with any additional effects, you add the result of the die to the hit and damage/healing of your next spell. At the start of your next turn the effects rebound and you take damage equal to the limit die result plus your Wizard level. One die may be used per turn.</p>
+			<p class="indent"></p>
+                <h5>Limit Dice</h5>
+			    <table>
+				    <thead>
+					<tr><td>Level</td><td>Number of Dice</td><td>Limit Die</td></tr>
+				    </thead>
+				    <tr><td>2</td><td><em>2</em></td><td><em>1d4</em></td></tr>
+				    <tr><td>6</td><td><em>3</em></td><td><em>1d6</em></td></tr>
+				    <tr><td>10</td><td><em>4</em></td><td><em>1d8</em></td></tr>
+				    <tr><td>14</td><td><em>5</em></td><td><em>1d10</em></td></tr>
+				    <tr><td>18</td><td><em>6</em></td><td><em>1d12</em></td></tr>
+			    </table>      
+		</description>
+		<sheet>
+			<description>You have 2 Limit Dice. When using your limit dice, along with any additional effects, you add the 1d4 to the hit and damage/healing of your next spell. At the start of your next turn the effects rebound and you take damage equal to the limit die result plus your Wizard level. One die may be used per turn.</description>
+			<description level="6">You have 3 Limit Dice. When using your limit dice, along with any additional effects, you add the 1d6 to the hit and damage/healing of your next spell. At the start of your next turn the effects rebound and you take damage equal to the limit die result plus your Wizard level. One die may be used per turn.</description>
+			<description level="10">You have 4 Limit Dice. When using your limit dice, along with any additional effects, you add the 1d8 to the hit and damage/healing of your next spell. At the start of your next turn the effects rebound and you take damage equal to the limit die result plus your Wizard level. One die may be used per turn.</description>
+			<description level="14">You have 5 Limit Dice. When using your limit dice, along with any additional effects, you add the 1d10 to the hit and damage/healing of your next spell. At the start of your next turn the effects rebound and you take damage equal to the limit die result plus your Wizard level. One die may be used per turn.</description>
+			<description level="18">You have 6 Limit Dice. When using your limit dice, along with any additional effects, you add the 1d12 to the hit and damage/healing of your next spell. At the start of your next turn the effects rebound and you take damage equal to the limit die result plus your Wizard level. One die may be used per turn.</description>
+		</sheet>        
+	</element>
+    <element name="Desperate Measures" type="Archetype Feature" source="Ulticia Pack" id="ID_UP_ARCHETYPE_FEATURE_LIMIT_BREAKER_DESPERATE_MEASURES">
+		<description>
+            <p>Even in the best laid plans go south in the heat of battle. Starting at 2nd Level you’ve prepared certain maneuvers to help in those desperate times.</p>
+                <h5>Desperate Measures</h5>
+                <li><strong>Limit, Reach</strong>- You can consume a limit die to increase the range of a spell by 10 feet times the result of the limit die. If the spell has a range of touch, this is instead reduced to 5 feet times the result of the limit die.</li>
+                <li><strong>Limit, Defense</strong>- When you fail a saving throw, you can consume your reaction to roll a limit die add add the result.</li>
+                <li><strong>Limit, Targets</strong>- When casting a spell with a limit of 1 target, you can consume a limit die to increase the number of targets by half the limit die result rounded down. The minimum of this result is 1.</li>
+                <li><strong>Limit, Skill</strong>- You can consume a limit die when rolling a skill check and add to the result.</li>
+        </description>
+        <sheet>
+            <description>
+                You've prepared certain maneuvers to help in those desperate times.&#13;
+                • Limit, Reach - You can consume a limit die to increase the range of a spell by 10 feet times the result of the limit die. If the spell has a range of touch, this is instead reduced to 5 feet times the result of the limit die.&#13;
+                • Limit, Defense - When you fail a saving throw, you can consume your reaction to roll a limit die add add the result.&#13;
+                • Limit, Targets - When casting a spell with a limit of 1 target, you can consume a limit die to increase the number of targets by half the limit die result rounded down. The minimum of this result is 1.&#13;
+                • Limit, Skill - You can consume a limit die when rolling a skill check and add to the result.&#13;      
+             </description>
+        </sheet>
+    </element>
+    <element name="Recovery Mode" type="Archetype Feature" source="Ulticia Pack" id="ID_UP_ARCHETYPE_FEATURE_LIMIT_BREAKER_RECOVERY_MODE">
+        <description>
+            <p>Starting at 6th level you’re body has adapted to the recovering from the wear and tear of exceeding its limits. When you are below half health, healing potions and hit die always roll their max rolls when used.</p>
+            <p>Additionally when a spell you cast critically hits an enemy you recover 1 limit die.</p>
+        </description>
+        <sheet>
+            <description>
+                <p>When under half health your hit die and healing potions rolls for max.</p>
+                <p>When a spell you cast critically hits an enemy you recover 1 limit die.</p>
+            </description>
+        </sheet>
+    </element>
+    <element name="Power Link" type="Archetype Feature" source="Ulticia Pack" id="ID_UP_ARCHETYPE_FEATURE_LIMIT_BREAKER_POWER_LINK">
+        <description>
+            <p>Starting at 10th Level when you have an ally within 10 feet and you roll a Limit Die or use a Desperate Measure you may choose to share the effects with that ally. At the start of you next turn the rebound effect doubles. You or the affected ally may take the full damage of the rebound or split it however you choose between the both of you.</p>
+        </description>
+        <sheet>
+            <description>When you have an ally within 10 feet and you roll a Limit Die or use a Desperate Measure you share the effects with that ally at the cost of doubling the rebound effect. You or the affected ally take the full damage of the rebound or split it however you choose between the both of you.</description>
+        </sheet>
+    </element>
+    <element name="Limit Break" type="Archetype Feature" source="Ulticia Pack" id="ID_UP_ARCHETYPE_FEATURE_LIMIT_BREAKER_LIMIT_BREAK">
+        <description>
+            <p>Starting at 14th Level as a last resort you may consume 2 limit die at the same time adding the result plus your level. You may then take an additional action and bonus action. At the start of your next turn your max HP is reduced by the total result of the added dice plus your level until you finish a long rest. You max HP cannot go below 1, and your current HP is reduced to match your max HP.</p>
+        </description>
+        <sheet>
+            <description>You consume 2 limit die at the same time adding the results plus {{level:wizard}}, gaining an additional action and bonus action. At the start of your next turn the rebound effect reduces your max HP by the added result plus {{level:wizard}} until you finish a long rest. You max HP cannot go below 1, and your current HP is reduced to match your max HP.</description>
+        </sheet>
+    </element>
 </elements>
