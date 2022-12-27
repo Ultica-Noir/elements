@@ -922,24 +922,30 @@
 
 
 
-<element name="Aura Master" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_AURA_MASTER">
+<element name="Fulminis Soul" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FULMINIS_SOUL">
 	<supports>Cultivator Techniques</supports>
 		<description>
             <p>Cultivators learning the Falling Phoenix technique have a predilection for fire. Some particularly enjoy raining it from the heavens, and seize on any chance to do so.</p>            
-			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_AM_STANCES"/>
-			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_AM_INTERNAL_STANCE"/>
-			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_AM_EXTERNAL_STANCE"/>
-			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_AURIC_FINESSE"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_FS_STANCES"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_FS_INTERNAL_STANCE"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_FS_EXTERNAL_STANCE"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_LIGHTNING_STRIKES"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_CONDUCTIVE"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_FULMINANT"/>
+			<div element="ID_WOTC_CCC_ARCHETYPE_FEATURE_RETURN_STROKE"/>
         </description>
 		<sheet display="false" />
 		<rules>
-			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_AM_STANCES" level="3" />
-			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_AM_INTERNAL_STANCE" level="3" />
-			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_AM_EXTERNAL_STANCE" level="3" />
-			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_AURIC_FINESSE" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_FS_STANCES" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_FS_INTERNAL_STANCE" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_FS_EXTERNAL_STANCE" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_LIGHTNING_STRIKES" level="3" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_CONDUCTIVE" level="7" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_FULMINANT" level="11" />
+			<grant type="Archetype Feature" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_RETURN_STROKE" level="15" />
 		</rules>
 	</element>
-	<element name="Stances" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_AM_STANCES">
+	<element name="Stances" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_FS_STANCES">
 		<description>
 			<p>Starting at 3rd level, your technique allows you to access to knowledge on how to use ki internally for defensive abilites and externally for offensive ones.</p>
             <p>You can choose the external or internal stance before you roll for inititave. Switching between stances is a bonus action. Unless otherwise noted, you can only use the abilites and benefits granted by each stance while you are in it. Most stances have static passives that are active while in that stance and activated abilites.</p>
@@ -949,20 +955,69 @@
 			<description>You may only have one stance active at a time. You may choose a stance before you roll for inititave and may use a bonus action to change stances in battle.</description>
 		</sheet>
     </element>
-	<element name="Internal Stance" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_AM_INTERNAL_STANCE">
+	<element name="Internal Stance" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_FS_INTERNAL_STANCE">
 		<description>
-			<p>All attacks made by enemies to allies other than you from within your aura do less damage equal to your proficiency bonus.</p>
+			<p>When you take the attack action, you may instead spend 3 ki points to blast lightning out of your hands. All creatures in a 20 foot cone, 10 foot sphere centered on yourself or 40 foot line (player’s choice) originating from your position must make a Dexterity saving throw. They take 4d8 lightning damage on a fail, or half that on a success. This damage increases by 1d8 at 7th, 11th and 15th level.</p>
 		</description>
 		<sheet>
-			<p>All attacks made by enemies to allies other than you from within your aura do less damage equal to your proficiency bonus.</p>
+			<description>
+			<ul>Once per turn, as you make an attack roll, you may instead roll twice and make two attacks. Each attack does half damage rounded down.</ul>
+			<ul>When you make an attack with disadvantage, you may spend 2 ki points to ignore the disadvantage.</ul>
+			<ul>Once per turn, whenever you would gain a spark, you may deal additional lightning damage equal to your proficiency bonus to the attacked enemy.</ul>
+			</description>
 		</sheet>
 	</element>
-	<element name="External Stance" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_AM_EXTERNAL_STANCE">
+	<element name="External Stance" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_FS_EXTERNAL_STANCE">
 		<description>
-			<p>All attacks made by allies to enemies within your aura do additional damage equal to your proficiency bonus.</p>
+			<p>When you take the attack action, you may instead spend 3 ki points to blast lightning out of your hands. All creatures in a 20 foot cone, 10 foot sphere centered on yourself or 40 foot line (player’s choice) originating from your position must make a Dexterity saving throw. They take 4d8 lightning damage on a fail, or half that on a success. This damage increases by 1d8 at 7th, 11th and 15th level.</p>
 		</description>
 		<sheet>
-			<p>All attacks made by allies to enemies within your aura do additional damage equal to your proficiency bonus.</p>
+			<description>You may instead spend 3 ki points to blast lightning out of your hands. All creatures in a 20 foot cone, 10 foot sphere centered on yourself or 40 foot line (player’s choice) originating from your position must make a Dexterity saving throw. They take 4d8 lightning damage on a fail, or half that on a success.</description>
+			<description level="7"> You may instead spend 3 ki points to blast lightning out of your hands. All creatures in a 20 foot cone, 10 foot sphere centered on yourself or 40 foot line (player’s choice) originating from your position must make a Dexterity saving throw. They take 5d8 lightning damage on a fail, or half that on a success.</description>
+			<description level="11"> You may instead spend 3 ki points to blast lightning out of your hands. All creatures in a 20 foot cone, 10 foot sphere centered on yourself or 40 foot line (player’s choice) originating from your position must make a Dexterity saving throw. They take 6d8 lightning damage on a fail, or half that on a success.</description>
+			<description level="15"> You may instead spend 3 ki points to blast lightning out of your hands. All creatures in a 20 foot cone, 10 foot sphere centered on yourself or 40 foot line (player’s choice) originating from your position must make a Dexterity saving throw. They take 7d8 lightning damage on a fail, or half that on a success.</description>
 		</sheet>
 	</element>
-</elements>	
+	<element name="Lightning Strikes" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_LIGHTNING_STRIKES">
+		<description>
+			<p>At 3rd level when you take this subclass, you leverage the forces generated from your lightning fast strikes to fuel your abilities. When you successfully hit an enemy, and your previous attack was successful, you gain a spark. You can have a maximum number of sparks equal to your proficiency bonus, losing all sparks gained beyond this number. You lose all sparks when you spend a minute without gaining or losing any sparks. When an ability requires you to spend ki points, you may instead spend a spark instead of 1 ki point. If an ability’s ki cost exceeds the number of sparks, you must pay the remaining value in ki. Additionally, you may use your ki points or sparks for the following abilities:</p>
+			<ul>Once per turn, you may spend 2 ki points and 10 feet of your movement to teleport 10 feet without using an action.</ul>
+			<ul>You may spend 2 ki points to increase your attack range by 5 feet until the end of your next turn, to a maximum of 10 feet.</ul>
+		</description>
+		<sheet>
+			<description>
+			<p>When you successfully hit the same enemy twice in a row you gain a spark. You can have a maximum number of sparks equal to your proficiency bonus, losing all sparks gained beyond this number and lose them after a minute without gaining or losing a spark. When an abilit requires you to spend ki points, you may use a spark to subsitute 1 ki point. Additionally you gain the following ki abilities:</p>
+			<ul>Once per turn, you may spend 2 ki points and 10 feet of your movement to teleport 10 feet without using an action.</ul>
+			<ul>You may spend 2 ki points to increase your attack range by 5 feet until the end of your next turn, to a maximum of 10 feet.</ul>
+			</description>
+		</sheet>
+	</element>
+	<element name="Conductive" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_CONDUCTIVE">
+		<description>
+			<p>Beginning at 7th level, your body has become extremely efficient at sending lightning through it. Once per turn, while in internal stance, when you land a consecutive hit and have already gained sparks this turn, you gain 2 sparks instead of one.</p>
+			<p>Additionally, when you gain a spark, you may immediately spend it to deal 1 lightning damage, heal 1 hit point, and gain an extra 5 feet of movement until the start of your next turn. This movement gain can stack.</p>
+		</description>
+		<sheet>
+			<description>
+			<p>While in internal stance, when you would gain a spark from an enemy you have already gained a spark from, gain 2 instead of one.</p>
+			<p>When you gain a spark you may immediatly spend it to deal 1 lightning damge, heal 1 hit point, and gain 5 movement until the start of your next turn. This movement can stack.</p>
+			</description>
+		</sheet>
+	</element>
+	<element name="Conductive" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_FULMINANT">
+		<description>
+			<p>Upon reaching 11th level, you begin discharging excess electricity, damaging nearby foes. While in external stance you may make an attack as a bonus action, and when you spend ki or sparks to teleport, you may deal 2d4 lightning damage as part of that teleport to enemies within 10 feet of your destination.</p>
+		</description>
+		<sheet>
+			<description> While in external stance whenever you spend ki or sparks to teleport you may deal 2d4 lightning damage to all enemies within 10 feet of your detination.</description>
+		</sheet>
+	</element>
+	<element name="Return Stroke" type="Archetype" source="The Cultivator" id="ID_WOTC_CCC_ARCHETYPE_FEATURE_RETURN_STROKE">
+		<description>
+			<p>At 15th level, as you spill with electrified energy, you begin to strike like true lightning. When you start your turn in external stance, with 4 or more sparks, you may spend 2 sparks to make an additional attack as part of the attack action. You may continue to pay and attack within the same turn, as long as you have 2 or more sparks.</p>
+		</description>
+		<sheet>
+			<description>While in external stance, if you have 4 or more sparks, you may spend 2 sparks to make an additional attack as part of your attack action. You may continue to do this, but cannot go below 2 sparks. You may not subsitute ki for sparks for this ability.</description>
+		</sheet>
+	</element>
+</elements>
