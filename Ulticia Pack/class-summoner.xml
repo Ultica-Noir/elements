@@ -5,7 +5,7 @@
 		<description>Summoner from the Chthonic Legacy.</description>
 		<author url="https://github.com/Ulticia-Noir">Nyxian</author>
 		<update version="0.0.1">
-			<file name="class-summoner.xml" url="https://github.com/Ulticia-Noir/elements/class-summoner.xml" />
+			<file name="class-summoner.xml" url="https://raw.githubusercontent.com/Ulticia-Noir/elements/main/Ulticia%20Pack/class-summoner.xml" />
 		</update>
 	</info>
 
