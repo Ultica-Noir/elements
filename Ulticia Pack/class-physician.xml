@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Physician</name>
+		<description>Physician from the Chthonic Legacy.</description>
+		<author url="https://github.com/Ulticia-Noir">Nyxian</author>
+		<update version="0.0.1">
+			<file name="class-physician.xml" url="https://github.com/Ulticia-Noir/elements/class-physician.xml" />
+		</update>
+	</info>
+
+    <element name="Physician" type="Class" source="Chthonic Legacy" id="ID_UN_CL_CLASS_PHYSICIAN">
+		<description>
+            <p>A dying man wanders the streets, looking for any help he can, and comes across a small shack with an old man inside. The man stumbles in with his fading vision and begs for help of the stranger, and right before he falls unconscious he sees the old figure pull out some needles and string, and with a strong yet soothing voice say, "Do not worry, I'm a Doctor", before his vision finally goes dark.</p>
+            <p>A great red dragon roars at the group of adventurers, attempting to steal its horde instilling fear in their hearts. Except one immediately runs at the dragon and with a quick look shouts out its weakness, with a quick stab breaking off it's scales creating an opening for its allies to use.</p>
+            <p>Through the clanging of metal and the splatter of blood on a harsh battlefield, a singular figure calmly walks through it. It walks wearing a dark mask with dark bottles in its hands. Each of the steps bringing dark miasma with him, with foes around it immediately falling to their knees, coughing up blood, and screaming in terror.</p>
+            <p>Physicians may come in various forms, but one thing they all have in common is their understanding of life. Both of how to save it and make it blossom, as well as how to unmake it and make it crumble onto itself, slowly but inevitably through their great understanding.</p>
+            <h4>THE MAN IN A WORLD OF MAGIC</h4>
+            <p>In a world of magic, filled with followers of gods and mages capable of bending the very fabric of reality, the physician is a humble existence. While magic can heal wounds with a snap, not everyone is blessed with such power and talent, or even the ability to try. Because of that, many take up books to still try and understand medicine and how to save lives. While creatures of magic can heal without fully understanding what they are doing, physicians pride themselves on their knowledge, which allows them to fix things that even magic couldn't, and with great precision at that.</p>
+            <h4>TRUE UNDERSTANDING</h4>
+            <p>All physicians seek to study and comprehend the world with all of its intricacies, hoping to prove the might of every person and the power a mere man can possess, with the might of knowledge and understanding, wielding it as their eternal weapon and shield.</p>
+            <h4>NEVER ENDING STUDY</h4>
+            <p>A physicians journey to true understanding is a long one, often through many trials and tribulations. To understand all creatures, how life truly works and the very nature of the world, is a destination with no certain path, so many take different roads. Some study it in battle, through dissecting their opponents and understanding what makes them act the way they do, while others sit in studies researching herbs and reading theory, to try and comprehend the laws of the world. But few in the end see the peak of the path. Those that do, become creatures of myth, who very often are even misunderstood as miracle workers and creatures of magic themselves, without even doing a singular bit of magic. All through the simple, unchanging power of science.</p>
+            <h5>QUICK BUILD</h5>
+            <p>First, make Wisdom your highest ability score. Your next-highest score should be Dexterity. Second, choose the sage background.</p>
+            <h4>CLASS FEATURES</h4>
+            <p>As a physician, you gain following class features.</p>
+            <h5>HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d8 per physician level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per physician level after 1st.</li>
+            </ul>
+            <h5>PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> Light Armor, Medium Armor</li>
+                <li><strong>Weapons:</strong> Simple weapons, Rapiers, Hand Crossbows</li>
+                <li><strong>Tools:</strong> Herbalism kit</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Saving Throws:</strong> Constitution, Wisdom</li>
+                <li><strong>Skills:</strong> Medicine and choose three from Arcana, Insight, Deception, Nature, Perception, Persuasion, Sleight of Hand, Stealth or History.</li>
+            </ul>
+			<h5>EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+                <li><i>(a)</i> Two simple weapons of your choice or<i>(b)</i> Rapier.</li>
+				<li><i>(a)</i> a light crossbow and 20 bolts or <i>(b)</i> two daggers.</li>
+                <li>herbalism kit</li>
+				<li>leather armor and a scholar's pack.</li>
+			</ul>
+            <h5 class="caption">THE PHYSICIAN</h5>
+			<table class="class-features">
+				<thead>
+                    <tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">First Aid Dice</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Student Of Medicine, Unarmored Defense, First Aid</td><td class="col-10">1d8</td></tr>
+                <tr><td> 2nd</td><td class="left">Battle Inquiry</td><td class="col-10">1d8</td></tr>
+                <tr><td> 3rd</td><td class="left">Physician Study Feature</td><td class="col-10">2d8</td></tr>
+                <tr><td> 4th</td><td class="left">Ability Score Improvement</td><td class="col-10">2d8</td></tr>
+                <tr><td> 5th</td><td class="left">This is for the Future, You're Doing it wrong!</td><td class="col-10">3d8</td></tr>
+                <tr><td> 6th</td><td class="left">You're not dying on me., Total Body Shut down</td><td class="col-10">3d8</td></tr>
+                <tr><td> 7th</td><td class="left">Physician Study Feature</td><td class="col-10">4d8</td></tr>
+                <tr><td> 8th</td><td class="left">Ability Score Improvement</td><td class="col-10">4d8</td></tr>
+                <tr><td> 9th</td><td class="left">Prosthetics</td><td class="col-10">5d8</td></tr>
+                <tr><td> 10th</td><td class="left">Physician Study Feature</td><td class="col-10">5d8</td></tr>
+                <tr><td> 11th</td><td class="left">Experimental Treatments</td><td class="col-10">6d8</td></tr>
+                <tr><td> 12th</td><td class="left">Ability Score Improvement</td><td class="col-10">6d8</td></tr>
+                <tr><td> 13th</td><td class="left">Self-Treatment</td><td class="col-10">7d8</td></tr>
+                <tr><td> 14th</td><td class="left">Risky Stiches</td><td class="col-10">7d8</td></tr>
+                <tr><td> 15th</td><td class="left">Physician Study Feature</td><td class="col-10">8d8</td></tr>
+                <tr><td> 16th</td><td class="left">Ability Score Improvement</td><td class="col-10">8d8</td></tr>
+                <tr><td> 17th</td><td class="left">Complete Understanding</td><td class="col-10">9d8</td></tr>
+                <tr><td> 18th</td><td class="left">Physician Study Feature</td><td class="col-10">9d8</td></tr>
+                <tr><td> 19th</td><td class="left">Ability Score Improvement, Countless Experience</td><td class="col-10">10d8</td></tr>
+                <tr><td> 20th</td><td class="left">Trust me, I'm a Doctor</td><td class="col-10">10d8</td></tr>
+            </table>
+            <div element="ID_UN_CL_CLASS_FEATURE_STUDENT_OF_MEDICINE" />
+            <div element="ID_UN_CL_CLASS_FEATURE_UNARMORED_DEFENSE_PHYSICIAN" />
+            <div element="ID_UN_CL_CLASS_FEATURE_FIRST_AID" />
+            <div element="ID_UN_CL_CLASS_FEATURE_BATTLE_INQUIRY" />
+            <div element="ID_UN_CL_CLASS_FEATURE_PHYSICIAN_STUDY" />
+            <div element="ID_UN_CL_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_PHYSICIAN" />
+            <div element="ID_UN_CL_CLASS_FEATURE_THIS_IS_FOR_THE_FUTURE" />
+            <div element="ID_UN_CL_CLASS_FEATURE_YOURE_DOING_IT_WRONG" />
+            <div element="ID_UN_CL_CLASS_FEATURE_YOURE_NOT_DYING_ON_ME" />
+            <div element="ID_UN_CL_CLASS_FEATURE_TOTAL_BODY_SHUT_DOWN" />
+            <div element="ID_UN_CL_CLASS_FEATURE_PROSTHETICS" />
+            <div element="ID_UN_CL_CLASS_FEATURE_EXPERIMENTAL_TREATMENTS" />
+            <div element="ID_UN_CL_CLASS_FEATURE_SELFTREATMENT" />
+            <div element="ID_UN_CL_CLASS_FEATURE_RISKY_STICHES" />
+            <div element="ID_UN_CL_CLASS_FEATURE_COMPLETE_UNDERSTANDING" />
+            <div element="ID_UN_CL_CLASS_FEATURE_COUNTLESS_EXPERIENCE" />
+            <div element="ID_UN_CL_CLASS_FEATURE_TRUST_ME_IM_A_DOCTOR" />
+        </description>
+        <sheet display="false">
+            <description>A master doctor with a bit of an adrenaline addiction.</description>
+        </sheet>
+        <setters>
+			<set name="short">A master doctor with a bit of an adrenaline addiction.</set>
+			<set name="hd">d8</set>
+		</setters>
+        <rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_UN_CL_MULTICLASS_PHYSICIAN"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_UN_CL_MULTICLASS_PHYSICIAN"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_UN_CL_MULTICLASS_PHYSICIAN"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" requirements="!ID_UN_CL_MULTICLASS_PHYSICIAN"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" requirements="!ID_UN_CL_MULTICLASS_PHYSICIAN"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT" requirements="!ID_UN_CL_MULTICLASS_PHYSICIAN"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_UN_CL_MULTICLASS_PHYSICIAN"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_UN_CL_MULTICLASS_PHYSICIAN"/>
+            <select type="Proficiency" name="Skill Proficiency (Physician)" supports="Skill,Physician" number="3" requirements="!ID_UN_CL_MULTICLASS_PHYSICIAN" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_STUDENT_OF_MEDICINE" level="1" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_UNARMORED_DEFENSE_PHYSICIAN" level="1" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_FIRST_AID" level="1" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_BATTLE_INQUIRY" level="2" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_PHYSICIAN_STUDY" level="3" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_PHYSICIAN" level="4" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_THIS_IS_FOR_THE_FUTURE" level="5" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_YOURE_DOING_IT_WRONG" level="5" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_YOURE_NOT_DYING_ON_ME" level="6" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_TOTAL_BODY_SHUT_DOWN" level="6" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_PROSTHETICS" level="9" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_EXPERIMENTAL_TREATMENTS" level="11" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_SELFTREATMENT" level="13" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_RISKY_STICHES" level="14" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_COMPLETE_UNDERSTANDING" level="17" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_COUNTLESS_EXPERIENCE" level="19" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_TRUST_ME_IM_A_DOCTOR" level="20" />
+        </rules>
+        <multiclass id="ID_UN_CL_MULTICLASS_PHYSICIAN">
+			<prerequisite>Dexterity 13 and Wisdom 13</prerequisite>
+			<requirements>([dex:13],[wis:13])</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Light armor, medium armor, simple weapons, rapier, hand crossbow, herbalism kit, medicine skill</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT" />
+			</rules>
+		</multiclass>
+    </element>
+
+    <element name="Student of Medicine" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_STUDENT_OF_MEDICINE">
+        <description>
+            <p>At 1st level, you have gathered enough knowledge to know intricacies of a body quite well. You gain expertise in Medicine Checks.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" />
+        </rules>
+    </element>
+    <element name="Unarmored Defense" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_UNARMORED_DEFENSE_PHYSICIAN">
+        <description>
+			<p>Beginning with 1st level, you have understanding of creatures physiology, allowing you to predict their movements and attacks. While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Wisdom modifier.</p>
+		</description>
+		<sheet>
+			<description>While you aren’t wearing armor, your AC equals {{ac:unarmored defense physician}}. You can use a shield and still gain this benefit.</description>
+		</sheet>
+		<rules>
+            <stat name="ac:unarmored defense physician:base" value="10" />
+			<stat name="ac:unarmored defense physician:dexterity" value="dexterity:modifier" />
+			<stat name="ac:unarmored defense physician:wisdom" value="wisdom:modifier" />
+			<stat name="ac:unarmored defense physician" value="ac:unarmored defense physician:base" />
+			<stat name="ac:unarmored defense physician" value="ac:unarmored defense physician:dexterity" />
+			<stat name="ac:unarmored defense physician" value="ac:unarmored defense physician:wisdom" />
+			<stat name="ac:calculation" value="ac:unarmored defense physician" bonus="calculation" equipped="[armor:none]" alt="Unarmored Defense (Physician)" />
+		</rules>
+	</element>
+    <element name="First Aid" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_FIRST_AID">
+        <description>
+			<p>At 1st level, you have enough experience to perform simple and quick treatments when needed. As an action you can give first aid to a creature within 5ft of you. When you do so, choose a number of First Aid Dice available to you according to the The Physician class table, then make an Wisdom (Medicine) check. These dice are not expended. The DC for the Wisdom (Medicine) check is 10, plus 2 for each First Aid Die you chose when beginning the attempt. On a success, roll the First Aid Dice and the target creature heals that many hit points plus your Physician level. On a failure, they regain half the number of hit points. If the result of the Wisdom (Medicine) check is greater than the DC by 5 or more, you roll twice the number of First Aid Dice you chose when beginning the attempt. A creature can only be healed by First Aid number of times equal to your proficiency modifier, before requiring to take a short rest to be healed this way again.</p>
+            <p>Additionally, you may stabilize an unconscious creature as a bonus action, and doing so does not require an Wisdom (Medicine) check, as long as you are familiar with the creature’s general biology.</p>
+        </description>
+        <sheet usage="{{FirstAid:U}}/per creatue/per Short Rest" action="Action">
+            <description>You give first aid to a creature within 5ft of you. You may choose a number up d8s up to {{Firstaid:dice}}. Make a Medicine check equal to 10 + 2 per the number of d8s used. On a success the creature is healed for the ammount, halved on a failure. Beating the DC by 5 or more doubles the heal.</description>
+        </sheet>
+        <rules>
+            <stat name="FirstAid:U" value="proficiency" />
+
+            <stat name="Firstaid:dice" value="1" />
+            <stat name="Firstaid:dice" value="1" level="3" />
+            <stat name="Firstaid:dice" value="1" level="5" />
+            <stat name="Firstaid:dice" value="1" level="7" />
+            <stat name="Firstaid:dice" value="1" level="9" />
+            <stat name="Firstaid:dice" value="1" level="11" />
+            <stat name="Firstaid:dice" value="1" level="13" />
+            <stat name="Firstaid:dice" value="1" level="15" />
+            <stat name="Firstaid:dice" value="1" level="17" />
+            <stat name="Firstaid:dice" value="1" level="19" />
+        </rules>
+    </element>
+    <element name="Battle Inquiry" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_BATTLE_INQUIRY">
+        <description>
+			<p>Beginning at 2nd level, you have gained some battle knowledge, allowing you to know your foes even better, especially after seeing a bit of their innards. After you hit an enemy with an attack, as a bonus action you may choose them as a target of Analysis. Make an Wisdom (Medicine) check contested by your target's Charisma (Deception) check. If you succeed, you may find out two pieces of information from the following list:</p>
+            <ul>
+                <li>Highest Ability Score</li>
+                <li>Lowest Ability Score</li>
+                <li>Its maximum hit points</li>
+                <li>If any, one vulnerability, resistance or immunity. If it has multiple, it is determined at random and if it doesn't have any you find that out as well.</li>
+            </ul>
+            <p>Once you successfully study a creature this way, it becomes "Analyzed" and for the next minute, whenever you hit it with an attack, you may additionally add your Wisdom modifier to the damage roll. You must wait 24 hours before using this feature again on the same creature.</p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>Make a Medicine check against your opponents Deception on a success you learn two of the following of your choosing; Highest Ability Score, Lowest Ability Score, Its maximum hit points, one vulnerability, resistance or immunity. If it has multiple, it is determined at random and if it doesn't have any you find that out as well. On a success the creature become Analyzed for 24 hours. Analyzed creatures are immune to this feature. </description>
+        </sheet>
+    </element>
+    <element name="Physician Study" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_PHYSICIAN_STUDY">
+        <description>
+			<p>At 3rd level, choose the type of study you focus. Each choice is detailed after the class' description. Your choice grants you features at 3rd level and again at 7th, 10th, 15th and 18th.</p>
+        </description>
+        <sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Physician Study" supports="Physician Study" level="3" />
+		</rules>
+	</element>
+    <element name="Ability Score Improvement" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_PHYSICIAN">
+        <compendium display="false" />
+        <description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+        </description>
+        <sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Physician 4)" supports="Improvement Option,Physician,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Physician 8)" supports="Improvement Option,Physician,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Physician 12)" supports="Improvement Option,Physician,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Physician 16)" supports="Improvement Option,Physician,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Physician 19)" supports="Improvement Option,Physician,19" level="19" />
+		</rules>
+	</element>
+    <element name="This is for the future" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_THIS_IS_FOR_THE_FUTURE">
+        <description>
+			<p>When you reach 5th level, you know that the people you take care of tend to constantly get in trouble, so when you patch them up you can now take precautions. When using First Aid, any healing that would exceed the creature’s Hit Point maximum is converted into Temporary Hit Points, which last for 1 minute. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p>
+        </description>
+        <sheet usage="{{wisdom:modifier}}/Long Rest">
+            <description>When using First Aid, you may expend a usage to cause any excess healing to convert into Temporary Hit Points for 1 minute.</description>
+        </sheet>
+    </element>
+    <element name="Youre doing it wrong!" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_YOURE_DOING_IT_WRONG">
+        <description>
+			<p>At 5th level, when you see a creature roll dice for healing by a spell or an ability, as a reaction you may allow the target to reroll any of the dice and use the new result instead. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p>
+        </description>
+        <sheet usage="{{wisdom:modifier}}/Long Rest" action="Reaction">
+            <description>When you see a creature roll dice for healing you may allow the target to reroll any of the dice and use the new result instead.</description>
+        </sheet>
+    </element>
+    <element name="Youre not dying on me!" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_YOURE_NOT_DYING_ON_ME">
+        <description>
+			<p>Beginning at 6th level you have gained expertise in treating near death patients and will not allow people to die on your watch. If a creature has died within the last minute, as long as there is a body, you may attempt to reanimate them. To do so, make an Wisdom (Medicine) Check with DC equal to 10 + the creatures level (or CR). On a success the creature is brought back to life with 1 hp and gains a level of exhaustion. Once you use this feature, you can't use it again until you finish a long rest.</p>
+        </description>
+        <sheet usage="1/Long Rest" action="Action">
+            <description>You may attempt to reanimate a creature that has died within the last minute as long as there is a body. Make a Medicine Check, DC 10 + the creature's level/CR. On a success the creature returns to life with 1 HP and a stack of exhaustion.</description>
+        </sheet>
+    </element>
+    <element name="Total Body Shutdown" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_TOTAL_BODY_SHUT_DOWN">
+        <description>
+			<p>Also 6th level your familiarity with biology of all the creatures you have worked on so far has allowed you to know just what you need to do to bring a body to the brink of a complete breakdown. When you hit a creature with an attack, you may immediately as a bonus action make an Wisdom (Medicine) check, as though you were attempting First Aid. If you succeed, target takes Necrotic damage equal to the total of your First Aid roll or half as much on a failure. Additionally if you succeed by 5 or more, the number of dice is doubled while failing by 5 or more does no damage. Once you use this feature, you can't use it again until you finish a long rest.</p>
+        </description>
+        <sheet usage="1/Long Rest" action="Bonus Action">
+            <description>When you hit a creature with an attack, roll a Medicine check as if using First Aid. On a success deal Necrotic damage equal to the roll or half as much on a failure. If you succeed by 5 or more double the amount done. If you fail by 5 or more no damage is done. This feature does not benifit from critical attacks.</description>
+        </sheet>
+    </element>
+    <element name="Prosthetics" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_PROSTHETICS">
+        <description>
+			<p>Beginning with 9th level, managing to make do with minimal resources has become your daily reality; and from this you have learned much, including the means by which to replace certain limbs, even in the heat of battle. Whenever you make an Wisdom (Medicine) check on an allied creature, if you succeeded by 5 or more, you may improvise a replacement for an organ or a limb that the target is missing (as long as the replacement is even slightly plausible). Examples are: Inanimate objects, limbs of nearby corpses or stitching on the previously lost limb</p>
+        </description>
+        <sheet>
+            <description>When you succeed on a Medicine check on an ally by 5 or more, you may improvise a replacement for an organ or a limb that the target is missing (as long as the replacement is even slightly plausible).</description>
+        </sheet>
+    </element>
+    <element name="Experimental Treatments" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_EXPERIMENTAL_TREATMENTS">
+        <description>
+			<p>At 11th level you have created some new treatments for various sicknesses and afflictions that you have encountered through your travels and studies. As an action you may end one of the following conditions:</p>
+            <ul>
+                <li>Poisoned</li>
+                <li>A Poison of your choice</li>
+                <li>Petrified</li>
+                <li>A disease of your choice</li>
+                <li>Maximum hit Points reduction</li>
+                <li>Paralyzed</li>
+                <li>Stunned</li>
+            </ul>
+            <p>You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p>
+        </description>
+        <sheet usage="{{wisdom: }}/Long Rest" action="Action">
+            <description>You may end the following conditions on a creature; Poisoned, A Poison of your choice, Petrified, A disease of your choice, Max Hit Point reduction, Paralyzed, Stunned.</description>
+        </sheet>
+    </element>
+    <element name="Self-Treatment" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_SELFTREATMENT">
+        <description>
+			<p>When you reach 13th level you have become experienced enough to even perform surgery on yourself during desperate situations. While at 0 hit points during your turn, when you would have to make your death saving throw, through a flash of consciousness choose to patch up your injuries and stabilize yourself. Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+        </description>
+        <sheet usage="1/Short Rest">
+            <description>While at 0 hit points, when you would have to make a saving throw you instead stabilize yourself to 1 hit point.</description>
+        </sheet>
+    </element>
+    <element name="Risky Stitches" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_RISKY_STICHES">
+        <description>
+			<p>Beginning with 14th level, you have learned that sometimes mediocrity is just not enough and only perfection is acceptable. When you use First Aid and make the Wisdom (Medicine) check after seeing the result, you may choose to "stitch deeper", after which you reroll the check and use the new roll instead. If the result of the Wisdom (Medicine) check is greater than the DC by 5 or more, you roll twice the number of First Aid Dice you chose when beginning the attempt. Otherwise you roll the First Aid Dice chosen and the aided creature takes half of the roll result as damage that cannot be prevented. Additionally this ability cannot be used for Total Body Shutdown.</p>
+        </description>
+        <sheet>
+            <description>When you use First Aid and make the Medicine check after seeing the result, you may choose to "stitch deeper", after which you reroll the check and use the new roll instead. If the result of the Medicine check is greater than the DC by 5 or more, you roll twice the number of First Aid Dice you chose when beginning the attempt. Otherwise you roll the First Aid Dice chosen and the aided creature takes half of the roll result as damage that cannot be prevented. Additionally this ability cannot be used for Total Body Shutdown.</description>
+        </sheet>
+    </element>
+    <element name="Complete Understanding" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_COMPLETE_UNDERSTANDING">
+        <description>
+			<p>At 17th, after all the surgeries and incisions you have done you have gained an eye for understanding all the intricacies of a creature from just a single "check up". When using Battle Inquiry, if you beat the opponents roll by 5 or more, you find out all of the information from the list and that creature becomes "Understood" instead. Additionally, whenever you hit it with an attack, you may additionally add double your Wisdom modifier to the damage roll.</p>
+        </description>
+        <sheet>
+            <description>When using Battle Inquiry and you beat the DC by 5 or more you find out all information from the list and the creature become Understood. You may add {{CU:DMG}} to all attacks against understood creatures. Understood creatures are immune to Battle Inquiry for 24 hours just like Analyzed creatuers.</description>
+        </sheet>
+        <rules>
+            <stat name="CU:DMG" value="wisdom:modifier" />
+            <stat name="CU:DMG" value="wisdom:modifier" />
+        </rules>
+    </element>
+    <element name="Countless Experience" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_COUNTLESS_EXPERIENCE">
+        <description>
+            <p>When you reach 19th level, your skills have been deemed peerless by many after all the battles and people you have seen, leading to your medical skill set being near flawless. When you roll for First Aid and fail, you count as if having succeeded instead.</p>
+        </description>
+        <sheet>
+            <description>When you would roll your for First Aid and fail, you succeed instead</description>
+        </sheet>
+    </element>
+    <element name="Trust me Im a Doctor" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_TRUST_ME_IM_A_DOCTOR">
+        <description>
+            <p>At 20th level you have gained complete understanding of the biological world, knowing all of its ins and outs, allowing you to treat even the deadliest of wounds with absolute ease. When rolling dice for healing, you always treat it as if rolling the maximum result.</p>
+        </description>
+        <sheet>
+            <description>When rolling dice for healing, you take the maximum result instead.</description>
+        </sheet>
+    </element>
+
+<!--Physicians Studies-->
+
+<!--Study of the Analyst-->
+    <element name="Study of the Analyst" type="Archetype" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_STUDY_OF_THE_ANALYST">
+		<supports>Physician Study</supports>
+		<description>
+			<p>Analysts are physicians who focus on truly understanding the biology of all organisms, knowing what makes them tick and what makes them not. Those who study analysis of the body are experts at finding weaknesses and breaking down the opponents body, therefore often serve of the front lines of army's as well as working as combat medics.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+			<grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_FIRST_RESPONSE" level="3" />
+            <grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_OPEN_THE_WORLD" level="3" />
+			<grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_EXPOSE_WEAKNESS" level="7" />
+			<grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_ADRENALINE_SHOT" level="10" />
+			<grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_INCISION_STRIKE" level="15" />
+            <grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_THREE_STEPS_AHEAD" level="18" />
+		</rules>
+	</element>
+    <element name="First Response" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_FIRST_RESPONSE">
+		<supports>Study of the Analyst</supports>
+		<description>
+            <p>When you reach 3rd level, your study of combat and your situational awareness has allowed you to respond immediately, to your allies being harmed. When an allied creature is reduced to 0 hit points within your view, you may as a reaction move up to your movement speed, to that creature.</p>
+        </description>
+        <sheet action="Reaction">
+            <description>When you see an allied creature reduced to 0 HP, move to that creature up to your movement speed.</description>
+        </sheet>
+    </element>
+    <element name="Open the World" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_OPEN_THE_WORLD">
+		<supports>Study of the Analyst</supports>
+		<description>
+            <p>At 3rd level, you have learned methods to create openings in your enemies after finding out more about them. When you analyze a creature with battle inquiry, the creature becomes exposed and the next attack made against it gains advantage and on a hit deals 1d8 extra damage. This damage increases to 2d8 at 7th level and 3d8 at 15th level.</p>
+        </description>
+        <sheet>
+            <description>After successfully analyzing a creature with Battle Inquiry the next attack made against gains advantage and deal an extra 1d8 damage.</description>
+            <description level="7">After successfully analyzing a creature with Battle Inquiry the next attack made against gains advantage and deal an extra 2d8 damage.</description>
+            <description level="15">After successfully analyzing a creature with Battle Inquiry the next attack made against gains advantage and deal an extra 3d8 damage.</description>
+        </sheet>
+    </element>
+    <element name="Expose Weakness" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_EXPOSE_WEAKNESS">
+		<supports>Study of the Analyst</supports>
+		<description>
+            <p>Beginning with 7th level, you can read a status of a creature like a book and you can break open its weaknesses even where there were none. After analyzing a creature you may choose a resistance of your choice and disable it until the end of your next turn. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain any expended uses when you finish a short or long rest.</p>
+        </description>
+        <sheet usage="{{wisdom:modifier}}/Short Rest">
+            <description>After successfully analyzing a creature you may choose a resistance and disable it until the end of your next turn.</description>
+        </sheet>
+    </element>
+    <element name="Adrenaline Shot" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_ADRENALINE_SHOT">
+		<supports>Study of the Analyst</supports>
+		<description>
+            <p>At 10th level, you have concocted an injection, that increases the speed and strength of the subject, as well as numbing its pain. As an action you may administer an injection to a willing creature. The injected creature for the next minute gain the effects of the Haste spell and in addition, having 0 hit points doesn't knock it unconscious. It still must make death saving throws, and it suffers the normal effects of taking damage while at 0 hit points. However, if it would die due to failing death saving throws, it doesn't die until the Adrenaline Shot ends. Once you use this feature, you can't use it until you finish a long rest</p>
+        </description>
+        <sheet usage="1/Long Rest" action="Action">
+            <description>You administer an injection to a willing creature, granting them the effects of haste for the next minute. During this effect the creature does not go unconcious when reduced to 0 hit points, but continues to be affected by damage and death saving throws as normal. The creature does not die due to failed death saving throws until the effect ends.</description>
+        </sheet>
+    </element>
+    <element name="Incision Strike" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_INCISION_STRIKE">
+		<supports>Study of the Analyst</supports>
+		<description>
+            <p>When you reach 15th level, your understanding of a creatures physiology has grown to near perfection, allowing to meddle with it as you wish. When successfully using Total Body Shut-down, you may choose an affliction from the following list:</p>
+            <ul>
+                <li>Blinded.</li>
+                <li>Deafened.</li>
+                <li>Reduce the creatures movement speed to 0.</li>
+                <li>The creature cannot regain hit points.</li>
+                <li>Disadvantage on an Ability check of your choice.</li>
+            </ul>
+            <p>The creature becomes afflicted this way until the end of it's next turn.</p>
+        </description>
+        <sheet>
+            <description>When using Total Body Shutdown you may afflict the creature with one of the following conditions until the end of it's next turn; Blinded, Deafened, Movement Speed reduced to 0, Creature cannot regain hit points, Disadvantage on an ability check of your choice.</description>
+        </sheet>
+    </element>
+    <element name="Three Steps Ahead" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_THREE_STEPS_AHEAD">
+		<supports>Study of the Analyst</supports>
+		<description>
+            <p>At 18th level, once you analyze a creature and gain full understanding of it, it no longer surprises you, allowing you to evade it with ease. Understood creatures gain disadvantage on attack rolls against you and you gain advantage on all saving throws caused by them.</p>
+        </description>
+        <sheet>
+            <description>Understood creatures gain disadvantage on attack rolls against you, and you gain advantage on all saving throws caused by them.</description>
+        </sheet>
+    </element>
+
+<!--Study of the Pharmacist-->
+    <element name="Study of the Pharmacist" type="Archetype" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_STUDY_OF_THE_PHARMACIST">
+		<supports>Physician Study</supports>
+		<description>
+			<p>Those that study pharmacy very often work close with alchemy as well as a large part of nature, knowing what things can mix into various useful potions and elixirs. These physicians are highly looked out for, often serving as personal physicians to rich nobles as well as researchers of various new cures, or as simple doctors in small villages, saving all the lives they can.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+			<grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_BASIC_ALCHEMY" level="3" />
+            <grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_PHARMACEUTICAL_ELIXERS" level="3" />
+			<grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_VAPOROUS_TONICS" level="7" />
+			<grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_SPONTANEOUS_REAGENT" level="10" />
+			<grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_MIXED_ELIXIRS" level="15" />
+            <grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_PERFECTED_ALCHEMY" level="18" />
+		</rules>
+	</element>
+    <element name="Basic Alchemy" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_BASIC_ALCHEMY">
+		<supports>Study of the Pharmacist</supports>
+		<description>
+            <p>At 3rd level, you have simple understanding of using various herbs and liquids in medicine. You gain proficiency with Alchemist's supplies. Additionally when crafting potions, you half the cost and time required to make them</p>
+        </description>
+        <sheet>
+            <description>You make potions at half the cost and time required to make them.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES" />
+        </rules>
+    </element>
+    <element name="Pharmaceutical Elixirs" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_PHARMACEUTICAL_ELIXERS">
+		<supports>Study of the Pharmacist</supports>
+		<description>
+            <p>Beginning with 3rd, level your studies have allowed you to learn and make various elixirs from be it herbs or other magical components. As a part of taking a long rest, you may make a number of Elixers equal to up to your Wisdom modifier (up to a minimum of one). Elixirs are potions from any official DND books, except their duration is 1 minute if it would be longer otherwise. At 3rd level you can make potions of up to common rarity, uncommon at 7th level, rare at 10th level and very rare at 15th level.</p>
+            <p>Once you take a long rest, any old elixirs become inert.</p>
+        </description>
+        <sheet>
+            <description>As part of a long rest you may make up to {{wisdom:modifier}}. Elixers are potions with a maximum duration of 1 minute. You can make potions up to common rarity.</description>
+            <description level="7">As part of a long rest you may make up to {{wisdom:modifier}}. Elixers are potions with a maximum duration of 1 minute. You can make potions up to uncommon rarity.</description>
+            <description level="10">As part of a long rest you may make up to {{wisdom:modifier}}. Elixers are potions with a maximum duration of 1 minute. You can make potions up to rare rarity.</description>
+            <description level="15">As part of a long rest you may make up to {{wisdom:modifier}}. Elixers are potions with a maximum duration of 1 minute. You can make potions up to very rare rarity.</description>
+        </sheet>
+    </element>
+    <element name="Vaporous Tonics" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_VAPOROUS_TONICS">
+		<supports>Study of the Pharmacist</supports>
+		<description>
+            <p>When you reach 7th level, you gain the ability to inject your elixirs or potion on you with a substance that immediately turns it into vapor for inhalation. As an action you may you may turn an elixir or a potion you have, into a gas projectile and throw it near a creature within 20 feet of you, after which that creature gains the benefits of the potion.</p>
+        </description>
+        <sheet action="Action">
+            <description>As an action you change an elixir or potion you have into a gas projectile allowing you to immediately throw it and administer it to a creature within 20 feet of you, gaining all benefits and effects.</description>
+        </sheet>
+    </element>
+    <element name="Spontaneous Reagent" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_SPONTANEOUS_REAGENT">
+		<supports>Study of the Pharmacist</supports>
+		<description>
+            <p>At 10th level, you have done your research and have concocted a reagent that can turn into many different things when mixed with various other reactants, in a matter of seconds. As an action you turn an elixir you still have and turn it into a different one as if you were preparing it during the long rest, except it becomes inert at the end of your next turn. </p>
+            <p>Additionally as part of the same action, you may immediately either throw it or drink it. Once you use this feature, you can't use it until you finish a long rest.</p>
+        </description>
+        <sheet usage="1/Long Rest" action="Action">
+            <description>You convert an elixer into a different one that become inert at the end of your next turn. As part of this action you may throw or drink it.</description>
+        </sheet>
+    </element>
+    <element name="Mixed Elixirs" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_MIXED_ELIXIRS">
+		<supports>Study of the Pharmacist</supports>
+		<description>
+            <p>When you reach 15th level, you have invented your own unique methods of alchemy allowing you to mix elixirs that would not normally work together, into a singular one. When making elixirs during a long rest, you may choose to create Mixed Elixirs. Mixed Elixirs take up two uses of your Pharmaceutical Elixirs, but in return you may choose two different potions of your choice that are available to you and combine them into a singular elixir. When a creature consumes that elixir, it gains benefits from both mixed potions. You can't create a Mixed Elixir using the Spontaneous Reagent feature.</p>
+        </description>
+        <sheet>
+            <description>When making elixirs during a long rest, you select two elixers you created and mix them into one, giving effects from both into a singular elixir. You cannot create Mixed Elixir using a Spontaneous Reagent.</description>
+        </sheet>
+    </element>
+    <element name="Perfected Alchemy" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_PERFECTED_ALCHEMY">
+		<supports>Study of the Pharmacist</supports>
+		<description>
+            <p>At 18th level, your comprehension of alchemy and pharmaceuticals has reached its peak allowing you to make concoctions of quality rarely ever seen. During a 24 hour period you may begin making a potion. After the 24h roll a Wisdom (Medicine) check at DC 30. If you succeed, you may choose a potion of very rare rarity or lower, but if you succeed on the DC by 5 or more, you may instead make a Legendary potion of your choice. On a failure, you create a potion of rare or lower rarity instead. These potions act as regular potions and do not become inert. Once you use this feature, you can't use this feature again for the next seven days.</p>
+        </description>
+        <sheet usage="1/Seven Days">
+            <description>You begin making a potion over a 24hr period. After 24hrs make a DC 30 medicine check. On a success chose a potion from any available to you. If you succeed by 5 or more you instead create a Legendary potion. On a failure you create a potion of rare or below. These act as regular potions and do not become inert.</description>
+        </sheet>
+    </element>
+
+<!--Study of the Toxicologist-->
+    <element name="Study of the Toxicologist" type="Archetype" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_STUDY_OF_THE_TOXICOLOGIST">
+		<supports>Physician Study</supports>
+		<description>
+			<p>While many physicians study the body and the natural world to fix it and save as many people as possible, some look at it through more diabolic lenses. Toxicologists study nature and the living to create various poisons and substance to break down the living tissue in the most efficient and calculated ways possible. Many of them end up as suppliers to assassins guild, some serve in armies as alchemists, poisons and spreading plagues in the fields, while others learn how to make toxins, to try and stop others from using the same methods. In the end, all of them are specialists in ending lives be it first hand, or second.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+			<grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_POISONERS_KNOWLEDGE" level="3" />
+            <grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_CAUSTIC_STRIKE" level="3" />
+			<grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_ADAPTIVE_TOXIN" level="7" />
+			<grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_UNRELENTING_DEGENERATION" level="10" />
+			<grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_VIRULENT_TOXINS" level="15" />
+            <grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_ANGEL_OF_DEATH" level="18" />
+		</rules>
+	</element>
+    <element name="Poisoners Knowledge" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_POISONERS_KNOWLEDGE">
+		<supports>Study of the Toxicologist</supports>
+		<description>
+            <p>Beginning with 3rd level, you understand the tools of your craft to a deadly extent. You gain proficiency in the Poisoner's Kit and it takes you quarter the amount of time and cost required to craft poisons.</p>
+        </description>
+        <sheet>
+            <description>You make poisons at half the cost and time required to make them.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT" />
+        </rules>
+    </element>
+    <element name="Caustic Strike" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_CAUSTIC_STRIKE">
+		<supports>Study of the Toxicologist</supports>
+		<description>
+            <p>At 3rd Level, you have developed an adaptive poisonous substance that you can envelop your weapons in, allowing you to slowly, but surely break down your opponents bodies, until their own bodies fail them. When you make a weapon attack, you may use this ability. On a hit, choose either Strength, Dexterity or Constitution and afterwards make an Wisdom (Medicine) check, trying to beat the Ability Score chosen for the opponent A caustic creature is afflicted by all negatives of it's stage and ones below according, to the Caustic Stage Table (which can be seen at the end of the class). Additionally at the end of its turn, roll a number of dice equal to the caustic stage and it takes the amount of damage equal to the result (for example at level three, at viral stage 1, the creatured takes 1d4 poison damage). At the end of each if its turns, it may roll a saving throw with the previously chosen Ability Score (If you target Constitution, the target makes a Constitution saving throw) against your Caustic Save DC reducing Caustic to stage 0 on a success. On a failure, the poison continues coursing through the creature and grows in intensity, increasing it's stage by 1, up to a maximum of your proficiency modifier. The creature may repeat this saving at the end of each of it's turns. If the caustic creature gets hit by Caustic Strike again, it's Caustic increases by 1 stage, no check required. Caustic damage die at 3rd level is a d4 and increases to a d6 when you reach 5th level, d8 at 11th level and d10 at 17th level.</p>
+            <p>If the result of the Wisdom (Medicine) check is higher by 5 or more than needed to succeed, the creature begins at a stage equal to half your proficiency modifier rounded up.</p>
+            <p>Caustic Save DC = 8 + your proficiency bonus + your Wisdom modifier</p>
+            <h5 class="caption">The Caustic Table</h5>
+			<table>
+				<thead>
+					<tr><td>Stage</td><td>Affliction</td></tr>
+				</thead>
+				<tr><td>1</td><td>-5 Movement Speed for every 2 stages, up to a maximum of -15 feet movement.</td></tr>
+				<tr><td>2</td><td>-1 AC</td></tr>
+				<tr><td>3</td><td>Caustic creature subtracts 1d4 from all of it's Attack Rolls and Saving Throws</td></tr>
+				<tr><td>4</td><td>Disadvantage on all caustic Saving Throws</td></tr>
+				<tr><td>5</td><td>Blinded</td></tr>
+                <tr><td>6</td><td>The creature can not make saving throws to reduce caustic for the next 1 minute.</td></tr>
+			</table>
+        </description>
+        <sheet>
+            <description>When you hit with a weapon attack, choose either Strength, Dexterity or Constitution and afterwards make an Medicine check, trying to beat the Ability Score chosen for the opponent. On a success the creature moves up a caustic stage and take damage equal to a number of d4 equal to it's stage. The creature may make a save using the chosen ability score at the end of your turn to return to stage 0 on a success, or increase a stage by 1. Your max stage is {{CS:Stage}}.</description>
+            <description level="5">When you hit with a weapon attack, choose either Strength, Dexterity or Constitution and afterwards make an Medicine check, trying to beat the Ability Score chosen for the opponent. On a success the creature moves up a caustic stage and take damage equal to a number of d6 equal to it's stage. The creature may make a save using the chosen ability score at the end of your turn to return to stage 0 on a success, or increase a stage by 1. Your max stage is {{CS:Stage}}.</description>
+            <description level="11">When you hit with a weapon attack, choose either Strength, Dexterity or Constitution and afterwards make an Medicine check, trying to beat the Ability Score chosen for the opponent. On a success the creature moves up a caustic stage and take damage equal to a number of d8 equal to it's stage. The creature may make a save using the chosen ability score at the end of your turn to return to stage 0 on a success, or increase a stage by 1. Your max stage is {{CS:Stage}}.</description>
+            <description level="17">When you hit with a weapon attack, choose either Strength, Dexterity or Constitution and afterwards make an Medicine check, trying to beat the Ability Score chosen for the opponent. On a success the creature moves up a caustic stage and take damage equal to a number of d10 equal to it's stage. The creature may make a save using the chosen ability score at the end of your turn to return to stage 0 on a success, or increase a stage by 1. Your max stage is {{CS:Stage}}.</description>
+        </sheet>
+        <rules>
+            <stat name="CS:Stage" value="proficiency" />
+        </rules>
+    </element>
+    <element name="Adaptive Toxin" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_ADAPTIVE_TOXIN">
+		<supports>Study of the Toxicologist</supports>
+		<description>
+            <p>When you reach 7th level, the substances you create have proven themselves to be quite resilient, even against the most resistant of creatures. You treat poison immunity as resistance and additionally, if your Caustic Strike succeeds by 5 or more, you treat resistance as no resistance.</p>
+        </description>
+        <sheet>
+            <description>You treat poison immunity as resistance, and if your Caustic Strike succeeds by 5 or more you treat resistance as no resistance.</description>
+        </sheet>
+    </element>
+    <element name="Unrelenting Degeneration" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_UNRELENTING_DEGENERATION">
+		<supports>Study of the Toxicologist</supports>
+		<description>
+            <p>Beginning at 10th level, the substance you have created is relentless to break the body once in the system, not stopping and persisting even against the toughest of subjects. When A creature succeeds on a Saving Throw, to reduce your Caustic stage, it is reduced to stage 1 instead of 0.</p>
+        </description>
+        <sheet>
+            <description>When a creature succeeds a saving throw to reduce your Caustic stage, it is reduced to 1 instead of 0.</description>
+        </sheet>
+    </element>
+    <element name="Virulent Toxins" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_VIRULENT_TOXINS">
+		<supports>Study of the Toxicologist</supports>
+		<description>
+            <p>At 15th level, you have developed a way for the caustic poison to spread as if a manufactured plague, spreading chaos on the battlefield at your whims. When a caustic creature dies, the toxin inside it begins spreading and all creatures within 10 feet of it must make a saving throw of your choice (that you could choose with Caustic Strike). On a failure, they become caustic as if affected by Caustic Strike.</p>
+        </description>
+        <sheet>
+            <description>When a caustic creature dies, the toxin inside it begins spreading and all creatures within 10 feet of it must make a saving throw of your choice (that you could choose with Caustic Strike). On a failure, they become caustic as if affected by Caustic Strike.</description>
+        </sheet>
+    </element>
+    <element name="Angel of Death" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_ANGEL_OF_DEATH">
+		<supports>Study of the Toxicologist</supports>
+		<description>
+            <p>When you reach 18th level, your work with various kinds of poisons and toxins have accustomed your body to the worst of their affects, allowing you to spread even more death, with no more caution about your own safety. You become immune to poison damage as well as the poisoned condition. Additionally, now as an action you may spread the caustic toxin around you in a 10 feet radius for the next 1 minute. When a hostile creature first enters the area or starts its turn there, it must make a saving throw of your choice (that you could choose with Caustic Strike) and on a failure they become caustic. When a caustic creatures starts its turn in the area, it must repeat the same saving throw and on a failure the creatures caustic stage increases by 1 stage. You may end this ability as a free action. Once you use this feature, you can't use it again, until you finish a long rest.</p>
+        </description>
+        <sheet usage="1/Long Rest" action="Action">
+            <description>You may spread the caustic toxin around you in a 10 feet radius for the next 1 minute. When a hostile creature first enters the area or starts its turn there, it must make a saving throw of your choice (that you could choose with Caustic Strike) and on a failure they become caustic. When a caustic creatures starts its turn in the area, it must repeat the same saving throw and on a failure the creatures caustic stage increases by 1 stage. You may end this ability as a free action.</description>
+        </sheet>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON" />
+        </rules>
+    </element>
+</elements>
+
+
+
+

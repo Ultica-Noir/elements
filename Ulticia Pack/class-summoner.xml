@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Summoner</name>
+		<description>Summoner from the Chthonic Legacy.</description>
+		<author url="https://github.com/Ulticia-Noir">Nyxian</author>
+		<update version="0.0.1">
+			<file name="class-summoner.xml" url="https://github.com/Ulticia-Noir/elements/class-summoner.xml" />
+		</update>
+	</info>
+
+    <element name="Summoner" type="Class" source="Chthonic Legacy" id="ID_UN_CL_CLASS_SUMMONER">
+		<description>
+            <p>The chanting grows louder and louder as another orcish zealot approaches the master. A robed man with an eldritch eye growing out of his forehead approaches the supplicant with a crazed grin spread across his face. With a mere wave of his hand, he contorts the zealot's flesh, breaking and mending bones and muscle until large, deformed wings sprout from the orc's back, followed by a cacophony of monstrous howls and bloodcurdling screams of bestial joy.</p>
+            <p>A young beggar girl in tattered clothes sits between two gravestones. The other children aren't allowed to play with her, their parents say she's cursed or mad. She's not angry, they just don't understand, they can't hear the whispers like she does. But that's okay, one day they will whisper to her too and then they can all play together forever and ever.</p>
+            <p>A human dressed in fancy but worn-down traveling clothes sits beaten behind a tree, counting his ragged breaths and listening for his pursuers. Just a minute more is all he needs, though even such a meager wish is not granted as dark figures emerge from the forest around him. "You couldn't possibly hope you'll outrun us, mister fancy hat. You alone against half of the assassin guild, you never stood a chance". The wounded man thanks the gods for the villain's tendency to gloat as he focuses the last bits of energy he needed and slams his staff against the ground. "No", he replies, as a huge monster with skin like magma manifests next to him out of thin air. "Never alone." </p>
+            <p class="indent">Brilliant, often eccentric, but unquestionably powerful, summoners are masters of the physical realm. They manipulate the underlying magic of reality itself to change the world around them, or even create matter from nothing.</p>
+            <h4>BREAKING POINT</h4>
+            <p>As powerful and tempting as the abilties of the summoner are, rarely does anyone embark on that path willingly. The most fundamental skill of a summoner is being able to percieve the unseen magical structure of everything around them and then being smart enough to figure out how to change that structure to suit their needs. However, such fantastic insight rarely reveals itself to an ordinary person, and most summoners experience this revelation after a traumatic, life-changing event that undermines their very perception of reality.</p>
+            <h4>CALL OF CREATION</h4>
+            <p>Those that push through these hard times however, and show both wit and determination to master the knowledge they gained become full fledged summoners that follow what they describe as "callings". Every summoner interprets it in their own way, from personal philosophy to the will of the universe itself, but what doesn't change is that dedication to the calling allows each summoner to learn secrets and abilities unavailable to those without enough dedication.</p>
+            <h5>QUICK BUILD</h5>
+            <p>You can make a summoner quickly by following these suggestions. First, Intelligence should be your highest ability score. Second, choose the scholar background.</p>
+            <h3>CLASS FEATURES</h3>
+            <p>As a summoner, you gain the following class features:</p>
+            <h5>HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d8 per summoner level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per summoner level after 1st.</li>
+            </ul>
+            <h5>PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> None</li>
+                <li><strong>Weapons:</strong> Simple weapons</li>
+                <li><strong>Tools:</strong> None</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Saving Throws:</strong> Constitution, Intelligence</li>
+                <li><strong>Skills:</strong> Choose two skills from Arcana, History, Insight, Investigation, Nature, Perception, Religion and Survival.</li>
+            </ul>
+			<h5>EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+                <li><i>(a)</i> a quarterstaff or <i>(b)</i> any simple weapon</li>
+				<li><i>(a)</i> a scholar's pack or <i>(b)</i> an explorer's pack</li>
+				<li>common clothes and a component pouch</li>
+			</ul>
+            <h5 class="caption">THE SUMMONER</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="col-30 left">Features</td><td class="col-10">Summon CR</td><td class="col-10">Cantrips Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Spellcasting, Essence Stone, Summoner's Calling</td><td>1/4</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 2nd</td><td class="left">Mend Summon, Unbreakable Focus</td><td>1/2</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 3rd</td><td class="left">Share Senses, Summoner's Calling Feature</td><td>1</td><td>2</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>1</td><td>2</td><td>4</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5th</td><td class="left">Empower Summons</td><td>1</td><td>2</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6th</td><td class="left">Transposition</td><td>2</td><td>2</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7th</td><td class="left">Summoner's Calling feature</td><td>2</td><td>2</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>2</td><td>2</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 9th</td><td class="left">—</td><td>3</td><td>2</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td>10th</td><td class="left">Second Self</td><td>3</td><td>3</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td>11th</td><td class="left">—</td><td>2</td><td>3</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>4</td><td>3</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>13th</td><td class="left">—</td><td>4</td><td>3</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td>14th</td><td class="left">Summoner's Calling Feature</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td>15th</td><td class="left">—</td><td>5</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>5</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>17th</td><td class="left">—</td><td>5</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>18th</td><td class="left">Summoner's Savior</td><td>6</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>6</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr><td>20th</td><td class="left">Omniportation</td><td>6</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+			</table>
+			<div element="ID_UN_CL_CLASS_FEATURE_SUMMONER_SPELLCASTING_SUMMONER" />
+			<div element="ID_UN_CL_CLASS_FEATURE_SUMMONER_ESSENCE_STONE" />
+			<div element="ID_UN_CL_CLASS_FEATURE_SUMMONER_SUMMONERS_CALLING" />
+			<div element="ID_UN_CL_CLASS_FEATURE_SUMMONER_MEND_SUMMON" />
+			<div element="ID_UN_CL_CLASS_FEATURE_SUMMONER_UNBREAKABLE_FOCUS" />
+			<div element="ID_UN_CL_CLASS_FEATURE_SUMMONER_SHARE_SENSES" />
+			<div element="ID_UN_CL_CLASS_FEATURE_SUMMONER_ABILITY_SCORE_IMPROVEMENT_SUMMONER" />
+			<div element="ID_UN_CL_CLASS_FEATURE_SUMMONER_EMPOWER_SUMMONS" />
+			<div element="ID_UN_CL_CLASS_FEATURE_SUMMONER_TRANSPOSITION" />
+			<div element="ID_UN_CL_CLASS_FEATURE_SUMMONER_SECOND_SELF" />
+			<div element="ID_UN_CL_CLASS_FEATURE_SUMMONER_SUMMONERS_SAVIOR" />
+			<div element="ID_UN_CL_CLASS_FEATURE_SUMMONER_OMNIPORTATION" />
+		</description>
+		<setters>
+			<set name="short">Masters of the physical realm, summoners are able to mold reality itself.</set>
+			<set name="hd">d8</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_UN_CL_MULTICLASS_SUMMONER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+			
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_UN_CL_MULTICLASS_SUMMONER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_UN_CL_MULTICLASS_SUMMONER" />
+			<select type="Proficiency" name="Skill Proficiency, Summoner" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_RELIGION|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" requirements="!ID_UN_CL_MULTICLASS_SUMMONER" />
+
+			<grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_SUMMONER_SPELLCASTING_SUMMONER" level="1" />
+			<grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_SUMMONER_ESSENCE_STONE" level="1" />
+			<grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_SUMMONER_SUMMONERS_CALLING" level="1" />
+			<grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_SUMMONER_MEND_SUMMON" level="2" />
+			<grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_SUMMONER_UNBREAKABLE_FOCUS" level="2" />
+			<grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_SUMMONER_SHARE_SENSES" level="3" />
+			<grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_SUMMONER_ABILITY_SCORE_IMPROVEMENT_SUMMONER" level="4" />
+			<grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_SUMMONER_EMPOWER_SUMMONS" level="5" />
+			<grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_SUMMONER_TRANSPOSITION" level="6" />
+			<grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_SUMMONER_SECOND_SELF" level="10" />
+			<grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_SUMMONER_SUMMONERS_SAVIOR" level="18" />
+			<grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_SUMMONER_OMNIPORTATION" level="20" />
+		</rules>
+		<multiclass id="ID_UN_CL_MULTICLASS_SUMMONER">
+			<prerequisite>Intelligence 13</prerequisite>
+			<requirements>[int:13]</requirements>
+			<setters>
+				<set name="multiclass proficiencies">light armor, shields</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+			</rules>
+		</multiclass>
+	</element>
+
+	<element name="Spellcasting" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_SUMMONER_SPELLCASTING_SUMMONER">
+		<description>
+			<p>The magic around you is mere clay and you are the sculptor.</p>
+			<h5>CANTRIPS</h5>
+			<p>At 1st level, you know two cantrips of your choice from the summoner spell list. You learn additional summoner cantrip of your choice at 4th and 10th level, as shown in the Cantrips Known column of the Summoner table.</p>
+			<h5>PREPARING AND CASTING SPELLS</h5>
+			<p>The Summoner table shows how many spell slots you have to cast your summoner spells. To cast one of your summoner spells of 1st level or higher, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</p>
+			<p class="indent">You prepare the list of summoner spells that are available for you to cast, choosing from the summoner spell list. When you do so, choose a number of summoner spells equal to your Intelligence modifier + half your sumoner level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.</p>
+			<p class="indent">For example, if you are a 5th-level summoner, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn’t remove it from your list of prepared spells.</p>
+			<p class="indent">You can change your list of prepared spells when you finish a long rest. Preparing a new list of summoner spells requires time spent tinkering with your spellcasting focuses: at least 1 minute per spell level for each spell on your list.</p>
+			<h5>SPELLCASTING ABILITY</h5>
+			<p>Intelligence is your spellcasting ability for your summoner spells, since your magic relies on understanding the fundamental arcane structure of the universe. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a summoner spell you cast and when making an attack roll with one.</p>
+			<center>
+				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>
+			</center>
+			<h5>RITUAL CASTING</h5>
+			<p>You can cast a summoner spell as a ritual if that spell has the ritual tag and you have the spell prepared.</p>
+		</description>
+		<sheet display="false">
+			<description>You have the ability to cast spells.</description>
+		</sheet>
+		<spellcasting name="Summoner" ability="Intelligence" allowReplace="true">
+			<list>Wizard,(Enchantment||Illusion||Conjuration)</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_HALF_UP" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+			<stat name="summoner:spellcasting:slots:1" value="2" level="1" />
+			<stat name="summoner:spellcasting:slots:1" value="1" level="3" />
+			<stat name="summoner:spellcasting:slots:1" value="1" level="5" />
+			<stat name="summoner:spellcasting:slots:2" value="2" level="5" />
+			<stat name="summoner:spellcasting:slots:2" value="1" level="7" />
+			<stat name="summoner:spellcasting:slots:3" value="2" level="9" />
+			<stat name="summoner:spellcasting:slots:3" value="1" level="11" />
+			<stat name="summoner:spellcasting:slots:4" value="1" level="13" />
+			<stat name="summoner:spellcasting:slots:4" value="1" level="15" />
+			<stat name="summoner:spellcasting:slots:5" value="1" level="17" />
+			<stat name="summoner:spellcasting:slots:5" value="1" level="19" />
+
+			<select type="Spell" name="Cantrip (Summoner)" supports="$(spellcasting:list),0" level="1" number="2" spellcasting="Summoner" />
+			<select type="Spell" name="Cantrip (Summoner)" supports="$(spellcasting:list),0" level="10" spellcasting="Summoner"/>
+			<select type="Spell" name="Cantrip (Summoner)" supports="$(spellcasting:list),0" level="14" spellcasting="Summoner"/>
+
+			<select type="Spell" name="Spell (Summoner)" supports="$(spellcasting:list), $(spellcasting:slots)" level="1" number="2" spellcasting="Summoner" />
+			<select type="Spell" name="Spell (Summoner)" supports="$(spellcasting:list), $(spellcasting:slots)" level="3" spellcasting="Summoner" />
+			<select type="Spell" name="Spell (Summoner)" supports="$(spellcasting:list), $(spellcasting:slots)" level="5" spellcasting="Summoner"/>
+			<select type="Spell" name="Spell (Summoner)" supports="$(spellcasting:list), $(spellcasting:slots)" level="7" spellcasting="Summoner"/>
+			<select type="Spell" name="Spell (Summoner)" supports="$(spellcasting:list), $(spellcasting:slots)" level="9" spellcasting="Summoner"/>
+			<select type="Spell" name="Spell (Summoner)" supports="$(spellcasting:list), $(spellcasting:slots)" level="11" spellcasting="Summoner"/>
+			<select type="Spell" name="Spell (Summoner)" supports="$(spellcasting:list), $(spellcasting:slots)" level="13" spellcasting="Summoner"/>
+			<select type="Spell" name="Spell (Summoner)" supports="$(spellcasting:list), $(spellcasting:slots)" level="15" spellcasting="Summoner"/>
+			<select type="Spell" name="Spell (Summoner)" supports="$(spellcasting:list), $(spellcasting:slots)" level="17" spellcasting="Summoner"/>
+			<select type="Spell" name="Spell (Summoner)" supports="$(spellcasting:list), $(spellcasting:slots)" level="19" spellcasting="Summoner"/>
+		</rules>
+	</element>
+	<element name="Essence Stone" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_SUMMONER_ESSENCE_STONE">
+		<description>
+			<p>At 1st level, you learn to sculpt the magic around you into the form of an essence stone. You can use this feature twice and regain expended uses when you finish a short or long rest.</p>
+			<p>As an action you can invoke the stone to summon a creature to a point you can see within 20 feet of you. The space where you summon your creature must be sufficient to fit the summon, otherwise this feature fails. The following rules apply to the summon:</p>
+			<ul>
+				<li>You can only summon creatures of a certain creature type, which depends on the Summoner's Calling you have selected and is detailed in each calling's description.</li>
+				<li>The summoned creature cannot possess any Legendary Actions, cannot be a unique adventure NPC, and it's CR cannot exceed a certain limit. That limit is dependent on your level and is detailed in the Summon CR column of the summoner class table.</li>
+				<li>The summoned creature can take the form of any creature within your CR range and your Summoner's Calling type. It knows a number of mixed moves you may select equal to your proficency bonus from all applicable creatures. You may instead choose to default to the statblock of your summoned creature’s appearance.</li>
+				<li>Your summon cannot use moves that do not fit it's appearance (e.g. A giant snake could not have claw based attacks as it has no arms or legs). Even if your summon has wings, their fly speed is 0ft until you are at least 6th level.</li>
+				<li>At any given moment, you can only have one summoned creature. Upon usage of other summoning features or spells such as find familiar, your current summon is dismissed and that creature is regarded as your summon for the duration.</li>
+				<li>You have full control over your summon in and out of combat and it will obey all your commands. You can telepathically speak to and command your summon as long as you can see it and it's on the same plane of existance as you, no action required. When not commanded, the creature will prioritize protecting both you and itself. </li>
+				<li>In combat it takes its turn on your initiative, but right after your turn. It can use all of its actions.</li>
+				<li>The summoned creature cannot be healed by any other means than your mend summon feature.</li>
+				<li>The summon disappears after a number of hours equal to half your summoner level (rounded up), until it drops to 0 hit points, when you complete a short or long rest or if you fall unconcious. Alternatively, you can use your bonus action to dismiss your summon.</li>
+			</ul>
+			<center>
+				<h5>Essence Stone Appearance</h5>
+				<p>The essence stones have different appearances. Some summoners prefer material housing for their creatures e.g. small black stones or balls. Others attach their creatures to their bodies in the form of a tattoo.</p>
+			</center>
+		</description>
+		<sheet action="Action" usage="2/Short Rest">
+			<description>As an action you may summon a creature up to CR 1/4. Your summon takes its turn immediately after you and cannot be healed by any means except Mend Summon. The summon disappears when it drops to 0 hit points or after a number of hours equal to half your level. Alternatively, you can use your bonus action to dismiss your summon.</description>
+			<description level="2">As an action you may summon a creature up to CR 1/2. Your summon takes its turn immediately after you and cannot be healed by any means except Mend Summon. The summon disappears when it drops to 0 hit points or after a number of hours equal to half your level. Alternatively, you can use your bonus action to dismiss your summon.</description>
+			<description level="4">As an action you may summon a creature up to CR 1. Your summon takes its turn immediately after you and cannot be healed by any means except Mend Summon. The summon disappears when it drops to 0 hit points or after a number of hours equal to half your level. Alternatively, you can use your bonus action to dismiss your summon.</description>
+			<description level="6">As an action you may summon a creature up to CR 2. Your summon takes its turn immediately after you and cannot be healed by any means except Mend Summon. The summon disappears when it drops to 0 hit points or after a number of hours equal to half your level. Alternatively, you can use your bonus action to dismiss your summon.</description>
+			<description level="9">As an action you may summon a creature up to CR 3. Your summon takes its turn immediately after you and cannot be healed by any means except Mend Summon. The summon disappears when it drops to 0 hit points or after a number of hours equal to half your level. Alternatively, you can use your bonus action to dismiss your summon.</description>
+			<description level="13">As an action you may summon a creature up to CR 4. Your summon takes its turn immediately after you and cannot be healed by any means except Mend Summon. The summon disappears when it drops to 0 hit points or after a number of hours equal to half your level. Alternatively, you can use your bonus action to dismiss your summon.</description>
+			<description level="15">As an action you may summon a creature up to CR 5. Your summon takes its turn immediately after you and cannot be healed by any means except Mend Summon. The summon disappears when it drops to 0 hit points or after a number of hours equal to half your level. Alternatively, you can use your bonus action to dismiss your summon.</description>
+			<description level="19">As an action you may summon a creature up to CR 6. Your summon takes its turn immediately after you and cannot be healed by any means except Mend Summon. The summon disappears when it drops to 0 hit points or after a number of hours equal to half your level. Alternatively, you can use your bonus action to dismiss your summon.</description>
+		</sheet>
+	</element>
+	<element name="Summoner's Calling" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_SUMMONER_SUMMONERS_CALLING">
+		<description>
+			<p>At 3rd level, Choose a summoner's calling, which describes the method through which you discovered the secrets of creation. Your choice grants you features when you choose it at 1st level and again at 3rd, 7th, and 14th level.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Summoners Calling" supports="Summoners Calling" />
+		</rules>
+	</element>
+	<element name="Mend Summon" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_SUMMONER_MEND_SUMMON">
+		<description>
+			<p>Starting at 2nd level, you can use a bonus action to imbue energy into your summon to causing it to regain (1xCR minimum of 1)d6 hit points. You may do this a number of times equal your proficency bonus per long rest. You must be able to see the affected summon.</p>
+		</description>
+		<sheet action="Bonus Action" usage="{{MS:U}}/Long Rest">
+			<description>You imbue energy into your summon to causing it to regain {{MS:Value}}d6 hit points. You must be able to see the affected summon.</description>
+		</sheet>
+		<rules>
+			<stat name="MS:U" value="proficiency" />
+			<stat name="MS:Value" value="1" level="2" />
+			<stat name="MS:Value" value="1" level="6" />
+			<stat name="MS:Value" value="1" level="9" />
+			<stat name="MS:Value" value="1" level="13" />
+			<stat name="MS:Value" value="1" level="15" />
+			<stat name="MS:Value" value="1" level="19" />
+		</rules>
+	</element>
+	<element name="Unbreakable Focus" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_SUMMONER_UNBREAKABLE_FOCUS">
+		<description>
+			<p>Also at 2nd level your intimate understanding of magic allows you to focus on your spells easier. You can add your Intelligence modifier to all Constitution saving throws you make to maintain your concentration on a spell.</p>
+		</description>
+		<sheet>
+			<description>You add +{{intelligence:modifier}} to all concentration saves.</description>
+		</sheet>
+	</element>
+	<element name="Share Senses" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_SUMMONER_SHARE_SENSES">
+		<description>
+			<p>Beginning at 3rd level you gain the abilty to see through the eyes of your summon.</p>
+			<p>As a bonus action, you can see through your summon’s eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the summon has. During this time, you are deaf and blind with regard to your own senses.</p>
+			<p>Additionally, as an action you can tap into the mind of your summon and instantly learn all the information it has gathered since you summoned it.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>You can see through your summon’s eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the summon has. During this time, you are deaf and blind with regard to your own senses. Additionally, as an action you can tap into the mind of your summon and instantly learn all the information it has gathered since you summoned it.</description>
+		</sheet>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_SUMMONER_ABILITY_SCORE_IMPROVEMENT_SUMMONER">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Summoner 4)" supports="Improvement Option,Summoner,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Summoner 8)" supports="Improvement Option,Summoner,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Summoner 12)" supports="Improvement Option,Summoner,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Summoner 16)" supports="Improvement Option,Summoner,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Summoner 19)" supports="Improvement Option,Summoner,19" level="19" />
+		</rules>
+	</element>
+	<element name="Empower Summons" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_SUMMONER_EMPOWER_SUMMONS">
+		<description>
+			<p>At 5th level, you learn to enhance all summons you create. Your summon adds your Intelligence modifier to all attack rolls and saving throws it makes.</p>
+			<p>Additionally, any time your summon or any creature you summon using a summoner spell deals bludgeoning, piercing or slashing damage, that damage is considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks and damage.</p>
+		</description>
+		<sheet>
+			<description>Your summon adds your Intelligence modifier to all attack rolls and saving throws it makes. Additionally, any time your summon or any creature you summon using a summoner spell deals bludgeoning, piercing or slashing damage, that damage is considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks and damage.</description>
+		</sheet>
+	</element>
+	<element name="Transposition" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_SUMMONER_TRANSPOSITION">
+		<description>
+			<p>Beginning at 6th level, as a bonus action you can choose to swap places with your summon or a creature you have summoned with a summoner spell, if the target creature is within 60 feet of you and you can see it. This ability has no effect if the destination has not enough space to fit either you or the target creature.</p>
+			<p>You can use this ability a number of times equal to your Intelligence modifier (minimum of 1) and you regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="{{intelligence:modifier}}/Long Rest">
+			<description>You can choose to swap places with your summon or a creature you have summoned with a summoner spell, if the target creature is within 60 feet of you and you can see it. This ability has no effect if the destination has not enough space to fit either you or the target creature. </description>
+		</sheet>
+	</element>
+	<element name="Second Self" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_SUMMONER_SECOND_SELF">
+		<description>
+			<p>Starting at 10th level, your summon becomes a true extension of yourself. When you cast a spell with a range or target of self, you can choose to make it affect your summon instead of you, as if the summon cast it on itself. This does not require any action from the summon, only you need to cast the spell. If the spell requires concentration, you still need to maintain concentration on it.</p>
+		</description>
+		<sheet>
+			<description>When you cast a spell with a range or target of self, you can choose to make it affect your summon instead of you, as if the summon cast it on itself. This does not require any action from the summon, only you need to cast the spell. If the spell requires concentration, you still need to maintain concentration on it.</description>
+		</sheet>
+	</element>
+	<element name="Summoner's Savior" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_SUMMONER_SUMMONERS_SAVIOR">
+		<description>
+			<p>At 18th level, your bond has grown so strong, your summon is willing to risk its life for you. When you drop to 0 hip points, as a reaction your summon sacrifices itself to heal you for 50 hit points. Your summon then becomes unavailable until a short rest.</p>
+		</description>
+		<sheet>
+			<description>When you drop to 0 hip points, as a reaction your summon sacrifices itself to heal you for 50 hit points. Your summon then becomes unavailable until a short rest.</description>
+		</sheet>
+	</element>
+	<element name="Omniportation" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_SUMMONER_OMNIPORTATION">
+		<description>
+			<p>At 20th level your understanding of reality reaches it's peak. </p>
+			<p>You can maintain concentration on two spells at the same time if both of these spells belong to the conjuration school. You roll concentration for both spells separately and do not have to make one when concentrating on one conjuration spell.</p>
+		</description>
+		<sheet>
+			<description>You can maintain concentration on two spells at the same time if both of these spells belong to the conjuration school. You roll concentration for both spells separately and do not have to make one when concentrating on one conjuration spell.</description>
+		</sheet>
+	</element>
+
+<!--Summoner's Callings-->
+
+<!--Call of the Echoes-->
+
+	<element name="Call of the Echoes" type="Archetype" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_CALL_OF_THE_ECHOES">
+		<supports>Summoners Calling</supports>
+		<description>
+			<p>While the other summoners hear the call of what is or will be, your revelation came with whispers of the past. Left-over thoughts, emotions and intentions reverberating like echoes throught the world. Those imprints and remnants of creatures that once were guide you towards enlightenment, and in turn let themselves be guided towards a greater purpose.</p>
+			<p>Your choice grants you features when you choose it at 1st level and again at 3rd, 7th, and 14th level.</p>
+			<div element="ID_UN_CL_ARCHETYPE_FEATURE_MAGIC_OF_ECHOES" />
+			<div element="ID_UN_CL_ARCHETYPE_FEATURE_ECHO_ACTION" />
+			<div element="ID_UN_CL_ARCHETYPE_FEATURE_IMBUE_ECHO" />
+			<div element="ID_UN_CL_ARCHETYPE_FEATURE_PRIMORDIAL_ECHOES" />
+		</description>
+		<sheet display="false">
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_MAGIC_OF_ECHOES" level="1" />
+			<grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_ECHO_ACTION" level="3" />
+			<grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_IMBUE_ECHO" level="7" />
+			<grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_PRIMORDIAL_ECHOES" level="14" />
+		</rules>
+	</element>
+	<element name="Magic of Echoes" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_MAGIC_OF_ECHOES">
+		<supports>Call of the Echoes</supports>
+		<description>
+			<p>Starting at 1st level, you can use your Essence Stone feature to summon creatures with the humanoid creature type. Unlike other summoners, your summons do not look like the original creature, but rather a half-transparent imitation of it. It still behaves and can be affected like the original creature.</p>
+			<p>Additionally, you learn extra spells when you reach certain levels in this class, as shown on the Echo Spells table. Each of these spells counts as a summoner spell for you, but it doesn't count against the number of summoner spells you know.</p>
+			<h5 class="caption">ECHO SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>Summoner Level</td><td>Spell</td></tr>
+				</thead>
+				<tr><td>1st</td><td>Disguise Self, Silent Image</td></tr>
+				<tr><td>5th</td><td>Detect Thoughts, Phantasmal Force</td></tr>
+				<tr><td>9th</td><td>Major Image, Phantom Dragon</td></tr>
+				<tr><td>13th</td><td>Galder's Speedy Courier, Phantasmal Killer</td></tr>
+				<tr><td>17th</td><td>Sword of Fate, Seeming</td></tr>
+			</table>
+		</description>
+		<sheet>
+			<description>You may summon half-transparent imitations of humanoid creatures through your Essence Stone.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_DISGUISE_SELF" level="1" spellcasting="Summoner" />
+			<grant type="Spell" id="ID_PHB_SPELL_SILENT_IMAGE" level="1" spellcasting="Summoner" />
+			<grant type="Spell" id="ID_PHB_SPELL_DETECT_THOUGHTS" level="5" spellcasting="Summoner" />
+			<grant type="Spell" id="ID_PHB_SPELL_PHANTASMAL_FORCE" level="5" spellcasting="Summoner" />
+			<grant type="Spell" id="ID_PHB_SPELL_MAJOR_IMAGE" level="9" spellcasting="Summoner" />
+			<grant type="Spell" id="ID_KBP_DMDM_SPELL_PHANTOM_DRAGON" level="9" spellcasting="Summoner" />
+			<grant type="Spell" id="ID_LLOK_SPELL_GALDERS_SPEEDY_COURIER" level="13" spellcasting="Summoner" />
+			<grant type="Spell" id="ID_PHB_SPELL_PHANTASMAL_KILLER" level="13" spellcasting="Summoner" />
+			<grant type="Spell" id="ID_AW_OOTD_SPELL_SWORD_OF_FATE" level="17" spellcasting="Summoner" />
+			<grant type="Spell" id="ID_PHB_SPELL_SEEMING" level="17" spellcasting="Summoner" />
+			
+		</rules>
+	</element>
+	<element name="Echo Action" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_ECHO_ACTION">
+		<supports>Call of the Echoes</supports>
+		<description>
+			<p>At 3rd level, you learn to manifest an echo of an action that just occured.</p>
+			<p>When you or a creature within 30 feet of you makes a weapon attack or a Strength ability check, you can use your reaction to create a temporary echo of the target. The echo repeats what just happened, interrupting the current turn and allowing the targeted creature to make the triggering attack or ability check one more time, with the same bonuses to rolls as the original. The echo then disappears.</p>
+			<p>If the original attack dealt damage, the echoed attack's damage type is force damage. If the original attack had an effect that is applied when the attack is made (such as Divine Smite or Maneuvers feature), the echoed attack does not have that effect but the creature can expend resources to apply that feature to the echoed attack.</p>
+			<p>You can use this ability a number of times equal to your Intelligence modifier and you regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet action="Reaction" usage="{{intelligence:modifier}}/Long Rest">
+			<description>When you or a creature within 30 feet makes a weapon attack or Strength ability check, you may create a temporary echo. The echo rerolls the attack, or check with the same bonuses then dissipates. If the original attack dealt damage, the echoed attack's damage type is force damage. If the original attack had an effect that is applied when the attack is made (such as Divine Smite or Maneuvers feature), the echoed attack does not have that effect but the creature can expend resources to apply that feature to the echoed attack.</description>
+		</sheet>
+	</element>
+	<element name="Imbue Echo" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_IMBUE_ECHO">
+		<supports>Call of the Echoes</supports>
+		<description>
+			<p>At 7th level you learn to manifest your summon as a force that possesses another creature.</p>
+			<p>When you use your Essence Stone feature to summon a summon with the humanoid type, instead of targeting a point you can target a humanoid within the same range. If the targeted humanoid is willing, your summon possesses the targeted humanoid. You can end the possession earlier by using a bonus action on your turn. The possession ends if you or the possessed humanoid falls unconscious, drops to 0 hit points, or dies.</p>
+			<p>While the humanoid is possessed, the following rules apply:</p>
+			<ul>
+				<li>The possessed humanoid's game statistics are replaced by the statistics of your chosen summon, but the possessed humanoid retains their current hit points, their alignment and they still control their actions.</li>
+				<li>The possessed humanoid benefits from traits and can use actions available to your chosen summon. If the summon's attributes rely on items (such as armor for the purpose of AC), ghostly version of the items manifest on the possessed humanoid for the duration of the possession and cannot be taken off. If the minon's attack or action requires an item, the ghostly version of the item is manifested whenever the attack is made or action is taken and it vanishes immediately afterwards.</li>
+				<li>The possessed humanoid retains the benefits of any features from their class, race, or other source, but they can't cast any spells other than those available to your chosen summon. Becoming possessed doesn't break their concentration on a spell they've already cast, however, or prevent them from taking actions that are part of a spell.</li>
+				<li>The possesed humanoid counts as your summon for the duration of the possession, and as such they can benefit from your Transposition, Empower Summons and Mend Summon features.</li>
+			</ul>
+		</description>
+		<sheet action="Action">
+				<description>When using your Essence Stone, you may posses a willing humanoid with the essence. The possesed humanoid's stats are replaced by your summon's statistics, except for current hit points and alignment. They possessed humanoid still has control over their actions. The possessed humanoid benifits from traits, spells and actions of your summon. The possesd humanoid counts as your summon for the duration.</description>
+		</sheet>
+	</element>
+	<element name="Primordial Echoes" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_PRIMORDIAL_ECHOES">
+		<supports>Call of the Echoes</supports>
+		<description>
+			<p>Beginning at 14th level you can call upon the most powerful echoes.</p>
+			<p>Whenever you use your Essence Stone to summon a creature, you can choose to expend two uses of the stone to summon a more powerful create, increasing your current Summon CR by 2 for this use of the feature and allowing you to choose creatures of the giant or dragon creature type, in addition to the humanoid creature type.</p>
+		</description>
+		<sheet action="Action">
+			<description>You consume two uses of your Essence Stone to increase your summon CR by 2 for this summon, and are able to summon giant or dragon creature types in this way.</description>
+		</sheet>
+	</element>
+
+<!--Call of the False-->
+
+	<element name="Call of the False" type="Archetype" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_CALL_OF_THE_FALSE">
+		<supports>Summoners Calling</supports>
+		<description>
+			<p>A call borne from loneliness, you saw a spark of something in the empty space. Something that could be, although maybe it shouldn't. But what is creation if not your canvas, upon which you will bring back those that are gone and bring forth those that are incomplete. Normal life is flawed and imperfect, and you will prove it.</p>
+		</description>
+		<sheet display="false">
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_MAGIC_OF_FALSE_LIVES" level="1" />
+			<grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_REUSE_MATERIALS" level="3" />
+			<grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_SPELL_INFUSION" level="7" />
+			<grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_TRUE_CREATION" level="14" />
+		</rules>
+	</element>
+	<element name="Magic of False Lives" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_MAGIC_OF_FALSE_LIVES">
+		<supports>Call of the False</supports>
+		<description>
+			<p>Starting at 1st level, you can use your Manifest summon feature to summon creatures with the construct or undead creature type.</p>
+			<p>Additionally, you learn extra spells when you reach certain levels in this class, as shown on the False Lives Spells table. Each of these spells counts as a summoner spell for you, but it doesn't count against the number of summoner spells you know.</p>
+			<h5 class="caption">FALSE LIVES SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>Summoner Level</td><td>Spell</td></tr>
+				</thead>
+				<tr><td>1st</td><td>False Life, Machine Speech</td></tr>
+				<tr><td>5th</td><td>Wither and Bloom, Winding Key</td></tr>
+				<tr><td>9th</td><td>Spirit Shroud, Overclock</td></tr>
+				<tr><td>13th</td><td>Death Ward, Grinding Gears</td></tr>
+				<tr><td>17th</td><td>Enervation, Imbue Spell</td></tr>
+			</table>
+		</description>
+		<sheet>
+			<description>You may summon construct or undead creatures through your Essence Stone.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_FALSE_LIFE" level="1" spellcasting="Summoner" />
+			<grant type="Spell" id="ID_KBP_DMC_SPELL_MACHINE_SPEECH" level="1" spellcasting="Summoner" />
+			<grant type="Spell" id="ID_WOTC_SCOC_SPELL_WITHER_AND_BLOOM" level="5" spellcasting="Summoner" />
+			<grant type="Spell" id="ID_KBP_DMC_SPELL_WINDING_KEY" level="5" spellcasting="Summoner" />
+			<grant type="Spell" id="ID_WOTC_TCOE_SPELL_SPIRIT_SHROUD" level="9" spellcasting="Summoner" />
+			<grant type="Spell" id="ID_KBP_DMC_SPELL_OVERCLOCK" level="9" spellcasting="Summoner" />
+			<grant type="Spell" id="ID_KBP_DMC_SPELL_GRINDING_GEARS" level="13" spellcasting="Summoner" />
+			<grant type="Spell" id="ID_PHB_SPELL_DEATH_WARD" level="13" spellcasting="Summoner" />
+			<grant type="Spell" id="ID_XGTE_SPELL_ENERVATION" level="17" spellcasting="Summoner" />
+			<grant type="Spell" id="ID_KBP_DMC_SPELL_IMBUE_SPELL" level="17" spellcasting="Summoner" />
+		</rules>
+	</element>
+	<element name="Reuse Materials" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_REUSE_MATERIALS">
+		<supports>Call of the False</supports>
+		<description>
+			<p>At 3rd level you learn to create sturdier summons using physical resources.</p>
+			<p>When you use your Manifest summon feature to summon a summon, instead of targeting a point you can target materials within 20 feet of you that are not being worn or carried. Those materials depend on the type of creature you are summoning and are destroyed when the summon appears.</p>
+			<p>For summons with the undead type, appropriate materials include a corpse of a creature of the same size as the summoned summon. Alternatively it can be a pile of remains from various creatures but similar in volume to the summon you want to summon.</p>
+			<p>For summons with the construct type, appropriate materials include the remains of another construct type creature of the same size as the summoned summon. Altenatively it can be a pile of raw materials similar in volume and nature to the minon you want to summon (for example, a pile of metal junk for a flying sword).</p>
+			<p>When you summon a summon with the aid of materials, the summon's Armor Class increases by an amount equal to 1 + half your proficiency modifier (rounded down) and its current and maximum hit points increase by an amount equal to your Intelligence modifier + your summoner level. Additionally, summons summoned this way persist for a number of hours equal to your full summoner level instead of half your summoner level. The summon appears at the spot where the targetted materials previously were.</p>
+		</description>
+		<sheet>
+			<description>When you use Manifest Summon you may choose an object depending on the creature. For undead summons you may summon from a corpse or pile of remains of silimar size/volume of the creature. For construct summons you may summon from a pile of materials of similar volume of the creature. This doubles the normal duration of the summon and grants it an additional {{RU:AC}} AC, and {{RU:HP}} HP</description>
+		</sheet>
+		<rules>
+			<stat name="RU:AC" base="1" />
+			<stat name="RU:AC" value="proficiency/2" />
+
+			<stat name="RU:HP" base="intelligence:modifier" />
+			<stat name="RU:HP" value="summoner:level" />
+		</rules>
+	</element>
+	<element name="Spell Infusion" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_SPELL_INFUSION">
+		<supports>Call of the False</supports>
+		<description>
+			<p>Starting at 7th level you can infuse your spells into your summon.</p>
+			<p>When you cast a summoner spell that targets only your summon, with a duration longer than instantaneous, you can infuse that spell into your summon. When you do so, one of the following happens:</p>
+			<ul>
+				<li>If the spell does not require concentration, then the spell's duration lasts until dispelled or until the summon disappears.</li>
+				<li>If the spell requires concentration then you can cause your summon to maintain concentration on the spell instead of you. If the summon's concentration breaks the spells ends as normal.</li>
+			</ul>
+			<p>You can use this ability a number of times equal to your Intelligence modifier and you regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet usage="{{intelligence:modifier}}/Long Rest">
+			<description>When you cast a spell that targets only your summon and has a duration longer than instantaneous, if it requires concentration, you may have your summon hold the concentration instead. The spell breaks as normal if the summon loses concentration. If it does not require concentration, the spell lasts until dispelled or the summon disappears</description>
+		</sheet>
+	</element>
+	<element name="True Creation" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_TRUE_CREATION">
+		<supports>Call of the False</supports>
+		<description>
+			<p>At 14th you become capable making your creations truly independent.</p>
+			<p>When you begin creating a summon using materials, as per the Reuse Materials feature, you can instead choose to form it into an intependent being. Instead of an action, you need to spend 10 minutes conducting a ritual. If you choose to do so, you can choose a creature to summon that is one CR higher than your current summon CR. At the end of the ritual the creature is created and recieves the AC and hit point increase per the Reuse Materials feature, but the resulting creature is no longer your summon and is instead an independent creature that can last indefinitely and that you cannot directly command or dismiss. It also gains a degree of sentience dependant on it's Intelligence score, achieving true sentience if it's Intelligence score is 6 or higher.</p>
+			<p>The creature is also considered charmed by you indefinitely, even if the creature would usually be immune to the charmed condition. This charm cannot be broken except by casting the remove curse or dispel magic spell at a level equal or greater than the creature's CR. You can also dismiss this charm at any time using an action.</p>
+			<p>Alternatively, you can choose to assume direct control over the created creature by expending one use of your Manifest summon feature as an action. When you do so, the charmed condition on the creature is dismissed, and for a number of hours equal to your summoner level that creature is treated as if it was your summon, except you cannot use your action to dismiss it and it does not disappear when it normally would. At any point during this time you can expend another use of your Manifest summon feature to extend the control duration by a number of hours equal to your summoner level. If the creature falls to 0 hit points, it can start rolling death saving throws, dying when it reaches three failures.</p>
+			<p>If your control over the creature ever ends, you cannot assume control over it again. The now idependent creature can become hostile to you, based on how you treated it while you controlled it.</p>
+		</description>
+		<sheet>
+			<description>When using your Reuse Materials feature you may spend 10 minutes to summon a creature 1 CR above your current summon CR, granting it additional AC and HP as per the Reuse Materials feature. The resulting creature is considered an independent creature charmed by you and gains a intelligence of 6 if it does not have it already. Alternatively you may consume a Mainfest Summon usage to assume direct control over the creature as if it was your summon, however it may not be dismissed manually. Once the summon duration ends you cannot assume control over it and the creature become hostile to you based on your treatment towards it.</description>
+		</sheet>
+	</element>
+</elements>
+			
+			
