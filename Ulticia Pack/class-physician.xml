@@ -5,7 +5,7 @@
 		<description>Physician from the Chthonic Legacy.</description>
 		<author url="https://github.com/Ulticia-Noir">Nyxian</author>
 		<update version="0.0.1">
-			<file name="class-physician.xml" url="https://github.com/Ulticia-Noir/elements/class-physician.xml" />
+			<file name="class-physician.xml" url="https://raw.githubusercontent.com/Ulticia-Noir/elements/main/Ulticia%20Pack/class-physician.xml" />
 		</update>
 	</info>
 
