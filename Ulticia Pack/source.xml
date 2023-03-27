@@ -18,4 +18,17 @@
 			<set name="release">20220516</set>
 		</setters>
 	</element>
+
+	<element name="Chthonic Legacy" type="Source" source="Core" id="ID_UN_CL_SOURCE_CHTHONIC_LEGACY">
+		<description>
+		</description>
+		<setters>
+			<set name="abbreviation">CL</set>
+			<set name="url">https://www.worldanvil.com/w/mire-castra-phoenixnoir</set>
+			<set name="image"></set>
+			<set name="author" url="https://www.worldanvil.com/w/mire-castra-phoenixnoir">World of Mire Castra</set>
+			<set name="homebrew">true</set>
+			<set name="release">20230327</set>
+		</setters>
+	</element>
 </elements>
