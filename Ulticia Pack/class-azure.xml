@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>The Azure</name>
+		<description>The Azure from the Chthonic Legacy.</description>
+		<author url="https://github.com/Ulticia-Noir">Nyxian</author>
+		<update version="0.0.1">
+			<file name="class-azure.xml" url="https://raw.githubusercontent.com/Ulticia-Noir/elements/main/Ulticia%20Pack/class-azure.xml" />
+		</update>
+	</info>
+
+     <element name="The Azure" type="Class" source="Chthonic Legacy" id="ID_UN_CL_CLASS_AZURE">
+		<description>
+            <p>Imitation is the greatest form of flattery, even when it's done so much better. An azure cloaked elven woman strides toward two massive white and red dragons in the arena, her lance at the ready, her form crackling with energy, with each step turning the floor into ash. She lunges at the fierce monsters with eyes aflame and powerful magic coating her. Shouts, cheers, and curses echo within the underground arena.</p>
+            <p>A confident smirk spreads across the face of the veteran mage, when the white dragon, without hesistation, engulfs her in a sea of freezing breath. The ice biting with raw intensity, She grits her teeth and ignores the pain. Unleashing the spell brewing within. Untold knowledge pours into her, reverberating through her body, as the icey breath finally ceases.</p>
+            <p>With lightning quick steps, streaking towards the white dragon, she makes her move. With one powerful cut she beheads the mighty dragon. Sprays of blue blood marking her, as the massive head crashes beside her. All grows silent around her, stunned. Her remaining quarry, the red dragon, too is shocked for the briefest of moments, but that was the moment, the only moment she needed.</p>
+            <p>She inhales deeply, her lungs filling with air that grows colder and colder with each passing moment. The azure woman, drenched in ice cold blood, exhales. From which the self same sea of cold icey breath bursts forth from out her lungs, engulfing the wrym. A frozen solid statue stands before her, of a once great red dragon.</p>
+            <h3>AZURE CASTERS</h3>
+            <p>Some tales of the hostile distant lands speak of monstrous magic and daring adventures of mages clothed in blue. These adventurers are known as The Azure: They travel the plane, studying and researching the magic of monsters and mimicry</p>
+            <h3>VANGUARDS OF BLUE MAGIC</h3>
+            <p>The discovery of what is referred to as blue magic stems from endless possibilty. Harnessing a new frontier of magical capabilitiies, it proceeds to steal and mimic things that were once just natural abilities. Mimicries, as they are called, blend wielder and a sliver of monsters for just a moment to replicate their destructive abilities. With experience and knowledge, an Azure can exceed their limits to untold reaches, into the realm of what was thought to be solely for monsters.</p>
+            <h3>CREATING AN AZURE</h3>
+            <p>When creating an Azure, you must consider what lead to your discovery of mimicry and magic. Was it accidental, or fervent passion and dream? Or did you learn it from a wise sage or a ridiculed academic?</p>
+            <p>As well as why are you pursuing this new form of magic. Is it to test and know the limits of this unknown souce of magic, or is to pursue other personal goals. Whatever it be, you wield unknowability, so cherish and forsake the possibilities.</p>
+            <h5>QUICK BUILD</h5>
+            <p>You can make an Azure quickly by using these suggestions. First, make Intelligence your highest ability score, followed by your Constitution. Second, take the sage background.</p>
+            <h3>CLASS FEATURES</h3>
+            <p>As an Azure, you gain the following class features.</p>
+            <h5>HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d8 per Azure level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per Azure level after 1st.</li>
+            </ul>
+            <h5>PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> Light armor, medium armor, shields</li>
+                <li><strong>Weapons:</strong> Simple weapons, Scimitars, Lances, and Whips</li>
+                <li><strong>Tools:</strong> Forgery Kit</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Saving Throws:</strong> Constitution, Intelligence</li>
+                <li><strong>Skills:</strong> Choose two skills from Arcana, History, Insight, Survival, Nature, Religion, Investigation, or Animal Handling.</li>
+            </ul>
+			<h5>EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+                <li><i>(a)</i> two simple weapons of your choice or <i>(b)</i> a scimitar</li>
+				<li><i>(a)</i> leather armor or <i>(b)</i> scale mail</li>
+                <li><i>(a)</i> component pouch or <i>(b)</i> arcane focus</li>
+                <li><i>(a)</i> an explorer’s pack or <i>(b)</i> a scholar’s pack</li>
+				<li>A shield and one article of clothing that is violently blue</li>
+			</ul>
+            <h5 class="caption">THE AZURE</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="col-30 left">Features</td><td class="col-10">Spells Copied</td><td class="col-10">Spell Slots</td><td>Slot Level</td><td>Mimicry Slots</td></tr>
+				</thead>
+                <tr><td> 1st</td><td class="left">Learn, Spell Copy, Mimicry Magick</td><td>2</td><td>2</td><td>1st</td><td>1</td></tr>
+                <tr><td> 2nd</td><td class="left">The Azure Paradigm, Libra</td><td>3</td><td>2</td><td>1st</td><td>2</td></tr>
+                <tr><td> 3rd</td><td class="left">Mighty Guard, Moon Flute</td><td>4</td><td>2</td><td>1st</td><td>2</td></tr>
+                <tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>4</td><td>2</td><td>1st</td><td>2</td></tr>
+                <tr><td> 5th</td><td class="left">Azure Lore, Spell Junction</td><td>5</td><td>4</td><td>1st</td><td>2</td></tr>
+                <tr><td> 6th</td><td class="left">Azure Paradigm Feature</td><td>5</td><td>4</td><td>2nd</td><td>2</td></tr>
+                <tr><td> 7th</td><td class="left">Moon Flute Improvement, Learn Improvement</td><td>6</td><td>4</td><td>2nd</td><td>2</td></tr>
+                <tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>6</td><td>4</td><td>2nd</td><td>3</td></tr>
+                <tr><td> 9th</td><td class="left">Affinity</td><td>7</td><td>4</td><td>2nd</td><td>3</td></tr>
+                <tr><td> 10th</td><td class="left">Azure Paradigm Feature</td><td>7</td><td>4</td><td>2nd</td><td>3</td></tr>
+                <tr><td> 11th</td><td class="left">Lethal Pathfinder</td><td>7</td><td>4</td><td>3rd</td><td>3</td></tr>
+                <tr><td> 12th</td><td class="left">Ability Score Improvement</td><td>8</td><td>4</td><td>3rd</td><td>3</td></tr>
+                <tr><td> 13th</td><td class="left">Mighty Guard Improvement</td><td>8</td><td>4</td><td>3rd</td><td>4</td></tr>
+                <tr><td> 14th</td><td class="left">Azure Paradigm Feature</td><td>8</td><td>4</td><td>3rd</td><td>4</td></tr>
+                <tr><td> 15th</td><td class="left">-</td><td>8</td><td>4</td><td>3rd</td><td>4</td></tr>
+                <tr><td> 16th</td><td class="left">Ability Score Improvement</td><td>9</td><td>4</td><td>4th</td><td>4</td></tr>
+                <tr><td> 17th</td><td class="left">Affinity Improvement</td><td>9</td><td>6</td><td>4th</td><td>4</td></tr>
+                <tr><td> 18th</td><td class="left">Faux Mastery</td><td>9</td><td>6</td><td>4th</td><td>4</td></tr>
+                <tr><td> 19th</td><td class="left">Ability Score Improvement</td><td>9</td><td>6</td><td>4th</td><td>4</td></tr>
+                <tr><td> 20th</td><td class="left">Limit Break</td><td>10</td><td>6</td><td>4th</td><td>4</td></tr>
+            </table>
+            <div element="ID_UN_CL_CLASS_FEATURE_AZURE_LEARN" />
+            <div element="ID_UN_CL_CLASS_FEATURE_AZURE_COPY" />
+            <div element="ID_UN_CL_CLASS_FEATURE_AZURE_MIMICRY_MAGICK" />
+            <div element="ID_UN_CL_CLASS_FEATURE_AZURE_THE_AZURE_PARADIGM" />
+            <div element="ID_UN_CL_CLASS_FEATURE_AZURE_LIBRA" />
+            <div element="ID_UN_CL_CLASS_FEATURE_AZURE_MIGHTY_GUARD" />
+            <div element="ID_UN_CL_CLASS_FEATURE_AZURE_MOON_FLUTE" />
+            <div element="ID_UN_CL_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_AZURE" />
+            <div element="ID_UN_CL_CLASS_FEATURE_AZURE_AZURE_LORE" />
+            <div element="ID_UN_CL_CLASS_FEATURE_AZURE_SPELL_JUNCTION" />
+            <div element="ID_UN_CL_CLASS_FEATURE_AZURE_AFFINITY" />
+            <div element="ID_UN_CL_CLASS_FEATURE_AZURE_LETHAL_PATHFINDER" />
+            <div element="ID_UN_CL_CLASS_FEATURE_AZURE_FAUX_MASTERY" />
+            <div element="ID_UN_CL_CLASS_FEATURE_AZURE_LIMIT_BREAK" />
+        </description>
+        <setters>
+			<set name="short">Eccentric mages clad in blue, copying the abilites of monsters</set>
+			<set name="hd">d8</set>
+		</setters>
+        <sheet display="false" />
+		<rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_UN_CL_MULTICLASS_AZURE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_UN_CL_MULTICLASS_AZURE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" requirements="!ID_UN_CL_MULTICLASS_AZURE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LANCE" requirements="!ID_UN_CL_MULTICLASS_AZURE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WHIP" requirements="!ID_UN_CL_MULTICLASS_AZURE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT" requirements="!ID_UN_CL_MULTICLASS_AZURE"/>
+
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_UN_CL_MULTICLASS_AZURE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_UN_CL_MULTICLASS_AZURE" />
+            <select type="Proficiency" name="Skill Proficiency, Azure" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_ANIMAL_HANDLING|ID_PROFICIENCY_SKILL_RELIGION|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" requirements="!ID_UN_CL_MULTICLASS_AZURE" />
+
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_AZURE_LEARN" level="1" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_AZURE_COPY" level="1" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_AZURE_MIMICRY_MAGICK" level="1" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_AZURE_THE_AZURE_PARADIGM" level="2" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_AZURE_LIBRA" level="2" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_AZURE_MIGHTY_GUARD" level="3" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_AZURE_MOON_FLUTE" level="3" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_AZURE" level="4" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_AZURE_AZURE_LORE" level="5" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_AZURE_SPELL_JUNCTION" level="5" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_AZURE_AFFINITY" level="9" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_AZURE_LETHAL_PATHFINDER" level="11" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_AZURE_FAUX_MASTERY" level="18" />
+            <grant type="Class Feature" id="ID_UN_CL_CLASS_FEATURE_AZURE_LIMIT_BREAK" level="20" />
+        </rules>
+        <multiclass id="ID_UN_CL_MULTICLASS_Azure">
+			<prerequisite>Constitution 13 and Intelligence 13</prerequisite>
+			<requirements>([con:13],[int:13])</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Light armor, medium armor, simple weapons, rapier, hand crossbow, herbalism kit, medicine skill</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+                <select type="Proficiency" name="Skill Proficiency, Azure" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_ANIMAL_HANDLING|ID_PROFICIENCY_SKILL_RELIGION|ID_PROFICIENCY_SKILL_SURVIVAL" number="1" />
+			</rules>
+		</multiclass>
+    </element>
+
+    <element name="Learn" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_AZURE_LEARN">
+        <description>
+            <p>At 1st level, you gain the ability to magically learn and mimic monster abilities and spells.</p>
+            <p>When you or a friendly creature are the target of a spell or a learnable monster ability/trait, you may use your reaction to make an Intelligence ability check to learn it. You roll with disadvantage if you were not hit by or the target of the spell or monster ability. </p>
+            <center>
+            <p><strong>Learn DC</strong> = 10 + half the target's CR or Spell Level (whichever is higher).</p>
+            </center>
+            <p>On a success, the monster ability/trait is added to your grimoire of mimicry in a crude and basic form. If a spell was learned, you may add it to your Spells Copied if you are not at the spell copy limit already or to replace another spell of your choice. Any spell that has not been added to your Spells Copied is forgotten after 1 minute. You may use this feature on friendly creatures to learn spells but not abilities or traits.</p>
+            <p>Furthermore, you can learn monster abilities of a higher level than you can cast. If the ability does damage its is reduced to the amount stated in the Mimicry Guidelines table deatiled at the end of this class.</p>
+            <p>Starting at 7th level, spells you have copied before no longer require a roll to relearn.</p>
+            <h5>Azure Learning 101</h5>
+            <p>If a spell or monster ability inflicted a condition (such as unconscious, petrified, charmed, etc.), and you are able to recover from said condition, you will do so having learned the spell or monster ability if you succeeded the learning attempt</p>
+        </description>
+        <sheet action="Reaction">
+            <description>When you or a friendly creature are the target of a spell or learnable monster ability/trait you may make an Intelligence check to learn it. You roll at advantage if your were not the target of the spell or ability. The DC is 10 + half the creature's CR or Spell Level (take highest). On a success it is added to your grimoire. Any spells not added to your Spells Copied is forgotten after 1 minute.</description>
+            <description level="7">When you or a friendly creature are the target of a spell or learnable monster ability/trait you may make an Intelligence check to learn it. You roll at advantage if your were not the target of the spell or ability. The DC is 10 + half the creature's CR or Spell Level (take highest). On a success it is added to your grimoire. Any spells not added to your Spells Copied is forgotten after 1 minute.If you knew a spell previously you do not need to roll to relearn it.</description>
+        </sheet>
+    </element>
+    <element name="Spell Copy" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_AZURE_COPY">
+        <description>
+            <p>Your arcane studies and pursuits have shown you a revolutionary way of casting magic.</p>
+            <h5>Spells Copied</h5>
+            <p>At 1st level, you know one 1st-level spell of your choice from any spell list and one cantrip of your choice from the wizard spell list.</p>
+            <p>The Spells Copied column of the Azure table shows when you can copy more spells of your choice of 1st level or higher. A spell you copy must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach 11th level, for example, you copy a new Azure spell, that spell can be 1st, 2nd, or 3rd level and can be added or replaced up to your Spells Copied Limit. Spells that are learned through the Learn feature can be from any spell list.</p>
+            <p>You do not gain spells to copy when you gain a level in this class. Furthermore, any spells that are replaced are immediately forgotten.</p>
+            <h5>Spell Slots</h5>
+            <p>The Azure table shows how many spell slots you have to cast your Azure spells. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your Azure spells of 1st level or higher, you must expend a spell slot. </p>
+            <p>You regain all expended spell slots when you finish a long rest.</p>
+            <h5>Spellcasting Ability</h5>
+            <p>Intelligence is your spellcasting ability for your Azure, so you use your Intelligence whenever a spell or mimicry refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a Azure spell, mimicry, or Azure feature you cast and when making an attack roll with one.</p>
+            <center>
+                <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Intelligence modifier</p>
+			</center>
+            <h5>Spellcasting Focus</h5>
+            <p>You can use an arcane focus as a spellcasting focus for your Azure spells.</p>
+        </description>
+        <sheet display="false">
+			<description>You have the ability to cast spells.</description>
+		</sheet>
+        <spellcasting name="Azure" ability="Charisma" allowReplace="true">
+			<list>Wizard</list>
+		</spellcasting>
+		<rules>
+			<!-- add not full but single _not counting as multiclass spellcaster due to pact magic -->
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_SOLO" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+
+			<stat name="azure:spellcasting:slots:count" value="2" level="1"/>
+			<stat name="azure:spellcasting:slots:count" value="2" level="5"/>
+			<stat name="azure:spellcasting:slots:count" value="2" level="17"/>
+
+			<stat name="azure:spellcasting:slot" value="1" level="1" />
+			<stat name="azure:spellcasting:slot" value="1" level="7" />
+			<stat name="azure:spellcasting:slot" value="1" level="11" />
+			<stat name="azure:spellcasting:slot" value="1" level="15" />
+
+			<!-- negative count to remove slots -->
+			<stat name="azure:spellcasting:slots:1" value="azure:spellcasting:slots:count" level="1" />
+			<stat name="azure:spellcasting:slots:1" value="-azure:spellcasting:slots:count" level="7" />
+			<stat name="azure:spellcasting:slots:2" value="azure:spellcasting:slots:count" level="7" />
+			<stat name="azure:spellcasting:slots:2" value="-azure:spellcasting:slots:count" level="11" />
+			<stat name="azure:spellcasting:slots:3" value="azure:spellcasting:slots:count" level="11" />
+			<stat name="azure:spellcasting:slots:3" value="-azure:spellcasting:slots:count" level="15" />
+			<stat name="azure:spellcasting:slots:4" value="azure:spellcasting:slots:count" level="15" />
+
+			<select type="Spell" name="Cantrip (Azure)" supports="$(spellcasting:list),0" level="1" number="1" spellcasting="Azure" />
+
+			<select type="Spell" name="Spellcasting (Azure)" supports="$(spellcasting:list),$(spellcasting:slots)" level="1" number="1" spellcasting="Azure"/>
+		</rules>
+    </element>
+    <element name="Mimicry Magick" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_AZURE_MIMICRY_MAGICK">
+        <description>
+            <p>You have started to grasp the fundamentals of mimicry.</p>
+            <h5>Grimoire of Mimicry</h5>
+            <p>At 1st level, you have a Grimoire of Mimicry containing three mimicries, Mephit Breath (Magma), Sting (Pseudodragon), and Web Sense. Your Grimoire of Mimicry is the repository of monster abilities/traits you know.</p>
+            <p><strong>Copying a Monster Ability into the Grimoire.</strong>When you learn a new monster ability, you can finish adding it to your grimoire of mimicry if you can spare the time to analyze and fully record it during a long rest.</p>
+            <p>For each CR higher than your class level, the process takes 2 hours and costs 60 gp, otherwise the process takes 1 hour and 30 gp. The hours spent copying does not need to be done consecutively, needing only a total amount of time spent. Once you have spent this time and money, you can prepare the monster ability just like your other mimicries. </p>
+            <p>Monster ability recharge rates are removed and any daily use amounts are left unchanged. Furthermore, damage dice/effects are replaced based on their CR. More information about this can be found in the Mimicry Guidelines at the end of the class description.</p>
+            <p><strong>Replacing the Grimoire.</strong>You can copy a mimicry from your own grimoire of mimicry into another grimoire - for example, to make a backup copy of your grimoire. This is like copying a new monster ability into your grimoire, but faster and easier. You need spend only 1 hour and 10 gp for each level of the copied mimicry.</p>
+            <p>If you lose your grimoire of mimicry, you can use the same procedure to transcribe the mimicries that you have prepared into a new grimoire of mimicry. Filling out the remainder of your grimoire of mimicry requires you to find new monster abilities/traits to do so, as normal.</p>
+            <h5>Mimicries Prepared</h5>
+            <p>You prepare the list of Azure mimicries that are available for you to cast. When you do so, choose a number of mimicries equal to your double your Constitution modifier + half your Azure level, rounded down (minimum of one)</p>
+            <p>You can change your list of prepared mimicries when you finish a long rest. </p>
+            <h5>Mimicry Slots</h5>
+            <p>You can mimic and manifest monster abilities with your body and magic as a conduit. To do so, you use the required action, bonus action, or reaction that is needed to mimic said mimicry. If a monster ability does not state a required action, such as a Balor's Fire Aura or any other trait, then an action or reaction is required to activate it. </p>
+            <p><strong>Trait Duration</strong> If a trait offers: Damage, Damage Reduction, Healing, or advantage on attacks or saving throws, then its duration is 1 minute and requires concentration. If a trait offers none of those, then the duration is 10 minutes and does not require concentration. You can dismiss a mimicry at any time (no action required).</p>
+            <p><strong>Casting a Mimicry</strong>Whenever a mimicry you cast asks you to make an attack or use a DC, refer to your spellcasting ability. After a mimicry is cast, it needs to be recharged before it can be used again. At the beginning of your turn, roll a d6. On a 5 or 6, you regain the ability to cast that mimicry. </p>
+            <p>All mimicries require verbal and somatic components to cast.</p>
+            <p>The Azure table shows how many mimicries can be cast. You regain all expended mimicry slots when you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description>You have {{mimic:slots}} mimicry slots. All mimicries require verbal and somatic components to cast and it's duration and damage are adjusted based on it's effects as described in the class. All mimicry abilites use your spellcasting DC</description>
+        </sheet>
+        <rules>
+            <stat name="mimic:slots" value="1" />
+            <stat name="mimic:slots" value="1" level="2" />
+            <stat name="mimic:slots" value="1" level="8" />
+            <stat name="mimic:slots" value="1" level="13" />
+        </rules>
+    </element>
+    <element name="The Azure Paradigms" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_AZURE_THE_AZURE_PARADIGM">
+        <description>
+            <p>Beginning at 2nd level, you choose which Paradigm of Mimicry you wish to pursue, following the footsteps of the first Azure and their schools of thought. Your decision grants you features at 2nd level and again at 6th, 10th, and 14th levels.</p>
+            <h5>Paradigm Spells</h5>
+            <p>Each paradigm has a list of spells that you learn at the Azure levels noted in the paradigms description. Spells you learn from a paradigm count as Azure spells for you but they don't count against the number of Azure spells you have copied.</p>
+            <h5>Paradigm Difficulty Checks</h5>
+            <p>Some Paradigm Feature effects require saving throws. When you use such an effect from this class, the DC equals your Azure spell save DC.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+			<select type="Archetype" name="The Azure Paradigms" supports="The Azure Paradigms" />
+		</rules>
+    </element>
+    <element name="Libra" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_AZURE_LIBRA">
+        <description>
+            <p>At 2nd level, you gain the ability to analyze a creature and magically discern its physiology. As an bonus action, choose one creature you can see within 60 feet of you and make an Intelligence check (the DM decides if that creature would be found through Arcana, History, Nature, Religion, or Investigation)</p>
+            <center>
+                <p><strong>Libra DC</strong>= 8 + half the target's challenge rating.</p>
+            </center>
+            <p>On a success you learn whether the creature has any learnable monster abilities/traits you have not learned before. You learn the amount but not what they are. Additionally, you learn the target's CR. If the creature is hidden from divination magic, you sense that it has no CR or monster abilities to learn. </p>
+            <p>Furthermore, for 1 minute, you can not gain disadvantage on attempts to learn a spell or monster ability from the target.</p>
+            <p>You can use this feature an amount of times equal to half your Intelligence modifier (rounded up). You regain all expended uses when you finish a short or long rest.</p>
+        </description>
+        <sheet usage="{{intelligence:modifier:half:up}}/Short Rest" action="Bonus Action">
+            <description>Choose a creature an make an Intelligence skill check (chosen by DM). The DC is 8 + half the creature's CR. On a success you learn whether the creature has any learnable monster abilities/traits you have not learned before. You learn the amount but not what they are. Additionally, you learn the target's CR. If the creature is hidden from divination magic, you sense that it has no CR or monster abilities to learn. For 1 minute, you can not gain disadvantage on attempts to learn a spell or monster ability from the target.</description>
+        </sheet>
+    </element>
+    <element name="Mighty Guard" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_AZURE_MIGHTY_GUARD">
+        <description>
+            <p>At 3rd level your body takes on physical traits and aspects of the toughest monsters and most resolute of mimicries. You can reduce any damage you take by an amount equal to your proficiency bonus and you gain advantage on saving throws against being frightened.</p>
+            <p>Starting at 13th level, you may add half your proficiency bonus to saving throws you are not proficient with.</p>
+        </description>
+        <sheet>
+            <description>You can reduce any damage you take by {{MG:RED}} and you gain advantage on saving throws against being frightened.</description>
+            <description>You can reduce any damage you take by {{MG:RED}} and you gain advantage on saving throws against being frightened. You add {{MG:SAV}} to saves you are not proficient with.</description>
+        </sheet>
+        <rules>
+            <stat name="MG:RED" value="proficiency" />
+            <stat name="MG:SAV" value="proficiency:half:up" />
+        </rules>
+    </element>
+    <element name="Moon Flute" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_AZURE_MOON_FLUTE">
+        <description>
+            <p>At 3rd level, once per day when you finish a short rest, you may choose to recover up to two expended mimicry slots.</p>
+            <p>Additionally, once per day when you finish a short rest, you may choose to recover half your total amount of Azure spell slots.</p>
+            <p>Starting at 7th level, you no longer need a short rest and can now spend one minute focusing to recover spell/mimicry slots.</p>
+        </description>
+        <sheet usage="1/Day">
+            <description>During a short rest you may recover up to two expended mimicry slots, and half your Azure spell slots.</description>
+            <description level="7">During a short rest or by spending 1 minute focusing, you may recover up to two expended mimicry slots, and half your Azure spell slots.</description>
+        </sheet>
+    </element>
+    <element name="Ability Score Improvement" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_AZURE">
+        <compendium display="false" />
+        <description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+        </description>
+        <sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Azure 4)" supports="Improvement Option,Azure,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Azure 8)" supports="Improvement Option,Azure,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Azure 12)" supports="Improvement Option,Azure,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Azure 16)" supports="Improvement Option,Azure,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Azure 19)" supports="Improvement Option,Azure,19" level="19" />
+		</rules>
+	</element>
+    <element name="Azure Lore" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_AZURE_AZURE_LORE">
+        <description>
+            <p>Beginning at 5th level, mimicry and understanding come to you in a blink of an eye.</p>
+            <p>Whenever you have less than the maximum amount of allowable mimicries prepared and successfully learn a new monster ability, you may choose to immediately prepare it, acting as if you had prepared it after a long rest. You must still copy it to your grimoire or it will be forgotten if you replace it for another. You are unable to use this feature if there is no space for a new mimicry.</p>
+        </description>
+        <sheet>
+            <description>Whenever you have less than the maximum amount of allowable mimicries prepared and successfully learn a new monster ability, you may choose to immediately prepare it, acting as if you had prepared it after a long rest. You must still copy it to your grimoire or it will be forgotten if you replace it for another. You are unable to use this feature if there is no space for a new mimicry.</description>
+        </sheet>
+    </element>
+    <element name="Spell Junction" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_AZURE_SPELL_JUNCTION">
+        <description>
+            <p>Starting at 5th level, unprepared mimicries with a CR equal to half your class level rounded down, can now be cast using a spell slot.</p>
+        </description>
+        <sheet>
+            <description>Mimicries with a CR equal to half you class level rounded down can be cast using a spell slot.</description>
+        </sheet>
+    </element>
+    <element name="Affinity" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_AZURE_AFFINITY">
+        <description>
+            <p>Starting at 9th level, whenever you successfully learn a spell or monster ability/trait, you regain your reaction.</p>
+            <p>Starting at 17th level, you can use any mimicries that are above your level, ignoring the level adjustments.</p>
+        </description>
+        <sheet>
+            <description>When you successfully learn a spell or monster ability/trait, you regain your reaction.</description>
+            <description level="17">When you successfully learn a spell or monster ability/trait, you regain your reaction. Additionally you can use any mimicries that are above your level, ignoring the level adjustments.</description>
+        </sheet>
+    </element>
+    <element name="Lethal Pathfinder" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_AZURE_LETHAL_PATHFINDER">
+        <description>
+            <p>Starting at 11th level, you're starting to think like a monster, understanding their trickery. You can cast Find Traps at will, without expending a spell slot or material components. </p>
+            <p>Additionally, when Find Traps is cast you also become aware of the presence of Tiny or larger creatures within 120 feet of you that aren't constructs or undead.</p>
+        </description>
+        <sheet>
+            <description>You can cast Find Traps at will without expending a slot or components and beceome aware of the presence of Tiny or larger creatures within 120 feet of you that aren't constructs or undead.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_FIND_TRAPS" />
+        </rules>
+    </element>
+    <element name="Faux Mastery" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_AZURE_FAUX_MASTERY">
+        <description>
+            <p>Starting at 18th level, whenever you successfully learn a spell or ability/trait you may choose one of the following benefits:</p>
+            <ul>
+                <li>You gain one of the target's senses of your choice.</li>
+                <li>You gain one of the target's languages of your choice.</li>
+                <li>You gain one of the target's resistances of your choice.</li>
+                <li>You gain one condition immunity of the target's condition immunities of your choice</li>
+            </ul>
+            <p>You may have a number of benefits active up to half your Consitution modifier and may replace a benefit for another additionally gained. All benefits are lost after a long rest. </p>
+        </description>
+        <sheet>
+            <description>Whenever you successfully learn a spell or ability/trait you may choose one of the following benefits: You gain one of the target's senses of your choice, You gain one of the target's languages of your choice, You gain one of the target's resistances of your choice, You gain one condition immunity of the target's condition immunities of your choice. You may have a number of benefits active up to {{constitution:modifier:half:up}}. All benefits are lost after a long rest.</description>
+        </sheet>
+    </element>
+    <element name="Limit Break" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_AZURE_LIMIT_BREAK">
+        <description>
+            <p>Upon reaching 20th level, your mastery of stealing and mimicking is unparalleled, even considered legendary. As an action you may transcend your limits as an Azure, immediatly regaining all spend spell slots and recharging any spent mimicries. Additionly you gain one Legeendary Action per round for 1 minute that can be used to cast any mimicry ability. At the end of the duartion of this ability you gain a stack of exhaustion.</p>
+            <p>Once you successfully use this feature, you can't use it again until you finish a long rest.</p>
+        </description>
+        <sheet usage="1/Long Rest" action="Action">
+            <description>You transcend your limits as an Azure, immediatly regaining all spend spell slots and recharging any spent mimicries. Additionly you gain one Legeendary Action per round for 1 minute that can be used to cast any mimicry ability. At the end of the duartion of this ability you gain a stack of exhaustion.</description>
+        </sheet>
+    </element>
+
+<!--The Azure Paradigms-->
+
+<!--Paradigm of the Cobalt Traveler-->
+    <element name="Paradigm of the Cobalt Traveler" type="Archetype" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_PARADIGM_OF_THE_COBALT_TRAVELER">
+		<supports>The Azure Paradigms</supports>
+		<description>
+			<p>Knowledge and the love of new wonders give these mages meaning, purpose. They follow the adage of experiencing everything at least once, to try, fail, and pick themselves back up. The Cobalt Travelers are eargerly wanderlust to see the plane for all its magically worth and to dream of ever greater possibilities.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+			<grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_COBALT_SPELLS" level="2" />
+            <grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_TRAVELERS_WARD" level="2" />
+            <grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_UNCANNY_INTUITION" level="2" />
+            <grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_UNBRIDLED_WISDOM" level="6" />
+            <grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_HIGH_LIBRA_COBALT" level="6" />
+            <grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_SPELL_DRAIN" level="10" />
+            <grant type="Archetype Feature" id="ID_UN_CL_ARCHETYPE_FEATURE_REFLECT" level="14" />
+        </rules>
+	</element>
+    <element name="Cobalt Spells" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_COBALT_SPELLS">
+		<supports>Paradigm of the Cobalt Traveler</supports>
+		<description>
+            <h5 class="caption">Cobalt Spells</h5>
+            <p>You learn paradigm spells at the Azure level listed in the Cobalt Spells table. See the Azure Paradigm class feature for how paradigm spells work.</p>
+            <table>
+				<thead>
+					<tr><td>Azure Level</td><td>Spell</td></tr>
+				</thead>
+				<tr><td>2nd</td><td>Azuro's Flare, Identify</td></tr>
+				<tr><td>7th</td><td>Vortex Warp</td></tr>
+				<tr><td>11th</td><td> 	Fly</td></tr>
+				<tr><td>15th</td><td>Locate Creature</td></tr>
+			</table>
+		</description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_UN_CL_AZUROS_FLARE" level="2" spellcasting="Azure" />
+            <grant type="Spell" id="ID_PHB_SPELL_IDENTIFY" level="2" spellcasting="Azure" />
+            <grant type="Spell" id="ID_WOTC_SCOC_SPELL_VORTEX_WARP" level="7" spellcasting="Azure" />
+            <grant type="Spell" id="ID_PHB_SPELL_FLY" level="11" spellcasting="Azure" />
+            <grant type="Spell" id="ID_PHB_SPELL_LOCATE_CREATURE" level="15" spellcasting="Azure" />
+        </rules>
+    </element>
+    <element name="Travelers Ward" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_TRAVELERS_WARD">
+		<supports>Paradigm of the Cobalt Traveler</supports>
+		<description>
+            <p>Upon choosing this Paradigm at 2nd level, choose one cantrip of your choice from the wizard spell list.</p>
+            <p>Furthermore, whenever a creature is making a melee or ranged weapon attack against you, you may use your reaction to either deflect or mirror the attack back.</p>
+            <p><strong>Deflect: </strong>The attack automatically misses and hits nothing. Additionally, you gain the effects of the sanctuary spell until the start of your next turn.</p>
+            <p><strong>Mirror: </strong>You can attempt to mirror the attack back with magical force. Make a spell attack. On a successful hit, the creature is struck with its own attack, adding your Intelligence modifier to the damage, and is forcibly thrown 30 feet away from you and knocked prone.</p>
+            <p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+        </description>
+        <sheet usage="1/Short Rest" action="Reaction">
+            <description>Whenever you are attacked you may either deflect or mirror the attack back. Deflect: The attack automatically misses and hits nothing. Additionally, you gain the effects of the sanctuary spell until the start of your next turn. Mirror: You can attempt to mirror the attack back with magical force. Make a spell attack. On a successful hit, the creature is struck with its own attack, adding {{intelligence:modifier}} to the damage, and is forcibly thrown 30 feet away from you and knocked prone.</description>
+        </sheet>
+        <rules>
+            <select type="Spell" name="Cantrip (Azure)" supports="$(spellcasting:list),0" level="2" number="1" spellcasting="Azure" />
+        </rules>
+    </element>
+    <element name="Uncanny Intuition" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_UNCANNY_INTUITION">
+		<supports>Paradigm of the Cobalt Traveler</supports>
+		<description>
+            <p>At 2nd level, your travels have given you a supernatural sense of where things are. You learn locate object and can cast it a number of times equal to your proficiency modifier without expending a spell slot. You regain any expended uses when you finish a long rest.</p>
+            <p>Additionally, you have advantage on Wisdom (Perception) and Intelligence (Investigation) checks when searching for an item, and if you have collected an item for a creature before, you have advantage on Charisma (Persuasion) checks to convince them to help you or to listen to you.</p>
+        </description>
+        <sheet usage="{{UI:U}}/Long Rest">
+            <description>You can cast the Locate Object spell without expending a spell slot or components, Additionally, you have advantage on Perception and Investigation checks when searching for an item, and if you have collected an item for a creature before, you have advantage on Persuasion checks to convince them to help you or to listen to you.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_LOCATE_OBJECT" spellcasting="Azure" />
+
+            <stat name="UI:U" value="proficiency" />
+        </rules>
+    </element>
+    <element name="Unbridled Wisdom" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_UNBRIDLED_WISDOM">
+		<supports>Paradigm of the Cobalt Traveler</supports>
+		<description>
+            <p>At 6th level, you may add your Intelligence modifier to the damage you deal with any cantrip.</p>
+        </description>
+        <sheet>
+            <description>You add {{intelligence:modifier}} to damage you deal with any cantrip.</description>
+        </sheet>
+    </element>
+    <element name="High Libra Cobalt" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_HIGH_LIBRA_COBALT">
+		<supports>Paradigm of the Cobalt Traveler</supports>
+		<description>
+            <p>Starting at 6th level, your Libra has been roadworn by your paradigm and travels, you've seen it all. When Libra is used, and you succeed on the roll, you are given additional information about the creature. You learn what the creature's strongest and weakest saving throws are, as well as what condition immunities it has.</p>
+        </description>
+        <sheet>
+            <description>When you succeed on a Libra roll you also learn what the creature's strongest and weakest saving throws are, as well as what condition immunities it has.</description>
+        </sheet>
+    </element>
+    <element name="Spell Drain" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_SPELL_DRAIN">
+		<supports>Paradigm of the Cobalt Traveler</supports>
+		<description>
+            <p>Starting at 10th level you learn to stop and steal monstrous magic. You learn dispel magic and counterspell and they do not count against your number of spells copied. </p>
+            <p>You can cast each of these spells without expending a spell slot. Once you cast each spell in this way, you cannot do so again until you finish a long rest.</p>
+            <p>Additionally when using either spell and succesfully ending the target spell, you can immediately use your Learn feature to attempt to learn the target spell without expending a reaction.</p>
+            <p>Starting at 14th level, You may use both spells an amount of times equal to half your proficiency bonus (rounded down) before you need to rest.</p>
+        </description>
+        <sheet>
+            <description>You learn dispel magic and counterspell and they do not count against your number of spells copied. You can cast each of these spells without expending a spell slot. Once you cast each spell in this way, you cannot do so again until you finish a long rest. When using either spell and succesfully ending the target spell, you can immediately use your Learn feature to attempt to learn the target spell without expending a reaction.</description>
+            <description level="14">You learn dispel magic and counterspell and they do not count against your number of spells copied. You can cast each of these spells without expending a spell slot. Once you cast each spell {{SD:U}} times in this way, you cannot do so again until you finish a long rest. When using either spell and succesfully ending the target spell, you can immediately use your Learn feature to attempt to learn the target spell without expending a reaction.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_DISPEL_MAGIC" spellcasting="Azure" />
+            <grant type="Spell" id="ID_PHB_SPELL_COUNTERSPELL" spellcasting="Azure" />
+
+            <stat name="SD:U" value="proficiency:half" />
+        </rules>
+    </element>
+    <element name="Reflect" type="Archetype Feature" source="Chthonic Legacy" id="ID_UN_CL_ARCHETYPE_FEATURE_REFLECT">
+		<supports>Paradigm of the Cobalt Traveler</supports>
+		<description>
+            <p>Upon reaching 14th level, whenever you successfully use counterspell, you may immediately redirect and cast the target spell as part of the same reaction. Spells can only be cast in this way if they are no higher than 7th level and have a casting time of either: an action, bonus action, or reaction. This spell uses your spellcasting ability, and acts as if you had cast it normally, regardless of your available spell slots and level. A new target or area must be chosen for the spell to resolve. </p>
+            <p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+        </description>
+        <sheet usage="1/Short Rest">
+            <description>Whenever you successfully use counterspell, you may immediately redirect and cast the target spell as part of the same reaction. Spells can only be cast in this way if they are no higher than 7th level and have a casting time of either: an action, bonus action, or reaction. This spell uses your spellcasting ability, and acts as if you had cast it normally, regardless of your available spell slots and level. A new target or area must be chosen for the spell to resolve. </description>
+        </sheet>
+    </element>
+
+
+<!--Azuro Flare-->
+<element name="Azuros Flare" type="Spell" source="Chthonic Legacy" id="ID_UN_CL_AZUROS_FLARE">
+		<supports>Azure, Wizard, Sorcerer, Warlock, Spell Attack</supports>
+		<description>
+			<p>Blue energy and smoke starts gathering violently in your hand until it starts fracturing and collapsing onto itself. Once it's near uncontrollable, you let loose your magic and make a ranged spell attack at the target. On a hit, the target takes 1d6 force damage and the next attack roll against the target has advantage. The surrounding area is littered with smoking blue shards</p>
+			<p class="indent">The force damage dealt by this spell increases when you reach 5th level (2d6). Another flare manifests that can be thrown at 11th level dealing (1d6) and then (2d6) at 17th level. You can throw the flares at the same target or at different ones. Make a separate attack roll for each.</p>
+		</description>
+		<setters>
+			<set name="keywords">flare, azure, force, ranged</set>
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="duration">Instantaneous</set>
+		</setters>
+	</element>
+</elements>
