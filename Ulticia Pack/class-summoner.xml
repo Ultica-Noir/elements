@@ -415,6 +415,10 @@
 		<supports>Summoners Calling</supports>
 		<description>
 			<p>A call borne from loneliness, you saw a spark of something in the empty space. Something that could be, although maybe it shouldn't. But what is creation if not your canvas, upon which you will bring back those that are gone and bring forth those that are incomplete. Normal life is flawed and imperfect, and you will prove it.</p>
+			<div element="ID_UN_CL_ARCHETYPE_FEATURE_MAGIC_OF_FALSE_LIVES" />
+			<div element="ID_UN_CL_ARCHETYPE_FEATURE_REUSE_MATERIALS" />
+			<div element="ID_UN_CL_ARCHETYPE_FEATURE_SPELL_INFUSION" />
+			<div element="ID_UN_CL_ARCHETYPE_FEATURE_TRUE_CREATION" />
 		</description>
 		<sheet display="false">
 		</sheet>
