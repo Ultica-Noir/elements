@@ -148,7 +148,7 @@
             <center>
             <p><strong>Learn DC</strong> = 10 + half the target's CR or Spell Level (whichever is higher).</p>
             </center>
-            <p>On a success, the monster ability/trait is added to your grimoire of mimicry in a crude and basic form. If a spell was learned, you may add it to your Spells Copied if you are not at the spell copy limit already or to replace another spell of your choice. Any spell that has not been added to your Spells Copied is forgotten after 1 minute. You may use this feature on friendly creatures to learn spells but not abilities or traits.</p>
+            <p>On a success, the monster ability/trait is magically added to your grimoire of mimicry in a basic form but can not be prepared until it has been copied down. If it was a spell that was learned, it will be added to your spells copied if there are any empty slots, or to replace another. Any spell thats not committed to memory is lost after a short or long rest. You may use this feature on friendly creatures to learn spells but not abilities/traits.</p>
             <p>Furthermore, you can learn monster abilities of a higher level than you can cast. If the ability does damage its is reduced to the amount stated in the Mimicry Guidelines table deatiled at the end of this class.</p>
             <p>Starting at 7th level, spells you have copied before no longer require a roll to relearn.</p>
             <h5>Azure Learning 101</h5>
@@ -300,11 +300,11 @@
         </description>
         <sheet display="false" />
 		<rules>
-			<select type="Class Feature" name="Improvement Option (Azure 4)" supports="Improvement Option,Azure,4" level="4" />
-			<select type="Class Feature" name="Improvement Option (Azure 8)" supports="Improvement Option,Azure,8" level="8" />
-			<select type="Class Feature" name="Improvement Option (Azure 12)" supports="Improvement Option,Azure,12" level="12" />
-			<select type="Class Feature" name="Improvement Option (Azure 16)" supports="Improvement Option,Azure,16" level="16" />
-			<select type="Class Feature" name="Improvement Option (Azure 19)" supports="Improvement Option,Azure,19" level="19" />
+			<select type="Class Feature" name="Improvement Option (The Azure 4)" supports="Improvement Option,The Azure,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (The Azure 8)" supports="Improvement Option,The Azure,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (The Azure 12)" supports="Improvement Option,The Azure,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (The Azure 16)" supports="Improvement Option,The Azure,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (The Azure 19)" supports="Improvement Option,The Azure,19" level="19" />
 		</rules>
 	</element>
     <element name="Azure Lore" type="Class Feature" source="Chthonic Legacy" id="ID_UN_CL_CLASS_FEATURE_AZURE_AZURE_LORE">
@@ -401,7 +401,7 @@
 				</thead>
 				<tr><td>2nd</td><td>Azuro's Flare, Identify</td></tr>
 				<tr><td>7th</td><td>Vortex Warp</td></tr>
-				<tr><td>11th</td><td> 	Fly</td></tr>
+				<tr><td>11th</td><td>Fly</td></tr>
 				<tr><td>15th</td><td>Locate Creature</td></tr>
 			</table>
 		</description>
