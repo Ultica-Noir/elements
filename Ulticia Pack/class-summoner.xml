@@ -1,10 +1,10 @@
-<?xml version="1.1" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>Summoner</name>
 		<description>Summoner from the Chthonic Legacy.</description>
 		<author url="https://github.com/Ulticia-Noir">Nyxian</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="class-summoner.xml" url="https://raw.githubusercontent.com/Ulticia-Noir/elements/main/Ulticia%20Pack/class-summoner.xml" />
 		</update>
 	</info>
