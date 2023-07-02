@@ -147,7 +147,7 @@
 			<description>You have the ability to cast spells.</description>
 		</sheet>
 		<spellcasting name="Summoner" ability="Intelligence" allowReplace="true">
-			<list>Wizard,(Enchantment||Illusion||Conjuration)</list>
+			<list>Wizard,(Enchantment||Illusion||Conjuration||Transmutation)</list>
 		</spellcasting>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_HALF_UP" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
