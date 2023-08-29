@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Ranger</name>
+		<description>The Ranger class from the Player’s Handbook.</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
+		<update version="0.3.1">
+			<file name="class-ranger-revised.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/players-handbook/classes/class-ranger.xml" />
+		</update>
+	</info>
+
+	<element name="Ranger, Revised" type="Class" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_RANGER_R">
+		<description>
+			<p class="flavor">A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization.</p>			
+			<p>Rough and wild looking, a human stalks alone through the shadows of trees, hunting the orcs he knows are planning a raid on a nearby farm. Clutching a shortsword in each hand, he becomes a whirlwind of steel, cutting down one enemy after another.</p>
+			<p class="indent">After tumbling away from a cone of freezing air, an elf finds her feet and draws back her bow to loose an arrow at the white dragon. Shrugging off the wave of fear that emanates from the dragon like the cold of its breath, she sends one arrow after another to find the gaps between the dragon’s thick scales.</p>
+			<p class="indent">Holding his hand high, a half-elf whistles to the hawk that circles high above him, calling the bird back to his side. Whispering instructions in Elvish, he points to the owlbear he’s been tracking and sends the hawk to distract the creature while he readies his bow.</p>
+			<p class="indent">Far from the bustle of cities and towns, past the hedges that shelter the most distant farms from the terrors of the wild, amid the dense-packed trees of trackless forests and across wide and empty plains, rangers keep their unending watch.</p>
+			<h4>DEADLY HUNTERS</h4>
+			<p>Warriors of the wilderness, rangers specialize in hunting the monsters that threaten the edges of civilization—humanoid raiders, rampaging beasts and monstrosities, terrible giants, and deadly dragons. They learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble. Rangers focus their combat training on techniques that are particularly useful against their specific favored foes.</p>
+			<p class="indent">Thanks to their familiarity with the wilds, rangers acquire the ability to cast spells that harness nature’s power, much as a druid does. Their spells, like their combat abilities, emphasize speed, stealth, and the hunt. A ranger’s talents and abilities are honed with deadly focus on the grim task of protecting the borderlands.</p>
+			<h4>INDEPENDENT ADVENTURERS</h4>
+			<p>Though a ranger might make a living as a hunter, a guide, or a tracker, a ranger’s true calling is to defend the outskirts of civilization from the ravages of monsters and humanoid hordes that press in from the wild. In some places, rangers gather in secretive orders or join forces with druidic circles. Many rangers, though, are independent almost to a fault, knowing that, when a dragon or a band of orcs attacks, a ranger might be the first—and possibly the last—line of defense.</p>
+			<p class="indent">This fierce independence makes rangers well suited to adventuring, since they are accustomed to life far from the comforts of a dry bed and a hot bath. Faced with city-bred adventurers who grouse and whine about the hardships of the wild, rangers respond with some mixture of amusement, frustration, and compassion. But they quickly learn that other adventurers who can carry their own weight in a fight against civilization’s foes are worth any extra burden. Coddled city folk might not know how to feed themselves or find fresh water in the wild, but they make up for it in other ways.</p>
+			<h4>CREATING A RANGER</h4>
+			<p>As you create your ranger character, consider the nature of the training that gave you your particular capabilities. Did you train with a single mentor, wandering the wilds together until you mastered the ranger’s ways? Did you leave your apprenticeship, or was your mentor slain— perhaps by the same kind of monster that became your favored enemy? Or perhaps you learned your skills as part of a band of rangers affiliated with a druidic circle, trained in mystic paths as well as wilderness lore. You might be self-taught, a recluse who learned combat skills, tracking, and even a magical connection to nature through the necessity of surviving in the wilds.</p>
+			<p class="indent">What’s the source of your particular hatred of a certain kind of enemy? Did a monster kill someone you loved or destroy your home village? Or did you see too much of the destruction these monsters cause and commit yourself to reining in their depredations? Is your adventuring career a continuation of your work in protecting the borderlands, or a significant change? What made you join up with a band of adventurers? Do you find it challenging to teach new allies the ways of the wild, or do you welcome the relief from solitude that they offer?</p>
+			<h5>QUICK BUILD</h5>
+			<p>You can make a ranger quickly by following these suggestions. First, make Dexterity your highest ability score, followed by Wisdom. (Some rangers who focus on two-weapon fighting make Strength higher than Dexterity.) Second, choose the outlander background.</p>
+			<h3>CLASS FEATURES</h3>
+			<p>As a ranger, you gain the following class features.</p>
+            <h5>HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d10 per ranger level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per ranger level after 1st</li>
+            </ul>
+            <h5>PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> Light armor, medium armor, shields</li>
+                <li><strong>Weapons:</strong> Simple weapons, martial weapons</li>
+                <li><strong>Tools:</strong> None</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Saving Throws:</strong> Strength, Dexterity</li>
+                <li><strong>Skills:</strong> Choose three skills from Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, and Survival</li>
+            </ul>
+			<h5>EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+				<li> <i>(a)</i> scale mail or <i>(b)</i> leather armor </li>
+				<li> <i>(a)</i> two shortswords or <i>(b)</i> two simple melee weapons </li>
+				<li> <i>(a)</i> a dungeoneer’s pack or <i>(b)</i> an explorer’s pack </li>
+				<li>A longbow and a quiver of 20 arrows</li>
+			</ul>
+			<h5 class="caption">THE RANGER</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Spells Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Favored Enemy, Natural Explorer</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 2nd</td><td class="left">Fighting Style, Spellcasting</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 3rd</td><td class="left">Ranger Archetype, Primeval Awareness</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5th</td><td class="left">Extra Attack</td><td>4</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6th</td><td class="left">Greate Favored Enemy</td><td>4</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7th</td><td class="left">Ranger Archetype feature</td><td>5</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 8th</td><td class="left">Ability Score Improvement, Fleet of Foot</td><td>5</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 9th</td><td class="left">—</td><td>6</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td>10th</td><td class="left">Hide in Plain Sight</td><td>6</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td>11th</td><td class="left">Ranger Archetype feature</td><td>7</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>7</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>13th</td><td class="left">—</td><td>8</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td>14th</td><td class="left">Vanish</td><td>8</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td>15th</td><td class="left">Ranger Archetype feature</td><td>9</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>9</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>17th</td><td class="left">—</td><td>10</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>18th</td><td class="left">Feral Senses</td><td>10</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr><td>20th</td><td class="left">Foe Slayer</td><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+			</table>
+			<div element="ID_WOTC_CLASSFEATURE_RANGER_R_FAVORED_ENEMY" />
+			<div element="ID_WOTC_CLASSFEATURE_RANGER_R_NATURAL_EXPLORER" />
+			<div element="ID_WOTC_CLASSFEATURE_RANGER_R_FIGHTING_STYLE" />
+			<div element="ID_WOTC_CLASSFEATURE_RANGER_R_SPELLCASTING" />
+			<div element="ID_WOTC_CLASSFEATURE_RANGER_R_RANGER_ARCHETYPE" />
+			<div element="ID_WOTC_CLASSFEATURE_RANGER_R_PRIMEVAL_AWARENESS" />
+			<div element="ID_WOTC_CLASSFEATURE_RANGER_R_ASI" />
+			<div element="ID_WOTC_CLASSFEATURE_RANGER_R_EXTRA_ATTACK" />
+            <div element="ID_WOTC_CLASSFEATURE_RANGER_R_GREATER_FAVORED_ENEMY" />
+			<div element="ID_WOTC_CLASSFEATURE_RANGER_R_FLEET_OF_FOOT" />
+			<div element="ID_WOTC_CLASSFEATURE_RANGER_R_HIDE_IN_PLAIN_SIGHT" />
+			<div element="ID_WOTC_CLASSFEATURE_RANGER_R_VANISH" />
+			<div element="ID_WOTC_CLASSFEATURE_RANGER_R_FERAL_SENSES" />
+			<div element="ID_WOTC_CLASSFEATURE_RANGER_R_FOE_SLAYER" />
+		</description>
+		<sheet display="false">
+			<description>A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization.</description>
+		</sheet>
+		<setters>
+			<set name="short">A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization.</set>
+			<set name="hd">d10</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_RANGER_R" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_RANGER_R" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_WOTC_PHB_MULTICLASS_RANGER_R" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_RANGER_R" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_RANGER_R" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_WOTC_PHB_MULTICLASS_RANGER_R" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_WOTC_PHB_MULTICLASS_RANGER_R" />
+			<select type="Proficiency" name="Skill Proficiency (Ranger)" supports="Skill,Ranger" number="3" requirements="!ID_WOTC_PHB_MULTICLASS_RANGER_R" />
+			<grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_R_FAVORED_ENEMY" level="1"/>
+			<grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_R_NATURAL_EXPLORER" level="1"/>
+			<grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_R_FIGHTING_STYLE" level="2"/>
+			<grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_R_SPELLCASTING" level="2"/>
+			<grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_R_RANGER_ARCHETYPE" level="3"/>
+			<grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_R_PRIMEVAL_AWARENESS" level="3"/>
+			<grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_R_ASI" level="4"/>
+			<grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_R_EXTRA_ATTACK" level="5"/>
+            <grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_R_GREATER_FAVORED_ENEMY" level="6" />
+			<grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_R_FLEET_OF_FOOT" level="8"/>
+			<grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_R_HIDE_IN_PLAIN_SIGHT" level="10"/>
+			<grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_R_VANISH" level="14"/>
+			<grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_R_FERAL_SENSES" level="18"/>
+			<grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_R_FOE_SLAYER" level="20"/>
+		</rules>
+		<multiclass id="ID_WOTC_PHB_MULTICLASS_RANGER_R">
+			<prerequisite>Dexterity 13 and Wisdom 13</prerequisite>
+			<requirements>([dex:13],[wis:13])</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Light armor, medium armor, shields, simple weapons, martial weapons, one skill from the class’s skill list</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+				<select type="Proficiency" name="Skill Proficiency (Ranger)" supports="Skill,Ranger" number="1"/>
+			</rules>
+		</multiclass>
+	</element>
+	<element name="Favored Enemy" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_R_FAVORED_ENEMY">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_FAVORED_ENEMY</requirements>
+		<description>
+			<p>Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy commonly encountered in the wilds.</p>
+			<p class="indent">Choose a type of favored enemy: beasts, fey, humanoids, monstrosities, or undead. You gain a +2 bonus to damage rolls with weapon attacks against creatures of the chosen type. Additionally, you have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.</p>
+			<p class="indent">When you gain this feature, you also learn one language of your choice, typically one spoken by your favored enemy or creatures associated with it. However, you are free to pick any language you wish to learn.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on Survival checks to track your favored enemies, as well as on Intelligence checks to recall information about them, and gain a +2 bonus to damage rolls against them.</description>
+            <description level="6">You have advantage on Survival checks to track your favored enemies, as well as on Intelligence checks to recall information about them, and gain a +4 bonus to damage rolls against them.</description>
+		</sheet>
+		<rules>
+			<select type="Class Feature" name="Favored Enemy" supports="Favored Enemy" level="1" />		
+			<select type="Class Feature" name="Favored Enemy, Humanoid" supports="Humanoid Favored Enemy" number="2" level="1" requirements="ID_WOTC_PHB_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_1" />
+			<select type="Language" name="Language (Favored Enemy)" level="1" />
+            <select type="Class Feature" name="Favored Enemy" supports="Favored Enemy" level="6" />			
+			<select type="Class Feature" name="Favored Enemy, Humanoid" supports="Humanoid Favored Enemy" number="2" level="6" requirements="ID_WOTC_PHB_CLASS_FEATURE_RANGER_FAVORED_ENEMY_HUMANOIDS_2" />
+			<select type="Language" name="Language (Favored Enemy)" level="6" />
+		</rules>
+	</element>
+	<element name="Natural Explorer" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_R_NATURAL_EXPLORER">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_NATURAL_EXPLORER</requirements>
+		<description>
+			<p class="indent">You are a master of navigating the natural world, and you react with swift and decisive action when attacked. This grants you the following benefits:</p>
+			<ul>
+				<li>You ignore difficult terrain.</li>
+				<li>You have advantage on initiative rolls.</li>
+				<li>On your first turn during combat, you have advantage on attack rolls against creatures that have not yet acted.</li>
+			</ul>
+            <p class="indent">In addition, you are skilled at navigating the wilderness. You gain the following benefits when traveling for an hour or more:</p>
+            <ul>
+                <li>Difficult terrain doesn’t slow your group’s travel.</li>
+                <li>Your group can’t become lost except by magical means.</li>
+                <li>Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.</li>
+                <li>If you are traveling alone, you can move stealthily at a normal pace.</li>
+                <li>When you forage, you find twice as much food as you normally would.</li>
+                <li>While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.</li>
+            </ul>
+		</description>
+		<sheet>
+			<description>You ignore difficult terrain, have advantage on initiative rolls, and on your first turn in combat you have advantage on attack rolls against creatures that have not yet acted. Additionally when traveling
+            for an hour or more, you gain the following benefits; Difficult terrain doesn’t slow your group’s travel, Your group can’t become lost except by magical means, If you are traveling alone, you can move stealthily at a normal pace.,
+             when you forage, you find twice as much food as you normally would, while tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area. </description>
+		</sheet>
+	</element>
+	<element name="Fighting Style" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_R_FIGHTING_STYLE">
+		<description>
+			<p>At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.</p>
+			<h5 class="caption">ARCHERY</h5>
+			<p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
+			<h5 class="caption">DEFENSE</h5>
+			<p>While you are wearing armor, you gain a +1 bonus to AC.</p>
+			<h5 class="caption">DUELING</h5>
+			<p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
+			<h5 class="caption">TWO-WEAPON FIGHTING</h5>
+			<p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>
+		</description>
+		<rules>
+			<select type="Class Feature" name="Fighting Style" supports="Fighting Style,Ranger" level="2"/>
+		</rules>
+	</element>
+	<element name="Spellcasting" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_R_SPELLCASTING">
+		<description>
+			<p>By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does. See chapter 10 for the general rules of spellcasting and chapter 11 for the ranger spell list.</p>
+			<h5>SPELL SLOTS</h5>
+			<p>The Ranger table shows how many spell slots you have to cast your ranger spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</p>
+			<p class="indent">For example, if you know the 1st-level spell animal friendship and have a 1st-level and a 2nd-level spell slot available, you can cast animal friendship using either slot.</p>
+			<h5>SPELLS KNOWN OF 1ST LEVEL AND HIGHER</h5>
+			<p>You know two 1st-level spells of your choice from the ranger spell list.</p>
+			<p class="indent">The Spells Known column of the Ranger table shows when you learn more ranger spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 5th level in this class, you can learn one new spell of 1st or 2nd level.</p>
+			<p class="indent">Additionally, when you gain a level in this class, you can choose one of the ranger spells you know and replace it with another spell from the ranger spell list, which also must be of a level for which you have spell slots.</p>
+			<h5>SPELLCASTING ABILITY</h5>
+			<p>Wisdom is your spellcasting ability for your ranger spells, since your magic draws on your attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.</p>
+			<center>
+				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>
+			</center>
+		</description>
+		<sheet display="false">
+			<description>You have learned to use the magical essence of nature to cast spells, much as a druid does.</description>
+		</sheet>
+		<spellcasting name="Ranger" ability="Wisdom" allowReplace="true">
+			<list>Ranger</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_HALF" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+			<stat name="ranger:spellcasting:slots:1" value="2" level="2" />
+			<stat name="ranger:spellcasting:slots:1" value="1" level="3" />
+			<stat name="ranger:spellcasting:slots:1" value="1" level="5" />
+			<stat name="ranger:spellcasting:slots:2" value="2" level="5" />
+			<stat name="ranger:spellcasting:slots:2" value="1" level="7" />
+			<stat name="ranger:spellcasting:slots:3" value="2" level="9" />
+			<stat name="ranger:spellcasting:slots:3" value="1" level="11" />
+			<stat name="ranger:spellcasting:slots:4" value="1" level="13" />
+			<stat name="ranger:spellcasting:slots:4" value="1" level="15" />
+			<stat name="ranger:spellcasting:slots:4" value="1" level="17" />
+			<stat name="ranger:spellcasting:slots:5" value="1" level="17" />
+			<stat name="ranger:spellcasting:slots:5" value="1" level="19" />
+			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="2" number="2" spellcasting="Ranger"/>
+			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" spellcasting="Ranger" />
+			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" spellcasting="Ranger" />
+			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="7" spellcasting="Ranger" />
+			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="9" spellcasting="Ranger" />
+			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="11" spellcasting="Ranger" />
+			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="13" spellcasting="Ranger" />
+			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="15" spellcasting="Ranger" />
+			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" spellcasting="Ranger" />
+			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="19" spellcasting="Ranger" />
+		</rules>
+	</element>
+	<element name="Ranger Archetype" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_R_RANGER_ARCHETYPE">
+		<description>
+			<p>At 3rd level, you choose an archetype that you strive to emulate: Hunter or Beast Master, both detailed at the end of the class description. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Ranger Archetype" supports="Ranger Archetype" />
+		</rules>
+	</element>
+	<element name="Primeval Awareness" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_R_PRIMEVAL_AWARENESS">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_PRIMEVAL_AWARENESS</requirements>
+		<description>
+			<p>Beginning at 3rd level, your mastery of ranger lore allows you to establish a powerful link to beasts and to the land around you.</p>
+            <p>You have an innate ability to communicate with beasts, and they recognize you as a kindred spirit. Through sounds and gestures, you can communicate simple ideas to a beast as an action, and can read its basic mood and intent. You learn its emotional state, whether it is affected by magic of any sort, its short-term needs (such as food or safety), and actions you can take (if any) to persuade it to not attack.</p>
+            <p>You cannot use this ability against a creature that you have attacked within the past 10 minutes.</p>
+            <p>Additionally, you can attune your senses to determine if any of your favored enemies lurk nearby. By spending 1 uninterrupted minute in concentration (as if you were concentrating on a spell), you can sense whether any of your favored enemies are present within 5 miles of you. This feature reveals which of your favored enemies are present, their numbers, and the creatures’ general direction and distance (in miles) from you.</p>
+            <p>If there are multiple groups of your favored enemies within range, you learn this information for each group</p>
+		</description>
+		<sheet action="Action">
+			<description>As long as you have not attacked in the past 10 minutes you have the innate ability to communicate with beasts through sounds and gestures. You can communicate simple ideas to a beast as an action, and can read its basic mood and intent. You learn its emotional state, whether it is affected by magic of any sort, its short-term needs (such as food or safety), and actions you can take (if any) to persuade it to not attack.
+            Additionally you can attune your senses to determine if any of your favored enemies lurk nearby. By spending 1 uninterrupted minute in concentration (as if you were concentrating on a spell), you can sense whether any of your favored enemies are present within 5 miles of you. This feature reveals which of your favored enemies are present, their numbers, and the creatures’ general direction and distance (in miles) from you. If there are multiple groups of your favored enemies within range, you learn this information for each group </description>
+		</sheet>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_R_ASI">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Ranger 4)" supports="Improvement Option,Ranger,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Ranger 8)" supports="Improvement Option,Ranger,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Ranger 12)" supports="Improvement Option,Ranger,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Ranger 16)" supports="Improvement Option,Ranger,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Ranger 19)" supports="Improvement Option,Ranger,19" level="19" />
+		</rules>
+	</element>
+	<element name="Extra Attack" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_R_EXTRA_ATTACK">
+		<description>
+			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+		</description>
+		<sheet>
+			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
+		</sheet>
+		<rules>
+			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+		</rules>
+	</element>
+    <element name="Greater Favored Enemy" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_R_GREATER_FAVORED_ENEMY">
+        <description>
+            <p>At 6th level, you are ready to hunt even deadlier game. Choose a type of greater favored enemy: aberrations, celestials, constructs, dragons, elementals, fiends, or giants. You gain all the benefits against this chosen enemy that you normally gain against your favored enemy, including an additional language. Your bonus to damage rolls against all your favored enemies increases to +4.</p>
+            <p>Additionally, you have advantage on saving throws against the spells and abilities used by a greater favored enemy.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on saving throws against the spells and abilities used by a favored enemy.</description>
+        </sheet>
+    </element>
+	<element name="Fleet of Foot" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_R_FLEET_OF_FOOT">
+		<description>
+			<p>Starting at 8th level, Beginning at 8th level, you can use the Dash action as a bonus action on your turn. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.</p>
+			<p class="indent">In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.</p>
+		</description>
+		<sheet>
+			<description>You can use the Dash action as a bonus action on your turn. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.
+			You have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.</description>
+		</sheet>
+	</element>
+	<element name="Hide in Plain Sight" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_R_HIDE_IN_PLAIN_SIGHT">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_RANGER_HIDE_IN_PLAIN_SIGHT</requirements>
+		<description>
+			<p>Starting at 10th level, you can remain perfectly still for long periods of time to set up ambushes. When you attempt to hide on your turn, you can opt to not move on that turn. If you avoid moving, creatures that attempt to detect you take a −10 penalty to their Wisdom (Perception) checks until the start of your next turn. You lose this benefit if you move or fall prone, either voluntarily or because of some external effect. You are still automatically detected if any effect or action causes you to no longer be hidden.</p>
+			<p class="indent">If you are still hidden on your next turn, you can continue to remain motionless and gain this benefit until you are detected.</p>
+		</description>
+		<sheet>
+			<description>When you attempt to hide on your turn, you can opt to not move on that turn. If you avoid moving, creatures that attempt to detect you take a −10 penalty to their Wisdom (Perception) checks until the start of your next turn. You lose this benefit if you move or fall prone, either voluntarily or because of some external effect. You are still automatically detected if any effect or action causes you to no longer be hidden. If you are still hidden on your next turn, you can continue to remain motionless and gain this benefit until you are detected.</description>
+		</sheet>
+	</element>
+	<element name="Vanish" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_R_VANISH">
+		<description>
+			<p>Starting at 14th level, you can use the Hide action as a bonus action on your turn. Also, you can’t be tracked by nonmagical means, unless you choose to leave a trail.</p>
+		</description>
+		<sheet>
+			<description>You can use the Hide action as a bonus action on your turn. Also, you can’t be tracked by nonmagical means, unless you choose to leave a trail.</description>
+		</sheet>
+	</element>
+	<element name="Feral Senses" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_R_FERAL_SENSES">
+		<description>
+			<p>At 18th level, you gain preternatural senses that help you fight creatures you can’t see. When you attack a creature you can’t see, your inability to see it doesn’t impose disadvantage on your attack rolls against it.</p>
+			<p class="indent">You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn’t hidden from you and you aren’t blinded or deafened.</p>
+		</description>
+		<sheet>
+			<description>When you attack a creature you can’t see, your inability to see it doesn’t impose disadvantage on your attack rolls against it. 
+			You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn’t hidden from you and you aren’t blinded or deafened.</description>
+		</sheet>
+	</element>
+	<element name="Foe Slayer" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_R_FOE_SLAYER">
+		<description>
+			<p>At 20th level, you become an unparalleled hunter of your enemies. Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.</p>
+		</description>
+		<sheet>
+			<description>Once on each of your turns, you can add {{wisdom:modifier}} to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.</description>
+		</sheet>
+	</element>
+</elements>
