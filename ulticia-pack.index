@@ -15,9 +15,10 @@
 		<file name="class-physician.xml" url="https://raw.githubusercontent.com/Ulticia-Noir/elements/main/Ulticia%20Pack/class-physician.xml" />
 		<file name="class-azure.xml" url="https://raw.githubusercontent.com/Ulticia-Noir/elements/main/Ulticia%20Pack/class-azure.xml" />
 		<file name="class-summoner.xml" url="https://raw.githubusercontent.com/Ulticia-Noir/elements/main/Ulticia%20Pack/class-summoner.xml" />
+		<file name="class-ranger-revised.xml" url="https://raw.githubusercontent.com/Ulticia-Noir/elements/main/Ulticia%20Pack/class-ranger-revised.xml" />
 		<file name="races.xml" url="https://raw.githubusercontent.com/Ulticia-Noir/elements/main/Ulticia%20Pack/races.xml" />
-	      <file name="feats.xml" url="https://raw.githubusercontent.com/Ulticia-Noir/elements/main/Ulticia%20Pack/feats.xml" />
-            <file name="subclasses-ultica-pack.xml" url="https://raw.githubusercontent.com/Ulticia-Noir/elements/main/Ulticia%20Pack/subclasses-ulticia-pack.xml" />
+	        <file name="feats.xml" url="https://raw.githubusercontent.com/Ulticia-Noir/elements/main/Ulticia%20Pack/feats.xml" />
+                <file name="subclasses-ultica-pack.xml" url="https://raw.githubusercontent.com/Ulticia-Noir/elements/main/Ulticia%20Pack/subclasses-ulticia-pack.xml" />
 		<file name="source.xml" url="https://raw.githubusercontent.com/Ulticia-Noir/elements/main/Ulticia%20Pack/source.xml" />
 	</files>
 </index>
